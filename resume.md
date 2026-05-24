@@ -7,7 +7,7 @@
 
 ## Summary
 
-Senior platform engineer and AI builder pursuing a Master of Science in Artificial Intelligence at Purdue University, with 20+ years designing CI/CD, package management, and high-availability infrastructure across AWS, Azure, and Kubernetes. Currently Senior Engineer on GEICO's Artifact Management Platform team, where I'm driving the JFrog SaaS POC, Entra ID authentication design for the internal control plane, and the team's adoption of AI-assisted operations through Model Context Protocol (MCP) servers for JFrog, Slack, and the internal support runbook stack. In parallel, I research and prototype LLM agent systems — including a cost/latency/reliability-aware agent runtime ("AgentOne") and LLM-powered N-version programming — turning DevOps experience into agentic-workflow engineering. Previously Staff Release Engineer at Navan, where I led SOC 2 Type II remediation and platform hardening for IPO readiness.
+Staff-scope platform engineer and AI builder pursuing a Master of Science in Artificial Intelligence at Purdue University, with 20+ years designing CI/CD, package management, and high-availability infrastructure across AWS, Azure, and Kubernetes. Currently Senior Engineer (operating at Staff scope) on GEICO's Artifact Management Platform team — technical lead for the JFrog SaaS POC, the Entra ID authentication design for the internal control plane, and the team's adoption of AI-assisted operations through Model Context Protocol (MCP) servers for JFrog, Slack, and the internal support runbook stack. In parallel, I research and prototype LLM agent systems — including a cost/latency/reliability-aware agent runtime ("AgentOne") and LLM-powered N-version programming — turning DevOps experience into agentic-workflow engineering. Previously Staff Release Engineer at Navan, where I led SOC 2 Type II remediation and platform hardening for IPO readiness.
 
 ---
 
@@ -19,7 +19,7 @@ Senior platform engineer and AI builder pursuing a Master of Science in Artifici
 - **Artifact and package management at scale:** JFrog Artifactory HA, X-Ray, JFrog Catalog, JFrog SaaS, Azure Container Registry, Nexus
 - **CI/CD & developer experience:** GitHub Actions, Azure DevOps Pipelines, Jenkins, ArgoCD, Bitrise, OIDC pipeline auth, paved-road developer platforms
 - **Security & compliance:** SOC 2 Type II remediation, secrets management (HashiCorp Vault, Azure Key Vault), static analysis (SonarCloud, X-Ray), Entra ID / OIDC, audit readiness
-- **Leadership:** cross-functional collaboration with security, identity, SRE, and data-platform teams; on-call rotation ownership; mentoring and technical writing (RFCs, runbooks, CoEs)
+- **Staff-IC scope:** technical lead for cross-org platform initiatives, RFC and architecture authorship, on-call ownership, mentorship, and cross-functional partnership with security, identity, SRE, network, and data-platform teams
 
 ---
 
@@ -71,15 +71,17 @@ Senior platform engineer and AI builder pursuing a Master of Science in Artifici
 
 ## Work Experience
 
-### Senior Engineer — GEICO, Artifact Management Platform (Developer Engineering)
+### Senior Engineer (Staff-level scope) — GEICO, Artifact Management Platform (Developer Engineering)
 **Insurance · 06/2025 – Present**
 
-- **Pioneered MCP-based AI-assisted operations** on the AMP team (see *AI / Agent Engineering — Selected Work* above)
-- **Co-led the JFrog SaaS POC** through Phase 4 — proved Python/Java/Go publishing pipelines and validated scale at 5,000 repos / 5,000 mixed artifacts in parallel
-- **Owned the Entra ID auth design** for the `amp-control-plane` service, separating NP/PD access boundaries and aligning the platform with corporate SSO and service-to-service auth standards
-- **Delivered zero-customer-impact upgrades** of Artifactory (7.111.12 → 7.146.8) and X-Ray (3.131.20 → 3.143.12) across Package Registry and Martech tenants on AKS
-- **Unblocked enterprise package proxies** by root-causing an Azure Firewall TLS deep-packet-inspection issue against S3-backed remotes (Debian, GitHub) and driving the inspection bypass through the network team
-- **Authored the NOCIM-11695 Correction of Errors** for the April 2026 Azure East US outage and owned the AMP team on-call rotation
+*Title is Senior Engineer; operate as a Staff-level individual contributor — technical lead and primary architect for the team's biggest cross-org initiatives, partnering with Identity, SRE, Network, Database Platform, and Developer Engineering leadership.*
+
+- **Set the team's AI-operations direction** — pioneered MCP-based AI-assisted ops on the Artifact Management Platform team and authored the integration guidelines now used across AMP (see *AI / Agent Engineering — Selected Work* above)
+- **Technical lead for the JFrog SaaS POC** through Phase 4 — proved Python/Java/Go publishing patterns and validated scale at 5,000 repos / 5,000 artifacts in parallel; outcomes feed GEICO's enterprise artifact-management roadmap
+- **Architected the Entra ID auth boundary** for the `amp-control-plane` service via cross-team RFC — separated NP/PD access, aligned the platform with corporate SSO and service-to-service auth standards
+- **Delivered zero-customer-impact platform upgrades** of Artifactory (7.111.12 → 7.146.8) and X-Ray (3.131.20 → 3.143.12) across the Package Registry and Martech tenants on AKS
+- **Drove the root-cause and unblock** of an Azure Firewall TLS deep-packet-inspection issue against S3-backed remote repositories — produced the packet-level RCA and led the cross-team fix with the network organization
+- **Owned the post-incident Correction of Errors** for the April 2026 Azure East US outage (NOCIM-11695) and served as the AMP team on-call lead
 
 ### Staff Release Engineer / DevOps — Navan (formerly TripActions)
 **E-Commerce · 01/2022 – 04/2025**

@@ -42,27 +42,44 @@ Senior platform engineer and AI builder pursuing a Master of Science in Artifici
 
 ---
 
+## AI / Agent Engineering — Selected Work
+
+### AI-Assisted Platform Operations at GEICO (2025 – Present)
+- Introduced **MCP-based AI operations** to the Artifact Management Platform team: integrated the JFrog MCP server and authored Slack MCP guidelines, giving coding agents safe access to registry telemetry, runbooks, and support cases
+- Adopted and extended internal Cursor / Claude **agent skills** (`solve-case`, `close-case`, `build-kb`) for the team's support workflow — measurably shortening triage and improving runbook hygiene
+- Routinely drive **agent-assisted RCA, RFC, and CoE authoring** for production incidents (e.g., the Azure Firewall TLS DPI investigation, NOCIM-11695 East US outage write-up)
+
+### Cost-Aware Runtime for OpenClaw Browser Agents — IEEE-style Final Paper, Purdue ECE 50874/59500 (2026)
+- Co-authored *"Design and Evaluation of a Cost-Aware Runtime for OpenClaw Browser Agents"* with three Purdue ECE teammates
+- Designed and evaluated a runtime that treats token cost, dollar spend, tool-call count, and wall-clock latency as **first-class budgets**, with explicit termination policies (stop-and-summarize, ask-human, best-effort degrade)
+
+### AgentOne — Cost / Latency / Reliability-Aware Agent Runtime (2026)
+- Architected an agent runtime exposing a REST API + CLI, a planning/execution loop over repo / API / document tools, and **continuous enforcement of token, dollar, tool-call, retry, and wall-clock budgets** with budget-aware prompting and graceful degradation
+- Routed across **local backends (Ollama, vLLM) and a remote gateway**; specified structured per-run telemetry (cost breakdown, token counts, retry paths, latency distribution) and a benchmark suite (CI triage, dependency-bump, breaking-change summarization) — [github.com/mailming/AgentOne](https://github.com/mailming/AgentOne)
+
+### LLM-Powered N-Version Programming — Purdue ECE 50874 Lab 2 (2026)
+- Generated **three independent implementations (Python, Go, C++)** of an Avalon tax-code engine using three different LLMs, ran **10,000 reserved test cases**, and built a 2-out-of-3 agreement table to quantify LLM-to-LLM divergence
+- Authored the diversity strategy and the analysis of where versions disagreed (floating-point, rounding, threshold, FIFO ordering); wrote up the 2oo3 reliability math `P(failure) = p²(3 − 2p)` — [github.com/mailming/purdueECE874-Lab2](https://github.com/mailming/purdueECE874-Lab2)
+
+### Gemini Chat MCP / API Bridge (2025)
+- Built and shipped a **Flask + WebSocket + Tampermonkey + Playwright** bridge that exposes the Gemini chat web UI as a Gemini-API-compatible HTTP endpoint and an MCP server, enabling programmatic LLM access without paid API quota — [github.com/mailming/gemini-chat-userscript](https://github.com/mailming/gemini-chat-userscript)
+
+### Applied AI / Agent Study
+- Active contributor and reader across the agent / LLM-ops ecosystem: `langfuse` (LLM observability), `agentops` (agent monitoring), Browser-MCP, `openclaw`, `minimind` (training a 26M-parameter GPT from scratch), Anthropic's prompt-engineering tutorial, and multi-agent finance projects (`TradingAgents`, `ai-hedge-fund`)
+
+---
+
 ## Work Experience
 
 ### Senior Engineer — GEICO, Artifact Management Platform (Developer Engineering)
 **Insurance · 06/2025 – Present**
 
-*AI-assisted platform operations*
-- Integrated the JFrog MCP server into the team's developer environment and authored the AMP team's Slack MCP integration guidelines, giving coding agents safe, audited access to package-registry telemetry, runbooks, and support cases
-- Adopted and contributed to internal Cursor / Claude "agent skills" for the team's support workflow (`solve-case`, `close-case`, `build-kb`), shortening incident triage and runbook hygiene cycles and demonstrating how AI agents can run production-adjacent operations under guardrails
-- Used AI agents to drive deeper root-cause analyses (e.g., the Azure Firewall TLS deep-packet-inspection issue below) and to draft RFCs, runbooks, and Correction-of-Errors documents
-
-*Platform engineering*
-- Senior engineer on the Artifact Management Platform (AMP) / Package Management team, operating the JFrog Artifactory HA, X-Ray, and JFrog Catalog stacks that serve as GEICO's enterprise package registry across non-prod and production on Azure Kubernetes Service (AKS)
-- Drove rolling upgrades of Artifactory (7.111.12 → 7.125.11 → 7.146.8) and X-Ray (3.131.20 → 3.143.12) across the Package Registry and Martech tenants with documented runbooks and minimal customer impact
-- Co-led the JFrog SaaS Proof of Concept (Phases 1–4): authored reusable GitHub Actions workflows to publish Python, Java, and Go artifacts to JFrog SaaS, defined publish/promotion patterns, and validated scale (5,000 repos / 5,000 mixed artifacts in parallel)
-- Designed and authored the Entra ID (Azure AD) authentication RFC for the `amp-control-plane` service, defining NP/PD access boundaries and bridging the platform with corporate SSO, ZTNA, and APISIX/APIM service-to-service auth standards
-- Deployed `amp-control-plane` to ACS production with HashiCorp Vault integration, PostgreSQL provisioning via internal "Club" blueprints, and CRQ-managed change control
-- Diagnosed and resolved an Azure Firewall TLS deep-packet-inspection issue that was breaking S3-backed remote JFrog repositories (Debian, GitHub proxies); produced a packet-level root cause and drove the SSL inspection bypass through the network team
-- Authored the post-incident Correction of Errors for NOCIM-11695 (Azure East US outage, April 2026) and owned on-call rotation for the AMP team
-- Built GitHub Actions reusable templates for JFrog CLI install/auth, generic file uploads, Docker pull testing, and OIDC migration patterns for the SDK Pipelines team
-- Wrote runbooks for AKS PDB-aware upgrades, Grafana dashboards, X-Ray persistent-volume fixes, JFrog Workers / Circle of Trust setup, and Artifactory release management
-- Partnered with Identity, Database Platform, and SRE teams to rotate `SRV-JFROG-NP/PD` service accounts, provision PostgreSQL roles, and drive the consolidation KPI across `packageregistry`, `artifactory-pd`, and Azure Container Registry
+- **Pioneered MCP-based AI-assisted operations** on the AMP team (see *AI / Agent Engineering — Selected Work* above)
+- **Co-led the JFrog SaaS POC** through Phase 4 — proved Python/Java/Go publishing pipelines and validated scale at 5,000 repos / 5,000 mixed artifacts in parallel
+- **Owned the Entra ID auth design** for the `amp-control-plane` service, separating NP/PD access boundaries and aligning the platform with corporate SSO and service-to-service auth standards
+- **Delivered zero-customer-impact upgrades** of Artifactory (7.111.12 → 7.146.8) and X-Ray (3.131.20 → 3.143.12) across Package Registry and Martech tenants on AKS
+- **Unblocked enterprise package proxies** by root-causing an Azure Firewall TLS deep-packet-inspection issue against S3-backed remotes (Debian, GitHub) and driving the inspection bypass through the network team
+- **Authored the NOCIM-11695 Correction of Errors** for the April 2026 Azure East US outage and owned the AMP team on-call rotation
 
 ### Staff Release Engineer / DevOps — Navan (formerly TripActions)
 **E-Commerce · 01/2022 – 04/2025**
@@ -126,29 +143,6 @@ Senior platform engineer and AI builder pursuing a Master of Science in Artifici
 - Created Shell scripts to monitor, test, and install software on Linux servers
 - Developed C++ XML/SOAP applications and HTML/JavaScript web interfaces
 - Resolved build and release issues and tracked software changes across multiple projects
-
----
-
-## Selected AI / Agent Projects
-
-### Cost-Aware Runtime for OpenClaw Browser Agents — Purdue ECE 50874/59500, Team Final Project (2026)
-- Co-authored an IEEE-style final paper, *"Design and Evaluation of a Cost-Aware Runtime for OpenClaw Browser Agents"*, with three Purdue ECE teammates
-- Contributed to the runtime design that treats token cost, dollar spend, tool-call count, and wall-clock latency as first-class budgets and applies explicit termination policies (stop-and-summarize, ask-human, best-effort degrade) when budgets are exhausted
-
-### AgentOne — Cost / Latency / Reliability-Aware Agent Runtime (2026)
-- Authored the requirements and architecture for an agent runtime that exposes a stable REST API and CLI, runs a planning/execution loop over repo / API / document tools, and continuously enforces budgets (max tokens, dollars, tool calls, retries, wall-clock)
-- Designed model routing across local backends (Ollama, vLLM) and a remote gateway, with budget-aware prompting and graceful degradation; specified structured telemetry (per-run cost breakdown, token counts, retry paths, latency distribution) and a benchmark suite of realistic agent tasks (CI triage, dependency-bump, breaking-change summarization)
-- Defined the system as a set of cooperating engines — API Engine, Management Engine, Extension Engine, LLM Calling Engine, Translator, Prediction Agent, Learning Agent, User Profile, and Credential Store — backed by PostgreSQL ([github.com/mailming/AgentOne](https://github.com/mailming/AgentOne))
-
-### LLM-Powered N-Version Programming — Purdue ECE 50874 Lab 2 (2026)
-- Used three different LLMs to generate three independent implementations of the Avalon tax-code engine in Python, Go, and C++, then ran 10,000 reserved test cases through each version and built a 2-out-of-3 agreement table
-- Authored the diversity strategy and the analysis of cross-implementation divergence (floating-point representation, rounding rules, threshold handling, FIFO ordering), and wrote up reliability math (`P(failure) = p²(3 − 2p)`) for the 2oo3 voter ([github.com/mailming/purdueECE874-Lab2](https://github.com/mailming/purdueECE874-Lab2))
-
-### Gemini Chat MCP / API Bridge (2025)
-- Built a Flask + WebSocket + Tampermonkey bridge that exposes the Gemini chat web UI as a Gemini-API-compatible HTTP endpoint and an MCP server, with an example Playwright client and a Python SDK ([github.com/mailming/gemini-chat-userscript](https://github.com/mailming/gemini-chat-userscript))
-
-### Applied AI / Agent Study
-- Active study and contribution to LLM observability and agent tooling: forks and PRs against `langfuse`, `agentops`, Browser-MCP, `openclaw`, `minimind` (training a 26M-parameter GPT from scratch), Anthropic's prompt-engineering tutorial, and multi-agent finance projects (`TradingAgents`, `ai-hedge-fund`)
 
 ---
 

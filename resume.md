@@ -7,65 +7,7 @@
 
 ## Summary
 
-Staff-scope platform engineer and AI builder pursuing a Master of Science in Artificial Intelligence at Purdue University, with 20+ years designing CI/CD, package management, and high-availability infrastructure across AWS, Azure, and Kubernetes. Currently Staff Engineer on GEICO's Artifact Management Platform team — technical lead for the JFrog SaaS POC, the Entra ID authentication design for the internal control plane, and the team's adoption of AI-assisted operations through Model Context Protocol (MCP) servers for JFrog, Slack, and the internal support runbook stack. In parallel, I research and prototype LLM agent systems — including a cost/latency/reliability-aware agent runtime ("AgentOne") and LLM-powered N-version programming — turning DevOps experience into agentic-workflow engineering. Previously Staff Release Engineer at Navan, where I led SOC 2 Type II remediation and platform hardening for IPO readiness.
-
----
-
-## Key Competencies
-
-- **LLM & AI agent engineering:** agent runtime design (planning loop, budget enforcement, model routing, graceful degradation), prompt engineering, RAG, multi-LLM evaluation, LLM observability and cost tracking
-- **Model Context Protocol (MCP):** authoring and integrating MCP servers (JFrog, Slack, Gemini, browser, internal-support) to give coding agents safe access to enterprise systems
-- **Cloud & platform engineering:** AWS, Azure (AKS, ACR, Azure Firewall, Entra ID), Kubernetes/Helm, Terraform, OpenStack, Docker — multi-region high availability
-- **Artifact and package management at scale:** JFrog Artifactory HA, X-Ray, JFrog Catalog, JFrog SaaS, Azure Container Registry, Nexus
-- **CI/CD & developer experience:** GitHub Actions, Azure DevOps Pipelines, Jenkins, ArgoCD, Bitrise, OIDC pipeline auth, paved-road developer platforms
-- **Security & compliance:** SOC 2 Type II remediation, secrets management (HashiCorp Vault, Azure Key Vault), static analysis (SonarCloud, X-Ray), Entra ID / OIDC, audit readiness
-- **Staff-IC scope:** technical lead for cross-org platform initiatives, RFC and architecture authorship, on-call ownership, mentorship, and cross-functional partnership with security, identity, SRE, network, and data-platform teams
-
----
-
-## Technical Skills
-
-| Category | Technologies |
-|----------|--------------|
-| **AI / LLMs** | OpenAI GPT, Anthropic Claude, Google Gemini, Ollama, vLLM, local & remote model routing |
-| **AI Tooling & Frameworks** | Model Context Protocol (MCP) servers, LangChain, LangGraph, AutoGen, CrewAI, Anthropic Agent Skills, Cursor agents, Langfuse, AgentOps, Playwright agent bridges |
-| **AI Engineering Patterns** | Agent planning/execution loops, budget-aware prompting, N-version LLM programming, RAG, prompt engineering, structured telemetry, deterministic replay |
-| **Build & Scripting** | Maven, Gradle, Ant, Python, Shell (Bash), Groovy, Ruby, Xcodebuild, MSBuild |
-| **Programming** | Python, Go, TypeScript, JavaScript, Java, C/C++, SQL, Objective-C, J2EE |
-| **Cloud & Infrastructure** | AWS (EC2, S3, EMR, EKS), Azure (AKS, ACR, Azure Firewall, Entra ID), Kubernetes, Helm, Terraform, OpenStack, Docker, Vagrant, Chef |
-| **CI/CD & DevOps Tools** | GitHub Actions, Azure DevOps Pipelines, Jenkins, ArgoCD, Bitrise, TeamCity, CruiseControl, Git, Subversion |
-| **Artifact & Package Management** | JFrog Artifactory HA, JFrog X-Ray, JFrog Catalog, JFrog SaaS, JFrog CLI, JFrog Workers, Nexus, Azure Container Registry |
-| **Security & Compliance** | SOC 2 Type II, HashiCorp Vault, Azure Key Vault, SonarCloud, OIDC, Entra ID/Azure AD, RBAC, secrets rotation, pipeline security scanning |
-| **Observability & Data** | Grafana, PostgreSQL, Valkey/Redis, MongoDB, Hadoop, Oracle, MySQL |
-| **Application Servers** | Tomcat, Apache, Jetty, JBoss, WebLogic, IIS, NGINX |
-| **Operating Systems** | Linux (Ubuntu, Red Hat, CentOS), macOS, Solaris, Windows Server |
-
----
-
-## AI / Agent Engineering — Selected Work
-
-### AI-Assisted Platform Operations at GEICO (2025 – Present)
-- Introduced **MCP-based AI operations** to the Artifact Management Platform team: integrated the JFrog MCP server and authored Slack MCP guidelines, giving coding agents safe access to registry telemetry, runbooks, and support cases
-- Adopted and extended internal Cursor / Claude **agent skills** (`solve-case`, `close-case`, `build-kb`) for the team's support workflow — measurably shortening triage and improving runbook hygiene
-- Routinely drive **agent-assisted RCA, RFC, and CoE authoring** for production incidents (e.g., the Azure Firewall TLS DPI investigation, NOCIM-11695 East US outage write-up)
-
-### Cost-Aware Runtime for OpenClaw Browser Agents — IEEE-style Final Paper, Purdue ECE 50874/59500 (2026)
-- Co-authored *"Design and Evaluation of a Cost-Aware Runtime for OpenClaw Browser Agents"* with three Purdue ECE teammates
-- Designed and evaluated a runtime that treats token cost, dollar spend, tool-call count, and wall-clock latency as **first-class budgets**, with explicit termination policies (stop-and-summarize, ask-human, best-effort degrade)
-
-### AgentOne — Cost / Latency / Reliability-Aware Agent Runtime (2026)
-- Architected an agent runtime exposing a REST API + CLI, a planning/execution loop over repo / API / document tools, and **continuous enforcement of token, dollar, tool-call, retry, and wall-clock budgets** with budget-aware prompting and graceful degradation
-- Routed across **local backends (Ollama, vLLM) and a remote gateway**; specified structured per-run telemetry (cost breakdown, token counts, retry paths, latency distribution) and a benchmark suite (CI triage, dependency-bump, breaking-change summarization) — [github.com/mailming/AgentOne](https://github.com/mailming/AgentOne)
-
-### LLM-Powered N-Version Programming — Purdue ECE 50874 Lab 2 (2026)
-- Generated **three independent implementations (Python, Go, C++)** of an Avalon tax-code engine using three different LLMs, ran **10,000 reserved test cases**, and built a 2-out-of-3 agreement table to quantify LLM-to-LLM divergence
-- Authored the diversity strategy and the analysis of where versions disagreed (floating-point, rounding, threshold, FIFO ordering); wrote up the 2oo3 reliability math `P(failure) = p²(3 − 2p)` — [github.com/mailming/purdueECE874-Lab2](https://github.com/mailming/purdueECE874-Lab2)
-
-### Gemini Chat MCP / API Bridge (2025)
-- Built and shipped a **Flask + WebSocket + Tampermonkey + Playwright** bridge that exposes the Gemini chat web UI as a Gemini-API-compatible HTTP endpoint and an MCP server, enabling programmatic LLM access without paid API quota — [github.com/mailming/gemini-chat-userscript](https://github.com/mailming/gemini-chat-userscript)
-
-### Applied AI / Agent Study
-- Active contributor and reader across the agent / LLM-ops ecosystem: `langfuse` (LLM observability), `agentops` (agent monitoring), Browser-MCP, `openclaw`, `minimind` (training a 26M-parameter GPT from scratch), Anthropic's prompt-engineering tutorial, and multi-agent finance projects (`TradingAgents`, `ai-hedge-fund`)
+Staff-scope DevOps and platform engineer with 20+ years building CI/CD, artifact management, and high-availability infrastructure across AWS, Azure, and Kubernetes. Currently Staff Engineer on GEICO's Artifact Management Platform — improved Artifactory from ~1 major incident/month to **four-nines (99.99%) Artifactory availability SLO**, technical lead for enterprise JFrog strategy, Entra ID platform auth, and SOC-grade platform operations. Previously Staff Release Engineer at Navan (SOC 2 Type II / IPO readiness). Track record of multi-million-dollar savings through HA Jenkins/Nexus migrations, global release operations at scale, and cross-org incident leadership. **Led** the **OpenClaw cost-aware runtime plugin** (originated the approach; primary implementer) for production browser-agent governance. Pursuing MS in Artificial Intelligence at Purdue; founder of [SmartTuna](https://smarttuna.ai/).
 
 ---
 
@@ -74,87 +16,99 @@ Staff-scope platform engineer and AI builder pursuing a Master of Science in Art
 ### Staff Engineer — GEICO, Artifact Management Platform (Developer Engineering)
 **Insurance · 06/2025 – Present**
 
-*Technical lead and primary architect for the team's biggest cross-org initiatives, partnering with Identity, SRE, Network, Database Platform, and Developer Engineering leadership.*
+*Technical lead and primary architect for the team's largest cross-org initiatives — Identity, SRE, Network, Database Platform, and Developer Engineering.*
 
-- **Set the team's AI-operations direction** — pioneered MCP-based AI-assisted ops on the Artifact Management Platform team and authored the integration guidelines now used across AMP (see *AI / Agent Engineering — Selected Work* above)
-- **Technical lead for the JFrog SaaS POC** through Phase 4 — proved Python/Java/Go publishing patterns and validated scale at 5,000 repos / 5,000 artifacts in parallel; outcomes feed GEICO's enterprise artifact-management roadmap
-- **Architected the Entra ID auth boundary** for the `amp-control-plane` service via cross-team RFC — separated NP/PD access, aligned the platform with corporate SSO and service-to-service auth standards
-- **Delivered zero-customer-impact platform upgrades** of Artifactory (7.111.12 → 7.146.8) and X-Ray (3.131.20 → 3.143.12) across the Package Registry and Martech tenants on AKS
-- **Drove the root-cause and unblock** of an Azure Firewall TLS deep-packet-inspection issue against S3-backed remote repositories — produced the packet-level RCA and led the cross-team fix with the network organization
-- **Owned the post-incident Correction of Errors** for the April 2026 Azure East US outage (NOCIM-11695) and served as the AMP team on-call lead
+- **Artifactory reliability turnaround** — investigated recurring production failures and drove remediation across platform, config, and operations; improved from **~1 major incident/month to four-nines (99.99%) Artifactory availability SLO** completion
+- **Technical lead, JFrog SaaS POC (Phase 4)** — validated Python/Java/Go publishing at 5,000 repos / 5,000 parallel artifacts; outcomes drive GEICO's enterprise artifact-management roadmap
+- **Architected Entra ID auth** for `amp-control-plane` via cross-team RFC — separated NP/PD access and aligned with corporate SSO / service-to-service standards
+- **Zero-downtime platform upgrades** — built automation pipeline for rolling Artifactory (7.111.12 → 7.146.8) and X-Ray (3.131.20 → 3.143.12) upgrades across Package Registry and Martech tenants on AKS with **zero customer impact**
+- **Production incident leadership** — packet-level RCA and cross-team fix for Azure Firewall TLS DPI against S3-backed repos; owned CoE for April 2026 Azure East US outage (NOCIM-11695); AMP on-call lead
+- **AI-assisted platform ops** — introduced MCP-based tooling (JFrog, Slack) and agent skills for support triage, RCA, and runbook workflows
 
 ### Staff Release Engineer / DevOps — Navan (formerly TripActions)
 **E-Commerce · 01/2022 – 04/2025**
 
-- Led SOC 2 Type II audit remediation with security, compliance, and engineering teams; hardened build, release, and AWS infrastructure to support Navan's IPO and ongoing compliance
-- Deployed and integrated HashiCorp Vault for centralized secrets management and SonarCloud for static code analysis and security scanning across CI/CD pipelines
-- Built and maintained continuous delivery for the company's core web application and data systems on AWS
-- Owned SCM and release engineering for the engineering organization; optimized release processes across AWS environments
-- Built mobile CI/CD pipelines with Bitrise to automate App Store and Google Play deployments
-- Responded rapidly to pipeline failures and production incidents; performed root-cause analysis and drove permanent fixes
+- Led **SOC 2 Type II** audit remediation; deployed **HashiCorp Vault** and **SonarCloud** across CI/CD to support **IPO readiness**
+- Owned SCM and release engineering for the engineering org; built and maintained continuous delivery for core web and data systems on AWS
+- Built mobile CI/CD with Bitrise for App Store and Google Play; drove rapid RCA on pipeline and production incidents
 
 ### Lead Release Engineer — Turn / Amobee
 **Ad Technology · 12/2015 – 11/2021**
 
-- Led a team of 2 release engineers and 5 offshore NOC engineers, scaling release operations for a ~500-person engineering organization
-- Redesigned and migrated Jenkins to a highly available, scalable architecture—reducing unplanned outages from hours per week to under 5 minutes of planned downtime per month, improving UI response from 12s to 0.5s per page, and saving $500K+/year vs. enterprise CloudBees licensing
-- Redesigned and migrated Nexus with redundant HA architecture—eliminating unplanned outages post-migration and saving $100K+/year vs. enterprise Sonatype licensing
-- Managed SCM and application deployments to thousands of production servers worldwide
-- Built tools and automation to enable rapid, reliable deployment across production environments
-- Enforced and improved release processes; served in a hands-on Technical Operations role for production systems
+- Led 2 release engineers + 5 offshore NOC engineers; scaled release ops for ~500-person engineering org deploying to **thousands of production servers worldwide**
+- **Jenkins HA migration** — cut unplanned outages from hours/week to <5 min planned downtime/month; UI 12s → 0.5s/page; **saved $500K+/year** vs. CloudBees enterprise licensing
+- **Nexus HA migration** — eliminated unplanned outages post-migration; **saved $100K+/year** vs. Sonatype enterprise licensing
+- Built deployment automation and enforced release process; hands-on Technical Operations in production
 
 ### Sr. Software Engineer — Skytree
 **Machine Learning · 04/2014 – 11/2015**
 
-- Designed and implemented end-to-end Continuous Integration and Continuous Delivery systems
-- Built automation tools to accelerate the development lifecycle and dynamic cluster provisioning on AWS (EC2, S3, EMR)
-- Designed and implemented a PaaS tool for on-demand environment provisioning
-- Introduced Scrum and led the development team through agile adoption using Jira
+- Built end-to-end CI/CD systems, AWS dynamic cluster provisioning (EC2, S3, EMR), and a PaaS tool for on-demand environments; led agile adoption
 
 ### Sr. Software Engineer — Walmart Labs
 **E-Commerce · 03/2013 – 04/2014**
 
-- Built, released, and automated deployments into Dev, QA, and internal production environments
-- Operated, monitored, and administered multiple production systems and internal tools
-- Provided build, release, and infrastructure support across engineering teams in an agile environment
+- Automated build/release across Dev, QA, and production; operated and supported multiple production systems for engineering teams
 
 ### Software Engineer — Macrovision / Rovi
 **Digital Media · 11/2009 – 02/2013**
 
-- Defined and maintained configuration management, build/release, and change management across 20+ projects with four domestic and international teams
-- Led server layout design and deployment procedures for server, web, and mobile applications
-- Supported Hadoop, MapReduce, and MongoDB system setup and operations
-- Automated builds (Maven, Ant, xcodebuild, MSBuild) and CI pipelines (TeamCity, Jenkins)
-- Built a configuration management portal with source archives, build metadata, and automated release notes
-- Automated Tomcat deployments via Shell scripting; developed Python system tools and RPM-based installations
-- Established and maintained company Git repositories
+- CM/build/release/change management across **20+ projects** and four international teams; Hadoop/MapReduce/MongoDB ops
+- Automated builds and CI (Maven, Ant, TeamCity, Jenkins); built CM portal with automated release notes; established company Git repos
 
 ### SCM Manager — Helio / Virgin Mobile USA / Sprint
 **Telecommunications · 02/2007 – 10/2009**
 
-- Led server layout design and deployment procedures across multiple product lines
-- Administered a 10+ server Linux dev lab; implemented VM automation via Kickstart
-- Built CI pipelines with CruiseControl and Hudson/Jenkins; automated JBoss deployments with Shell, Perl, and Python
-- Evaluated and deployed defect tracking systems (Jira, Trac, Bugzilla, Mantis); implemented Trac and Bugzilla for dev and QA
-- Created a configuration management portal and continuous deployment workflows using ControlTier
+- Server layout, deployment procedures, and CI/CD (CruiseControl, Hudson/Jenkins); VM automation, JBoss deployment automation, defect-tracking rollout
 
 ### Software Developer — XLDynamics
 **01/2005 – 02/2007**
 
-- Built and configured core development systems across Linux, Unix, and Windows
-- Created Shell scripts to monitor, test, and install software on Linux servers
-- Developed C++ XML/SOAP applications and HTML/JavaScript web interfaces
-- Resolved build and release issues and tracked software changes across multiple projects
+- Core dev systems on Linux/Unix/Windows; build/release automation, C++ XML/SOAP apps, Shell-based server tooling
+
+---
+
+## Selected Projects
+
+### OpenClaw Cost-Aware Runtime Plugin — Purdue ECE 50874/59500 Final Project (2026)
+***Project lead & primary implementer** · Team 17 · IEEE-style report: "Design and Evaluation of a Cost-Aware Runtime for OpenClaw Browser Agents" · [github.com/mailming/openclaw](https://github.com/mailming/openclaw/tree/feature/llm-insights-manual-pricing)*
+
+- **Originated the cost-aware runtime concept** and led end-to-end implementation — a governance layer around [OpenClaw](https://github.com/openclaw-ai/openclaw) browser agents with token/cost/step budgets and post-action policy enforcement, without rewriting core agent logic
+- **Designed and built the LLM Insights gateway plugin** (primary implementation): rolling cost/latency aggregates, manual model pricing overrides, and usage-to-cost pipeline for multi-model agent operations
+- Integrated **AgentOps** (LLM routing, budget state) + **Langfuse** (trace telemetry); deployed gateway, Playwright automation, and Telegram control for live demos
+
+### SmartTuna — Founder ([smarttuna.ai](https://smarttuna.ai/))
+LangGraph multi-agent stock analysis · Python backend ([smarttuna](https://github.com/mailming/smarttuna)) + Astro UI ([zzsheepTrader](https://github.com/mailming/zzsheepTrader))
+
+---
+
+## Key Competencies
+
+- **Platform & DevOps:** CI/CD, build/release engineering, artifact management (JFrog, Nexus, ACR), Kubernetes/AKS, Terraform, Helm
+- **Cloud:** AWS, Azure (Entra ID, Azure Firewall, AKS), multi-region HA, Docker
+- **Security & compliance:** SOC 2 Type II, Vault, Azure Key Vault, SonarCloud, OIDC/RBAC, audit remediation
+- **Leadership:** Staff-IC technical lead, cross-org RFCs, on-call/incident ownership, global team coordination
+- **AI (supplemental):** OpenClaw plugin/runtime integration, AgentOps/Langfuse observability, MCP integrations, multi-agent systems
+
+---
+
+## Technical Skills
+
+| Category | Technologies |
+|----------|--------------|
+| **Cloud & Platform** | AWS, Azure (AKS, ACR, Entra ID, Azure Firewall), Kubernetes, Helm, Terraform, Docker, OpenStack |
+| **CI/CD & Artifacts** | Jenkins, GitHub Actions, Azure DevOps, ArgoCD, Bitrise, JFrog Artifactory/X-Ray/SaaS, Nexus, ACR |
+| **Languages & Build** | Python, Go, Java, Shell, Groovy, Maven, Gradle, TypeScript, C/C++ |
+| **Security** | SOC 2 Type II, HashiCorp Vault, Azure Key Vault, SonarCloud, OIDC, Entra ID |
+| **AI / LLM** | OpenClaw, AgentOps, Langfuse, MCP servers, LangGraph, Playwright agents, Claude/GPT/Gemini, Ollama, vLLM |
 
 ---
 
 ## Education
 
-**Purdue University** — Master of Science, Artificial Intelligence *(In Progress)*  
-*Coursework:* ECE 50874/59500 Software Reliability & LLM-Augmented Engineering (Redundant Designs in Software, LLM-Powered N-Version Programming, Cost-Aware Agent Runtimes)
+**Purdue University** — MS, Artificial Intelligence *(In Progress)* · ECE 50874/59500: led OpenClaw cost-aware runtime plugin (final project), LLM-augmented software engineering
 
-**University of California, Los Angeles (UCLA)** — Bachelor of Science, Computer Science  
-*Minor: Mathematics and Economics*
+**UCLA** — BS, Computer Science *(Minor: Mathematics & Economics)*
 
 ---
 

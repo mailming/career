@@ -1,166 +1,116 @@
-# Jia, Ming
+# Ming Jia
 
-**34500 Bentley Ct., Fremont CA 94555**  
-**Cell:** (626) 354-7866 · **Email:** mailming@gmail.com
-
----
-
-## Career Objective
-
-To obtain a position as a DevOps / Build Release Engineer / Tools Development.
+**34500 Bentley Ct., Fremont, CA 94555**  
+**(626) 354-7866** · **mailming@gmail.com**
 
 ---
 
-## Professional Profile
+## Summary
 
-I am using software and systems performing requirement identification, enterprise system design and implementation, standards and procedures development, change management, build/release management, configuration management, configuration auditing and CM training, all in a fast paced and high pressure environment.
-
-- Expertise in designing, implementing, maintaining and migrating build, release, audit and automation (CI/CD) systems in multiple environments including Linux, Unix, MacOS, Windows, Mobile, DB, Big Data, AWS Cloud and OpenStack, Dockers Cloud
-- Expertise in change management, large cluster servers deployment and design rapid deployment cycle
-- Expertise in design and managing internal tools including Github, Jenkins, ArgoCD, Netlify, Github, Nexus, SonarCloud, Jira, Wiki and implement integration tooling of these systems
-- Extensive experience in designing large systems, using distributed systems utilizing multi-data centers network, resolving fault tolerance, high availability and real time constrains in physical data center and AWS / OpenStack Cloud
-- Extensive experience in configuration management and release engineering for multiple projects with complex branches strategies
-- Excellent leadership skills in planning, scheduling, cost estimating/tracking/reduction, recruiting/selection and change management
-- Excellent professional skills in the development field including Python, Shell, C++, JAVA, Ruby, SQL, Maven, Groovy with the mindset of innovation
-- In depth understanding of business, finance, logistic, office flow and industry flow business logics
-- Self-motivated, detail-oriented and delivery driven
+DevOps and Release Engineering leader with 20+ years designing CI/CD pipelines, automation platforms, and enterprise tooling across AWS, Kubernetes, and multi-cloud environments. Staff Release Engineer at Navan, where I led SOC 2 Type II audit remediation and platform hardening—deploying HashiCorp Vault and SonarCloud—to support IPO readiness. Pursuing a Master of Science in Artificial Intelligence at Purdue University. Track record of building high-availability systems, leading global teams, and delivering measurable cost savings through open-source solutions.
 
 ---
 
-## Professional Accomplishments
+## Key Competencies
 
-- Achieve continuous deployment pipeline to complete build/testing/deploy various application into aws cloud (ec2 and kubernetes) per git commits using Jenkins pipelines
-- Setup one-click service for standard web app deployment process using Jenkins pipelines and Github Actions
-- Design and implemented dynamic provision virtual environments using Docker, Vagrant
-- Implemented dynamic cluster provision environments using AWS, Docker, and Openstack
-- Successfully redesigned, implemented and migrated Jenkins System with HA capability and scalability, stabilized Jenkins systems from multiple hours of unexpected outages per week to a solid less than 5 minutes planned outage per month. Improved server app performance from 12s/page to 0.5s/page and added several enterprise level features of Jenkins. This project spanned 4 months from planning to completion, and saved the company over $500,000/year in planned enterprise Jenkins purchase plan from Cloudbees Inc.
-- Successfully redesigned, implemented and migrated Nexus System with Redundancy HA capability and scalability. Stabilized Nexus systems—going from multiple hours of unexpected outages per months to 0 outages since migration. This project spanned 3 months from planning to completion, and saved the company over $100,000/year in planned enterprise Nexus purchase plan from Sonatype Inc.
-- Designed and implemented multiple automation tools in many fields including DBASS, GIS, CDASS, backup and monitoring
-- Implemented continuous delivery pipelines for continuous delivery systems
-- Automated release and deployment procedures
-- Supported technical issues from all tech teams; provided accurate root cause analysis and complete solutions
-- Provided several technical knowledge transfer sessions to internal and external team members
-
-**Career highlights:**
-
-- Long history of successful completion and delivery end to end projects
-- Saved company software life-cycle costs through implementation of open-source solution
-- Implemented fully automated end to end build-deployment model
-- Successfully worked with teams distributed all over the world with a wide range of time zones and diverse cultures/backgrounds
+- CI/CD pipeline design, build/release engineering, and configuration management across Linux, Unix, macOS, Windows, mobile, and cloud (AWS, Kubernetes, OpenStack, Docker)
+- Enterprise security and compliance: SOC 2 Type II remediation, secrets management (HashiCorp Vault), static analysis (SonarCloud), access controls, and audit readiness
+- DevOps toolchain integration: GitHub, Jenkins, ArgoCD, Bitrise, Nexus, Netlify, Jira, and internal developer platforms
+- Distributed systems at scale: multi-datacenter deployments, fault tolerance, high availability, and rapid release cycles
+- Leadership: team management, cross-functional collaboration, cost reduction, and technical training across global, distributed organizations
 
 ---
 
-## Skills Profile
+## Technical Skills
 
 | Category | Technologies |
 |----------|--------------|
-| **Scripting Languages** | Maven, Gradle, Python, Shell (Bash), Ant, Xcodebuild, Msbuild, Ruby |
-| **Programming Languages** | C/C++, Java, SQL, Object C, Android SDK (ADB), J2EE, Ruby, Python |
-| **Servers, Software & Tools** | Jenkins, Bitrise, AWS, Kubernetes, OpenStack, TeamCity, Artifactory/Nexus, Chef, Subversion, CVS, Git, Oracle/MySQL/MongoDB, Compiler, Tomcat, Apache, Squid, Jetty, JBoss, WebLogic, IIS, Visual Studio, Eclipse, Xcode, YAJSW, JMeter, Docker, Vagrant |
-| **Operating Systems** | Linux (Ubuntu/Redhat/CentOS), macOS X, Solaris UNIX, Windows Server |
+| **Build & Scripting** | Maven, Gradle, Ant, Python, Shell (Bash), Groovy, Ruby, Xcodebuild, MSBuild |
+| **Programming** | C/C++, Java, SQL, Objective-C, J2EE, Android SDK (ADB) |
+| **Cloud & Infrastructure** | AWS (EC2, S3, EMR, EKS), Kubernetes, OpenStack, Docker, Vagrant, Chef |
+| **CI/CD & DevOps Tools** | Jenkins, GitHub Actions, ArgoCD, Bitrise, TeamCity, CruiseControl, Git, Subversion |
+| **Security & Compliance** | SOC 2 Type II, HashiCorp Vault, SonarCloud, secrets management, pipeline security scanning, configuration auditing |
+| **Application Servers & Databases** | Tomcat, Apache, Jetty, JBoss, WebLogic, IIS, Oracle, MySQL, MongoDB, Hadoop |
+| **Operating Systems** | Linux (Ubuntu, Red Hat, CentOS), macOS, Solaris, Windows Server |
 
 ---
 
 ## Work Experience
 
-### Staff Release Engineer / DevOps — Navan / TripActions Inc (E-Commerce)
-**01/2022 – Present**
+### Staff Release Engineer / DevOps — Navan (formerly TripActions)
+**E-Commerce · 01/2022 – Present**
 
-- Achieve continuous deliver of applications and data system of main company web app
-- Managing and executing SCM for engineering organization
-- Enforcing and optimizing organization's release process AWS cloud
-- Fast response on pipeline testing issue, and identify and troubleshoot potential incidents
-- Create mobile pipeline to automate pushing to app store and play store, using Bitrise
+- Led SOC 2 Type II audit remediation with security, compliance, and engineering teams; hardened build, release, and AWS infrastructure to support Navan's IPO and ongoing compliance
+- Deployed and integrated HashiCorp Vault for centralized secrets management and SonarCloud for static code analysis and security scanning across CI/CD pipelines
+- Built and maintained continuous delivery for the company's core web application and data systems on AWS
+- Owned SCM and release engineering for the engineering organization; optimized release processes across AWS environments
+- Built mobile CI/CD pipelines with Bitrise to automate App Store and Google Play deployments
+- Responded rapidly to pipeline failures and production incidents; performed root-cause analysis and drove permanent fixes
 
-### Lead Release Engineer — Turn / Amobee Inc
-**12/2015 – 11/2021**
+### Lead Release Engineer — Turn / Amobee
+**Ad Technology · 12/2015 – 11/2021**
 
-- Lead team of 2 release engineers and 5 NOC engineers offshore, scaling release operations for rapidly growing engineering org (~500 including offshore teams)
-- Managing and executing SCM for engineering organization
-- Managing and executing application deployment to thousands of production servers across the globe
-- Enforcing and improving organization's release process
-- Mixing it up in the production environment in a Technical Operations role
-- Creating, implement and supporting tools and automation to enable and facilitate rapid deployment and release
+- Led a team of 2 release engineers and 5 offshore NOC engineers, scaling release operations for a ~500-person engineering organization
+- Redesigned and migrated Jenkins to a highly available, scalable architecture—reducing unplanned outages from hours per week to under 5 minutes of planned downtime per month, improving UI response from 12s to 0.5s per page, and saving $500K+/year vs. enterprise CloudBees licensing
+- Redesigned and migrated Nexus with redundant HA architecture—eliminating unplanned outages post-migration and saving $100K+/year vs. enterprise Sonatype licensing
+- Managed SCM and application deployments to thousands of production servers worldwide
+- Built tools and automation to enable rapid, reliable deployment across production environments
+- Enforced and improved release processes; served in a hands-on Technical Operations role for production systems
 
-### Sr. Software Engineer — Skytree Inc.
-**04/2014 – 11/2015**
+### Sr. Software Engineer — Skytree
+**Machine Learning · 04/2014 – 11/2015**
 
-- Design, develop, implement end to end Continuous Integration System, Continuous Delivery System
-- Design and implement automation tools to speedup development process
-- Implement dynamic cluster creation
-- Control and Maintain AWS tools with EC2, S3 and EMR
-- Design and implement PAAS tool for dynamic provision
-- Initiate scrum process and lead development team into agile methodology
-- Followed agile software development strategy of development life cycle and use issue tracking system Jira
+- Designed and implemented end-to-end Continuous Integration and Continuous Delivery systems
+- Built automation tools to accelerate the development lifecycle and dynamic cluster provisioning on AWS (EC2, S3, EMR)
+- Designed and implemented a PaaS tool for on-demand environment provisioning
+- Introduced Scrum and led the development team through agile adoption using Jira
 
-### Sr. Software Engineer — Walmart Labs E-Commerce
-**03/2013 – 04/2014**
+### Sr. Software Engineer — Walmart Labs
+**E-Commerce · 03/2013 – 04/2014**
 
-- Build, release, automate and configure developer-ready code and systems into Dev, QA, Internal Production environments
-- Design, develop, operate, monitor and administer multiple production systems and tools
-- Provide solution and support for all of the team's issues, designs, requests
-- Followed agile software development strategy of development life cycle and use issue tracking system Jira
+- Built, released, and automated deployments into Dev, QA, and internal production environments
+- Operated, monitored, and administered multiple production systems and internal tools
+- Provided build, release, and infrastructure support across engineering teams in an agile environment
 
-### Software Engineer — Macrovision / ROVI
-**11/2009 – 02/2013**
+### Software Engineer — Macrovision / Rovi
+**Digital Media · 11/2009 – 02/2013**
 
-- Defined, implemented and maintained configuration management, build/release management, and change management for over twenty on-going projects with four different domestic and international teams
-- Led the project designing the server layout, planned and implemented server deployment procedures for a variety of projects including server application, web application and mobile application
-- Supported Hadoop / MapReduce / MongoDB systems setup and operations
-- Analyzed business requirements and provided hardware setup plans and technical proposals
-- Audited existing server configuration and setup
-- Provided up-to-date deployment instruction and support Sysops deployment issues
-- Automated build process using Maven, Ant, xcodebuild and msbuild
-- Created continuous build process using TeamCity and Jenkins
-- Created configuration management website featuring our source archive, built information, and release notes and automated release notes generation
-- Followed agile software development strategy of development life cycle and used issue tracking systems Jira and VersionOne
-- Automated deployment process for Tomcat server using scripting language Shell
-- Developed system tools using Python
-- Implemented automated installation using RPM and Ruby
-- Initiated/Setup/Maintained company Git repositories
+- Defined and maintained configuration management, build/release, and change management across 20+ projects with four domestic and international teams
+- Led server layout design and deployment procedures for server, web, and mobile applications
+- Supported Hadoop, MapReduce, and MongoDB system setup and operations
+- Automated builds (Maven, Ant, xcodebuild, MSBuild) and CI pipelines (TeamCity, Jenkins)
+- Built a configuration management portal with source archives, build metadata, and automated release notes
+- Automated Tomcat deployments via Shell scripting; developed Python system tools and RPM-based installations
+- Established and maintained company Git repositories
 
-### SCM Manager — Helio Inc / Virgin Mobile USA / Sprint
-**02/2007 – 10/2009**
+### SCM Manager — Helio / Virgin Mobile USA / Sprint
+**Telecommunications · 02/2007 – 10/2009**
 
-- Led the project designing the server layout, planned and implemented server deployment procedures for a variety of projects
-- Audited existing server configuration and setup
-- Implemented VM automation setup using kickstart
-- Administrated Dev labs with over 10 servers for Linux environment
-- Analyzed business requirements and provided hardware setup plans and technical proposals
-- Provided up-to-date deployment instruction and support Sysops deployment issues
-- Automated build process using Maven and Ant
-- Created continuous build process using CruiseControl and Hudson/Jenkins
-- Created configuration management website featuring our source archive, built information, and release notes and automated release notes generation
-- Researched defect tracking system using Jira, Trac, Bugzilla, Mantis and installed Trac and Bugzilla for developer and QA team
-- Created continuous deployment process using ControlTier
-- Automated deployment process for JBoss server using scripting language Shell, Perl and Python
+- Led server layout design and deployment procedures across multiple product lines
+- Administered a 10+ server Linux dev lab; implemented VM automation via Kickstart
+- Built CI pipelines with CruiseControl and Hudson/Jenkins; automated JBoss deployments with Shell, Perl, and Python
+- Evaluated and deployed defect tracking systems (Jira, Trac, Bugzilla, Mantis); implemented Trac and Bugzilla for dev and QA
+- Created a configuration management portal and continuous deployment workflows using ControlTier
 
-### Software Developer — XLDynamics Inc
+### Software Developer — XLDynamics
 **01/2005 – 02/2007**
 
-- Built and configured main development core system in Linux, UNIX and Windows
-- Provided solutions for tracking software changes and managing them across multiple projects
-- Created shell scripts to monitor, test, and install software on Linux servers for development team
-- Resolved build and release problems
-- Implemented development of Extensive XML/SOAP generation and application projects using C++
-- Developed HTML/JavaScript for web interface
+- Built and configured core development systems across Linux, Unix, and Windows
+- Created Shell scripts to monitor, test, and install software on Linux servers
+- Developed C++ XML/SOAP applications and HTML/JavaScript web interfaces
+- Resolved build and release issues and tracked software changes across multiple projects
 
 ---
 
 ## Education
 
-**University of California, Los Angeles (UCLA)**  
-Computer Science Major, Mathematics and Economics Minor  
-Bachelor's degree in Computer Science
+**Purdue University** — Master of Science, Artificial Intelligence *(In Progress)*
+
+**University of California, Los Angeles (UCLA)** — Bachelor of Science, Computer Science  
+*Minor: Mathematics and Economics*
 
 ---
 
-## Employment Eligibility
+## Additional
 
-US Citizen
-
----
-
-## References
-
-Available upon request
+**Work Authorization:** U.S. Citizen

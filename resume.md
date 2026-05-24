@@ -7,7 +7,7 @@
 
 ## Summary
 
-Staff-scope platform engineer and AI builder pursuing a Master of Science in Artificial Intelligence at Purdue University, with 20+ years designing CI/CD, package management, and high-availability infrastructure across AWS, Azure, and Kubernetes. Currently Senior Engineer (operating at Staff scope) on GEICO's Artifact Management Platform team — technical lead for the JFrog SaaS POC, the Entra ID authentication design for the internal control plane, and the team's adoption of AI-assisted operations through Model Context Protocol (MCP) servers for JFrog, Slack, and the internal support runbook stack. In parallel, I research and prototype LLM agent systems — including a cost/latency/reliability-aware agent runtime ("AgentOne") and LLM-powered N-version programming — turning DevOps experience into agentic-workflow engineering. Previously Staff Release Engineer at Navan, where I led SOC 2 Type II remediation and platform hardening for IPO readiness.
+Staff-scope platform engineer and AI builder pursuing a Master of Science in Artificial Intelligence at Purdue University, with 20+ years designing CI/CD, package management, and high-availability infrastructure across AWS, Azure, and Kubernetes. Currently Staff Engineer on GEICO's Artifact Management Platform team — technical lead for the JFrog SaaS POC, the Entra ID authentication design for the internal control plane, and the team's adoption of AI-assisted operations through Model Context Protocol (MCP) servers for JFrog, Slack, and the internal support runbook stack. In parallel, I research and prototype LLM agent systems — including a cost/latency/reliability-aware agent runtime ("AgentOne") and LLM-powered N-version programming — turning DevOps experience into agentic-workflow engineering. Previously Staff Release Engineer at Navan, where I led SOC 2 Type II remediation and platform hardening for IPO readiness.
 
 ---
 
@@ -71,10 +71,10 @@ Staff-scope platform engineer and AI builder pursuing a Master of Science in Art
 
 ## Work Experience
 
-### Senior Engineer (Staff-level scope) — GEICO, Artifact Management Platform (Developer Engineering)
+### Staff Engineer — GEICO, Artifact Management Platform (Developer Engineering)
 **Insurance · 06/2025 – Present**
 
-*Title is Senior Engineer; operate as a Staff-level individual contributor — technical lead and primary architect for the team's biggest cross-org initiatives, partnering with Identity, SRE, Network, Database Platform, and Developer Engineering leadership.*
+*Technical lead and primary architect for the team's biggest cross-org initiatives, partnering with Identity, SRE, Network, Database Platform, and Developer Engineering leadership.*
 
 - **Set the team's AI-operations direction** — pioneered MCP-based AI-assisted ops on the Artifact Management Platform team and authored the integration guidelines now used across AMP (see *AI / Agent Engineering — Selected Work* above)
 - **Technical lead for the JFrog SaaS POC** through Phase 4 — proved Python/Java/Go publishing patterns and validated scale at 5,000 repos / 5,000 artifacts in parallel; outcomes feed GEICO's enterprise artifact-management roadmap

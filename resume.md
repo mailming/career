@@ -7,17 +7,18 @@
 
 ## Summary
 
-DevOps and Release Engineering leader with 20+ years designing CI/CD pipelines, automation platforms, and enterprise tooling across AWS, Kubernetes, and multi-cloud environments. Staff Release Engineer at Navan, where I led SOC 2 Type II audit remediation and platform hardening—deploying HashiCorp Vault and SonarCloud—to support IPO readiness. Pursuing a Master of Science in Artificial Intelligence at Purdue University. Track record of building high-availability systems, leading global teams, and delivering measurable cost savings through open-source solutions.
+DevOps, Release, and Platform Engineering professional with 20+ years designing CI/CD pipelines, package management platforms, and enterprise tooling across AWS, Azure, Kubernetes, and multi-cloud environments. Currently Senior Engineer on GEICO's Artifact Management Platform team, leading JFrog Artifactory/X-Ray operations, the JFrog SaaS POC, and Entra ID authentication design for an internal control plane serving thousands of developers. Previously Staff Release Engineer at Navan, where I led SOC 2 Type II remediation and platform hardening to support IPO readiness. Pursuing a Master of Science in Artificial Intelligence at Purdue University. Track record of high-availability platforms, cross-functional leadership, and measurable cost savings through open-source and cloud-native solutions.
 
 ---
 
 ## Key Competencies
 
-- CI/CD pipeline design, build/release engineering, and configuration management across Linux, Unix, macOS, Windows, mobile, and cloud (AWS, Kubernetes, OpenStack, Docker)
-- Enterprise security and compliance: SOC 2 Type II remediation, secrets management (HashiCorp Vault), static analysis (SonarCloud), access controls, and audit readiness
-- DevOps toolchain integration: GitHub, Jenkins, ArgoCD, Bitrise, Nexus, Netlify, Jira, and internal developer platforms
-- Distributed systems at scale: multi-datacenter deployments, fault tolerance, high availability, and rapid release cycles
-- Leadership: team management, cross-functional collaboration, cost reduction, and technical training across global, distributed organizations
+- CI/CD pipeline design, build/release engineering, and configuration management across Linux, Unix, macOS, Windows, mobile, and cloud (AWS, Azure, Kubernetes, OpenStack, Docker)
+- Artifact and package management at enterprise scale: JFrog Artifactory HA, X-Ray, JFrog Catalog, JFrog SaaS, Azure Container Registry, Nexus
+- Enterprise security and compliance: SOC 2 Type II remediation, secrets management (HashiCorp Vault, Azure Key Vault), static analysis (SonarCloud, X-Ray), OIDC, Entra ID / Azure AD, audit readiness
+- DevOps toolchain integration: GitHub Actions, ADO Pipelines, Jenkins, ArgoCD, Bitrise, Helm, Terraform, internal developer platforms (paved roads)
+- Distributed systems at scale: multi-datacenter and multi-region deployments on AKS/EKS, fault tolerance, high availability, and rapid release cycles
+- Leadership: team management, cross-functional collaboration, on-call rotation ownership, cost reduction, and technical training across global, distributed organizations
 
 ---
 
@@ -26,19 +27,36 @@ DevOps and Release Engineering leader with 20+ years designing CI/CD pipelines, 
 | Category | Technologies |
 |----------|--------------|
 | **Build & Scripting** | Maven, Gradle, Ant, Python, Shell (Bash), Groovy, Ruby, Xcodebuild, MSBuild |
-| **Programming** | C/C++, Java, SQL, Objective-C, J2EE, Android SDK (ADB) |
-| **Cloud & Infrastructure** | AWS (EC2, S3, EMR, EKS), Kubernetes, OpenStack, Docker, Vagrant, Chef |
-| **CI/CD & DevOps Tools** | Jenkins, GitHub Actions, ArgoCD, Bitrise, TeamCity, CruiseControl, Git, Subversion |
-| **Security & Compliance** | SOC 2 Type II, HashiCorp Vault, SonarCloud, secrets management, pipeline security scanning, configuration auditing |
-| **Application Servers & Databases** | Tomcat, Apache, Jetty, JBoss, WebLogic, IIS, Oracle, MySQL, MongoDB, Hadoop |
+| **Programming** | Go, C/C++, Java, SQL, Objective-C, J2EE, Android SDK (ADB), TypeScript |
+| **Cloud & Infrastructure** | AWS (EC2, S3, EMR, EKS), Azure (AKS, ACR, Azure Firewall, Entra ID), Kubernetes, Helm, Terraform, OpenStack, Docker, Vagrant, Chef |
+| **CI/CD & DevOps Tools** | GitHub Actions, Azure DevOps Pipelines, Jenkins, ArgoCD, Bitrise, TeamCity, CruiseControl, Git, Subversion |
+| **Artifact & Package Management** | JFrog Artifactory HA, JFrog X-Ray, JFrog Catalog, JFrog SaaS, JFrog CLI, JFrog Workers, Nexus, Azure Container Registry |
+| **Security & Compliance** | SOC 2 Type II, HashiCorp Vault, Azure Key Vault, SonarCloud, OIDC, Entra ID/Azure AD, RBAC, secrets rotation, pipeline security scanning |
+| **Observability & Data** | Grafana, PostgreSQL, Valkey/Redis, MongoDB, Hadoop, Oracle, MySQL |
+| **Application Servers** | Tomcat, Apache, Jetty, JBoss, WebLogic, IIS, NGINX |
 | **Operating Systems** | Linux (Ubuntu, Red Hat, CentOS), macOS, Solaris, Windows Server |
 
 ---
 
 ## Work Experience
 
+### Senior Engineer — GEICO, Artifact Management Platform (Developer Engineering)
+**Insurance · 06/2025 – Present**
+
+- Senior engineer on the Artifact Management Platform (AMP) / Package Management team, operating the JFrog Artifactory HA, X-Ray, and JFrog Catalog stacks that serve as GEICO's enterprise package registry across non-prod and production on Azure Kubernetes Service (AKS)
+- Drove rolling upgrades of Artifactory (7.111.12 → 7.125.11 → 7.146.8) and X-Ray (3.131.20 → 3.137.27 → 3.143.12) across the Package Registry and Martech tenants with documented runbooks and minimal customer impact
+- Co-led the JFrog SaaS Proof of Concept (Phases 1–4): authored reusable GitHub Actions workflows to publish Python, Java, and Go artifacts to JFrog SaaS, defined publish/promotion patterns, and validated scale (5,000 repos / 5,000 mixed artifacts in parallel)
+- Designed and authored the Entra ID (Azure AD) authentication RFC for the `amp-control-plane` service, defining NP/PD access boundaries and bridging the platform with the corporate SSO, ZTNA, and APISIX/APIM service-to-service auth standards
+- Deployed `amp-control-plane` to ACS production with HashiCorp Vault integration, PostgreSQL provisioning via internal "Club" blueprints, and CRQ-managed change control
+- Diagnosed and resolved an Azure Firewall TLS deep-packet-inspection issue that was breaking S3-backed remote JFrog repositories (Debian, GitHub proxies); produced a packet-level root cause and drove the SSL inspection bypass through the network team
+- Authored the post-incident Correction of Errors for NOCIM-11695 (Azure East US outage, April 2026) and owned on-call rotation for the AMP team
+- Built GitHub Actions reusable templates for JFrog CLI install/auth, generic file uploads, Docker pull testing, and OIDC migration patterns for the SDK Pipelines team
+- Wrote runbooks for AKS PDB-aware upgrades, Grafana dashboards, X-Ray persistent-volume fixes, JFrog Workers / Circle of Trust setup, and Artifactory release management
+- Integrated the JFrog MCP server and authored Slack MCP integration documentation to enable AI-assisted operations across the team
+- Partnered with Identity, Database Platform, and SRE teams to rotate `SRV-JFROG-NP/PD` service accounts, provision PostgreSQL roles, and drive the consolidation KPI across `packageregistry`, `artifactory-pd`, and Azure Container Registry
+
 ### Staff Release Engineer / DevOps — Navan (formerly TripActions)
-**E-Commerce · 01/2022 – Present**
+**E-Commerce · 01/2022 – 04/2025**
 
 - Led SOC 2 Type II audit remediation with security, compliance, and engineering teams; hardened build, release, and AWS infrastructure to support Navan's IPO and ongoing compliance
 - Deployed and integrated HashiCorp Vault for centralized secrets management and SonarCloud for static code analysis and security scanning across CI/CD pipelines

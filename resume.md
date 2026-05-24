@@ -21,7 +21,7 @@ Staff-scope DevOps and platform engineer with 20+ years building CI/CD, artifact
 - **Artifactory reliability turnaround** — investigated recurring production failures and drove remediation across platform, config, and operations; improved from **~1 major incident/month to four-nines (99.99%) Artifactory availability SLO** completion
 - **Technical lead, JFrog SaaS POC (Phase 4)** — validated Python/Java/Go publishing at 5,000 repos / 5,000 parallel artifacts; outcomes drive GEICO's enterprise artifact-management roadmap
 - **Architected Entra ID auth** for `amp-control-plane` via cross-team RFC — separated NP/PD access and aligned with corporate SSO / service-to-service standards
-- **Zero-downtime platform upgrades** — built automation pipeline for rolling Artifactory (7.111.12 → 7.146.8) and X-Ray (3.131.20 → 3.143.12) upgrades across Package Registry and Martech tenants on AKS with **zero customer impact**
+- **Zero-downtime platform upgrades** — built automation pipeline for rolling Artifactory and X-Ray upgrades across Package Registry and Martech tenants on AKS with **zero customer impact**
 - **Production incident leadership** — packet-level RCA and cross-team fix for Azure Firewall TLS DPI against S3-backed repos; owned CoE for April 2026 Azure East US outage (NOCIM-11695); AMP on-call lead
 - **AI-assisted platform ops** — introduced MCP-based tooling (JFrog, Slack) and agent skills for support triage, RCA, and runbook workflows
 

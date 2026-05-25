@@ -14,28 +14,21 @@ Staff-scope platform engineer and AI builder with 20+ years across CI/CD, artifa
 ## Work Experience
 
 ### Staff Engineer — GEICO, Artifact Management Platform (Developer Engineering)
-**Insurance · 06/2025 – Present**
+**Insurance · 06/2025 – Present** · Staff-IC tech lead for AMP's cross-org initiatives across Identity, SRE, Network, Database Platform, and DE
 
-*Technical lead and primary architect for AMP's largest cross-org initiatives — Identity, SRE, Network, Database Platform, and Developer Engineering. Selected for GEICO's DE AI Showcase track.*
+*AI initiatives — GEICO's DE AI Showcase 2026 (org-wide AI-augmented-work program)*
 
-*AI initiatives — entered into GEICO's DE AI Showcase 2026 (282 DE associates org-wide)*
-
-- **Claude Agent triage prototype for `#help-pkg-mgmt`** — designing and building a Claude Agent SDK prototype that ingests the team's Slack help-channel history and surfaces recurring issues, unanswered threads, and trend signals — eliminating single-point-of-failure support and feeding the DE AI June showcase
-- **AI-powered CI/CD migration engine for JFrog SaaS** — leading delivery of an AI agent that scans every GEICO CI/CD pipeline (GitHub Actions + Azure DevOps), determines the required auth / URL / repo-structure changes for the SaaS cutover, and opens a migration PR for each owning team — target: **100% of inventoried pipelines**
-- **Claude Code plugin for AMP / JFrog** — building a plain-English Claude Code plugin so engineers can create repositories, configure OIDC identity mappings, and check migration status without filing tickets or using the JFrog UI; targeting publication to GEICO's central [`developer-agent-hub`](https://github.com/geico-private/developer-agent-hub) so any GEICO developer can install it from the marketplace; aimed at a measurable drop in support-ticket volume
-- **AI-consumable artifact-auth ADR** — defining the GEICO standard for OIDC / service-principal / Artifactory integration as machine-readable runbooks any AI agent can consume to onboard external teams without AMP hand-holding
-- **Cursor × Claude Code MCP bridge** — invited to GEICO's Claude Code pilot; authored the formal *"Cursor MCP × Slack"* business-requirement document and reverse-engineered the Cursor-cached-token bridge that lets Claude Code reuse Cursor's encrypted Slack MCP credentials; active advocate in `#sig-ai-assisted-development`
-- **MCP servers & agent skills for AMP operations** — shipped Club MCP server configuration directly into the `amp-control-plane` deployment ([AMP #371](https://github.com/geico-private/artifact-management-platform/pull/371)) so Cursor can drive Club-blueprint actions on the team's production service; introduced JFrog, Slack, ADO, and GitHub MCP servers into the team's daily workflow; brought Claude/Cursor agent skills (`solve-case`, `close-case`, `build-kb`) into support, RCA, and runbook handling
-- **Club MCP server skills & Cursor agent hooks for AMP** — designing dedicated Club MCP server skills and Cursor agent hooks (e.g., post-merge runbook regeneration, automated OIDC mapping audits, pre-deploy Vault-path validation) for distribution via [`club-developer-agent-plugins`](https://github.com/geico-private/club-developer-agent-plugins), turning AMP's repeatable operational toil into reusable AI-driven tasks
-- **AI-augmented platform engineering as practice** — *every* `geico-private/artifact-management-platform` and `pkg-mgmt` PR in May 2026 is authored with Claude Code or Cursor (Entra ID auth plan, JFrog SaaS POC workflows for 11 package types, ACS prod deployment, runbooks); surgical Slack RCAs (JFrog Go-module cache; Debian `deb.architecture=64` indexer; Azure Firewall TLS DPI on S3) are AI-augmented end-to-end
+- **Portfolio of four AI initiatives in flight**: (a) Claude Agent SDK triage prototype for the `#help-pkg-mgmt` Slack channel; (b) AI-powered CI/CD migration engine that opens per-team PRs for the JFrog SaaS cutover (target: 100% of inventoried pipelines); (c) plain-English **Claude Code plugin for AMP/JFrog** targeting publication to GEICO's [`developer-agent-hub`](https://github.com/geico-private/developer-agent-hub) marketplace; (d) AI-consumable artifact-auth ADR so any AI agent can onboard external teams without AMP hand-holding
+- **Cursor × Claude Code MCP bridge** — invited to GEICO's Claude Code pilot; authored the *"Cursor MCP × Slack"* BRD and built the Cursor-cached-token bridge that lets Claude Code reuse Cursor's encrypted Slack MCP credentials
+- **MCP & agent skills landed in AMP production** — **shipped Club MCP server config into `amp-control-plane`** ([AMP #371](https://github.com/geico-private/artifact-management-platform/pull/371)); introduced JFrog/Slack/ADO/GitHub MCP servers and Claude/Cursor agent skills (`solve-case`, `close-case`, `build-kb`) across the team's support, RCA, and runbook workflows; follow-on Club skills + Cursor agent hooks landing via [`club-developer-agent-plugins`](https://github.com/geico-private/club-developer-agent-plugins)
+- **AI-augmented engineering as practice** — every May 2026 AMP / pkg-mgmt PR authored with Claude Code or Cursor (Entra ID auth plan, JFrog SaaS POC workflows, ACS prod deployment); surgical Slack RCAs are AI-augmented end-to-end
 
 *Platform engineering*
 
-- **Artifactory reliability turnaround** — drove remediation across platform, config, and operations; **~1 major incident/month → four-nines (99.99%) availability SLO**
-- **Technical lead, JFrog SaaS POC (Phase 4)** — delivered three GitHub Actions workflows validating **all 11 supported JFrog package types** (Maven, Gradle, npm, PyPI, Go, NuGet, Docker, Helm, Debian, RPM, Generic) end-to-end on `geicoeast.jfrog.io`; outcomes feed GEICO's enterprise artifact-management roadmap; ran SaaS load test at 5,000 repos / 5,000 parallel artifacts
-- **Architected Entra ID auth for `amp-control-plane`** via cross-team implementation plan — Go JWT middleware as the authoritative check + APIM `custom-jwt-ws` as defense-in-depth, single app registration in the GEICO tenant, separate NP/PD access boundaries, `AUTH_ENABLED` gradual rollout, audit-log enrichment with `caller_oid` / `caller_upn`
-- **Zero-downtime platform upgrades** — scripted, pipeline-driven rolling upgrades for Artifactory and X-Ray across Package Registry and Martech tenants on AKS with **zero customer impact** and a runbook any teammate can execute
-- **Production incident leadership** — packet-level RCA and cross-team fix for Azure Firewall TLS DPI on S3-backed remote repos; JFrog Go-module cache RCA (`workflowengine` v1.7.9 / `voltage-go` v0.0.1 / `@latest` pseudo-version caching); Debian `deb.architecture` indexer fix; Martech JVM/OOM investigation; **CoE author for NOCIM-11695** (April 2026 Entra ID-driven Artifactory outage); AMP team on-call lead
+- **Artifactory reliability turnaround**: **~1 major incident/month → four-nines (99.99%) availability SLO**
+- **Technical lead, JFrog SaaS POC** — three GitHub Actions workflows validating **all 11 supported JFrog package types** end-to-end on `geicoeast.jfrog.io`; SaaS load test at 5,000 repos / 5,000 parallel artifacts
+- **Architected Entra ID auth for `amp-control-plane`** via cross-team plan (Go JWT middleware + APIM defense-in-depth); deployed **amp-control-plane to ACS prod** ([AMP #371](https://github.com/geico-private/artifact-management-platform/pull/371))
+- **Production incident leadership** — packet-level Azure Firewall TLS DPI RCA on S3-backed repos; JFrog Go-module cache RCAs; **CoE author for NOCIM-11695** (April 2026 Entra-ID-driven Artifactory outage); AMP on-call lead
 
 ### Staff Release Engineer / DevOps — Navan (formerly TripActions)
 **E-Commerce · 01/2022 – 04/2025**

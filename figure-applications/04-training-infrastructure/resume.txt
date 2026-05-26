@@ -1,0 +1,54 @@
+MING JIA
+34500 Bentley Ct., Fremont, CA 94555
+(626) 354-7866  |  mailming@gmail.com  |  github.com/mailming
+
+SUMMARY
+Staff-scope platform and training infrastructure engineer with 20+ years building large-scale backend
+systems, CI/CD pipelines, and cloud/on-prem compute platforms. Technical lead for GEICO JFrog SaaS POC
+(load test: 5,000 repos / 5,000 parallel artifacts; GitHub Actions for all 11 package types).
+Built AWS dynamic cluster provisioning (EC2, S3, EMR) and PaaS tooling at Skytree (ML). Expert in
+Kubernetes, Terraform, Helm, Python, AWS, Azure, job orchestration, and CI for experimentation.
+Pursuing MS in AI at Purdue (OpenClaw agent runtime project). U.S. Citizen.
+
+EXPERIENCE
+
+Senior Engineer - GEICO, Artifact Management Platform
+Insurance  |  06/2025 - Present  |  Staff-IC tech lead
+
+Large-scale infrastructure & CI for platform workloads
+- Technical lead, JFrog SaaS POC: three GitHub Actions workflows validating all 11 package types;
+  SaaS load test at 5,000 repos / 5,000 parallel artifacts - stress-testing distributed artifact pipeline
+- AI-powered CI/CD migration engine: automated per-team PR generation for pipeline cutover at scale
+- Deployed amp-control-plane to ACS prod (Kubernetes/Azure); Terraform/Helm; Entra ID auth architecture
+- Artifactory 99.99% SLO on mission-critical artifact infrastructure serving entire engineering org
+
+Staff Release Engineer / DevOps - Navan
+E-Commerce  |  01/2022 - 04/2025
+- Continuous delivery for core web and data systems on AWS; SCM for full engineering org
+- SOC 2 Type II; HashiCorp Vault and SonarCloud across CI/CD pipelines
+
+Lead Release Engineer - Turn / Amobee
+Ad Technology  |  12/2015 - 11/2021
+- Jenkins/Nexus HA for ~500-person org, thousands of servers; global deployment automation
+- Led 2 release engineers + 5 NOC engineers; optimized build/deploy cycles and test execution at scale
+
+Sr. Software Engineer - Skytree (Machine Learning)
+04/2014 - 11/2015
+- End-to-end CI/CD; AWS dynamic cluster provisioning (EC2, S3, EMR) for ML workloads
+- PaaS tool for on-demand compute environments; agile adoption for data science teams
+
+SELECTED PROJECTS
+OpenClaw Cost-Aware Runtime Plugin (Purdue, 2026) - distributed agent operations with cost/latency
+telemetry (AgentOps + Langfuse); Python gateway plugin for multi-model training/inference workflows
+SmartTuna (smarttuna.ai) - Python backend for LangGraph multi-agent system
+
+TECHNICAL SKILLS
+Infrastructure: Kubernetes/AKS, Terraform, Helm, Docker, AWS, Azure, Linux, Ansible
+Orchestration & CI: Jenkins, GitHub Actions, Azure DevOps, ArgoCD; pipeline automation at scale
+Languages: Python, Go, Java, Shell, Groovy
+Data/ML platform: EMR, S3, artifact pipelines, load testing, experiment CI integration
+Bonus: Claude Code/MCP tooling for AI-augmented infrastructure development
+
+EDUCATION
+Purdue University - MS, Artificial Intelligence (In Progress)
+UCLA - BS, Computer Science (Minor: Mathematics & Economics)

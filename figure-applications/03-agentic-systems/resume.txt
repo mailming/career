@@ -1,0 +1,59 @@
+MING JIA
+34500 Bentley Ct., Fremont, CA 94555
+(626) 354-7866  |  mailming@gmail.com  |  github.com/mailming  |  smarttuna.ai
+
+SUMMARY
+Platform engineer and agentic AI builder pursuing MS in Artificial Intelligence at Purdue. Led
+OpenClaw cost-aware runtime plugin for browser agents (policy enforcement, cost budgets, evaluation
+telemetry via AgentOps + Langfuse). Founder of SmartTuna (LangGraph multi-agent platform). At GEICO,
+delivering four AI initiatives for DE AI Showcase 2026: Claude Agent SDK triage, AI-powered CI/CD
+migration engine, Claude Code plugin for JFrog, and AI-consumable runbooks. Built MCP servers
+(JFrog, Slack, ADO, GitHub, browser), agent skills, and Cursor-Claude credential bridge. 20+ years
+platform engineering (Python, Go, K8s, AWS/Azure). U.S. Citizen.
+
+EXPERIENCE
+
+Senior Engineer - GEICO, Artifact Management Platform
+Insurance  |  06/2025 - Present  |  Staff-IC tech lead
+
+Agentic AI & MCP (DE AI Showcase 2026 portfolio)
+- Claude Agent SDK triage prototype for #help-pkg-mgmt Slack channel
+- AI-powered CI/CD migration engine: per-team PRs for JFrog SaaS cutover (100% pipeline target)
+- Claude Code plugin for plain-English Artifactory/JFrog management (developer-agent-hub target)
+- AI-consumable artifact-auth ADR enabling any AI agent to onboard teams autonomously
+- Shipped JFrog/Slack/ADO/GitHub MCP servers + agent skills (solve-case, close-case, build-kb) to production
+- Authored Cursor MCP x Slack BRD; built Cursor-cached-token bridge for Claude Code credential reuse
+
+Platform engineering (foundation for reliable agent systems)
+- Artifactory 99.99% SLO; JFrog SaaS POC with GitHub Actions (all 11 package types); on-call lead
+
+Staff Release Engineer / DevOps - Navan
+E-Commerce  |  01/2022 - 04/2025  |  SCM, AWS CD, SOC 2/Vault, Bitrise mobile CI/CD
+
+Lead Release Engineer - Turn / Amobee
+Ad Technology  |  12/2015 - 11/2021  |  Led global release ops, Jenkins/Nexus HA, 500-person org
+
+SELECTED PROJECTS
+
+OpenClaw Cost-Aware Runtime Plugin - Purdue ECE 50874/59500 Final Project (2026)
+Project lead & primary implementer | github.com/mailming/openclaw
+- Originated cost-aware runtime concept: governance layer around OpenClaw browser agents with
+  token/cost/step budgets and post-action policy enforcement without rewriting core agent logic
+- Built LLM Insights gateway plugin: rolling cost/latency aggregates, model pricing, usage-to-cost pipeline
+- Integrated AgentOps (LLM routing, budget state) + Langfuse (trace telemetry); Playwright + Telegram demos
+- IEEE-style team report: "Design and Evaluation of a Cost-Aware Runtime for OpenClaw Browser Agents"
+
+SmartTuna - Founder (smarttuna.ai)
+- LangGraph multi-agent stock analysis; Python backend + Astro/TypeScript UI
+- Multi-step reasoning, tool use, and orchestrated agent workflows in production-like architecture
+
+TECHNICAL SKILLS
+Agentic AI: Claude Agent SDK, LangGraph, OpenClaw, Playwright agents, agent memory/tool-use patterns,
+  evaluation harnesses, AgentOps, Langfuse, multi-agent orchestration
+MCP & Agents: Model Context Protocol servers, Claude Code/Cursor plugins, agent skills, credential bridging
+ML/AI: Anthropic Claude, OpenAI GPT, Google Gemini; pursuing MS AI at Purdue (ECE 50874/59500)
+Platform: Python, Go, Kubernetes, AWS, Azure, Terraform, Docker, CI/CD, Linux
+
+EDUCATION
+Purdue University - MS, Artificial Intelligence (In Progress) - agentic SE, LLM-augmented engineering
+UCLA - BS, Computer Science (Minor: Mathematics & Economics)

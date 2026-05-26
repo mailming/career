@@ -1,0 +1,34 @@
+Ming Jia
+34500 Bentley Ct., Fremont, CA 94555
+mailming@gmail.com | (626) 354-7866
+
+Re: Senior/Staff Software Engineer, Developer Tools and Productivity
+
+Dear Figure Hiring Team,
+
+I am applying for the Developer Tools and Productivity role because it is the work I have spent
+twenty years doing - and Figure is building the most ambitious engineering platform I can imagine.
+
+At Turn/Amobee, I led a Jenkins HA migration that cut unplanned CI outages from hours per week to
+under five minutes of planned downtime per month, reduced page load from 12 seconds to half a second,
+and saved over $500K annually versus CloudBees enterprise licensing - for a 500-person engineering
+org deploying to thousands of servers worldwide. At Navan, I owned SCM and continuous delivery for
+the entire engineering organization through IPO readiness, including SOC 2 Type II remediation and
+Vault/SonarCloud deployment across CI/CD. At GEICO, I am Staff-IC tech lead for the Artifact
+Management Platform: I built an AI-powered CI/CD migration engine that opens per-team PRs for our
+JFrog SaaS cutover, authored GitHub Actions workflows validating all 11 supported package types,
+and drove Artifactory from roughly one major incident per month to a four-nines availability SLO.
+
+What I would bring to Figure specifically: deep experience scaling CI/CD and build infrastructure
+(Jenkins, GitHub Actions, Azure DevOps, Bitrise), infrastructure as code (Terraform, Helm, K8s),
+and developer environment design across AWS and Azure. I have also been an early adopter of AI
+coding agents - building Claude Code plugins, MCP servers, and an AI-powered pipeline migration
+engine - which maps directly to your bonus qualifications around accelerating developer velocity
+with modern tooling. I am comfortable ramping quickly on Bazel/CMake for C++ build integration;
+my foundation spans Maven, Gradle, Make, and large-scale artifact management at enterprise scale.
+
+I live in Fremont and am ready for five days/week in San Jose. I would welcome the chance to
+help Figure's engineering teams ship humanoid software faster.
+
+Sincerely,
+Ming Jia

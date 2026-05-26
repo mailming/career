@@ -1,0 +1,32 @@
+Ming Jia
+34500 Bentley Ct., Fremont, CA 94555
+mailming@gmail.com | (626) 354-7866
+
+Re: Staff Site Reliability Engineer
+
+Dear Figure Hiring Team,
+
+I am writing to apply for the Staff Site Reliability Engineer role. Your job description reads like
+a summary of my last twelve months at GEICO - and the twenty years before that.
+
+On GEICO's Artifact Management Platform, I serve as Staff-IC tech lead and on-call lead. When I joined,
+Artifactory was experiencing roughly one major incident per month. I drove a reliability turnaround
+to a four-nines (99.99%) availability SLO through infrastructure hardening, cross-team RFCs, and
+rigorous incident response - including a packet-level Azure Firewall TLS DPI root-cause analysis and
+CoE authorship for a company-wide outage (NOCIM-11695). I am now technical lead for our JFrog SaaS
+migration POC, directly analogous to your mandate to migrate SaaS to self-hosted solutions for
+security and reliability. I define runbooks, facilitate post-mortems, and practice AI-augmented
+incident response using agent skills and MCP-integrated workflows.
+
+Before GEICO, I led release operations for a 500-person ad-tech org at Turn/Amobee (Jenkins/Nexus HA,
+$600K+/yr savings, global NOC team) and owned SCM plus SOC 2 Type II remediation at Navan through
+IPO readiness. I have deep experience with Azure and AWS, Kubernetes, Terraform, Linux administration,
+networking fundamentals, and stakeholder-driven SLO definition across engineering, security, and
+operations teams.
+
+Figure is building infrastructure for the most complex product category that exists. I want to be
+the engineer who keeps your SCM, CI/CD, and internal systems running at the reliability level your
+robot fleet demands. I am based in Fremont and available for five days/week in San Jose.
+
+Sincerely,
+Ming Jia

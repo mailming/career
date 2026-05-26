@@ -1,0 +1,58 @@
+MING JIA
+34500 Bentley Ct., Fremont, CA 94555
+(626) 354-7866  |  mailming@gmail.com  |  github.com/mailming
+
+SUMMARY
+Staff-scope data and platform infrastructure engineer with 20+ years building reliable backend systems
+for large-scale data pipelines. Own GEICO's Artifact Management Platform (petabyte-scale artifact
+storage/distribution); technical lead for JFrog SaaS data pipeline POC (5,000 repos / 5,000 parallel
+artifacts). Prior experience: Hadoop/MapReduce/MongoDB ops (Macrovision/Rovi, 20+ projects); AWS
+dynamic clusters and EMR (Skytree ML); Nexus/Jenkins data distribution at global scale (Turn/Amobee).
+Expert in Python, Go, AWS, Azure, Kubernetes, Terraform, Linux, and production support. Pursuing MS
+in AI at Purdue. U.S. Citizen.
+
+EXPERIENCE
+
+Senior Engineer - GEICO, Artifact Management Platform
+Insurance  |  06/2025 - Present  |  Staff-IC tech lead; production support owner
+
+Data infrastructure at scale
+- Own enterprise artifact data platform: storage, transmission, access control, and distribution
+  for entire engineering org; four-nines (99.99%) availability SLO
+- Technical lead, JFrog SaaS POC: optimal data transmission/storage across pipeline stages;
+  load test 5,000 repos / 5,000 parallel artifacts; GitHub Actions for all 11 package types
+- Packet-level RCA on Azure Firewall TLS DPI affecting S3-backed repository data paths
+- Architected amp-control-plane data access layer (Go, Entra ID auth, APIM); ACS prod deployment
+
+Staff Release Engineer / DevOps - Navan
+E-Commerce  |  01/2022 - 04/2025
+- Continuous delivery and data systems on AWS; SCM infrastructure for engineering org
+
+Lead Release Engineer - Turn / Amobee
+Ad Technology  |  12/2015 - 11/2021
+- Nexus artifact repository HA: data distribution to thousands of servers worldwide
+- Global release data pipelines; deployment automation for ~500-person engineering org
+
+Software Engineer - Macrovision / Rovi
+Digital Media  |  11/2009 - 02/2013
+- CM/build/release across 20+ projects, four international teams
+- Hadoop/MapReduce/MongoDB operations; automated data pipeline builds (Maven, Ant, TeamCity, Jenkins)
+
+Sr. Software Engineer - Skytree (Machine Learning)
+04/2014 - 11/2015
+- AWS dynamic cluster provisioning (EC2, S3, EMR); PaaS for on-demand data/compute environments
+
+SELECTED PROJECTS
+OpenClaw Cost-Aware Runtime Plugin (Purdue, 2026) - data pipeline for agent usage/cost telemetry
+SmartTuna (smarttuna.ai) - Python data backend for multi-agent analysis platform
+
+TECHNICAL SKILLS
+Data & Storage: JFrog Artifactory/X-Ray/SaaS, Nexus, S3, EMR, artifact pipelines, Hadoop, MongoDB
+Cloud & Platform: AWS, Azure (AKS, ACS, Entra ID), Kubernetes, Terraform, Helm, Docker, Linux
+Languages: Python, Go, Java, Shell
+Orchestration: GitHub Actions, Jenkins, Azure DevOps, ArgoCD; SLURM/K8s-adjacent scheduling experience
+Production ops: on-call, incident response, cross-team data workflow support, runbooks
+
+EDUCATION
+Purdue University - MS, Artificial Intelligence (In Progress)
+UCLA - BS, Computer Science (Minor: Mathematics & Economics)

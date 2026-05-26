@@ -1,0 +1,32 @@
+Ming Jia
+34500 Bentley Ct., Fremont, CA 94555
+mailming@gmail.com | (626) 354-7866
+
+Re: Helix AI Engineer, Training Infrastructure
+
+Dear Figure Helix Team,
+
+I am applying for the Training Infrastructure role because it sits at the intersection I have
+operated in for two decades: reliable backend systems at scale, plus the emerging world of
+large-scale AI compute.
+
+At GEICO, I am technical lead for our JFrog SaaS POC - including a load test at 5,000 repositories
+with 5,000 parallel artifacts and GitHub Actions workflows validating all 11 supported package types.
+This is infrastructure engineering for high-throughput, distributed workloads with strict reliability
+requirements (four-nines SLO on the platform I own). I also built an AI-powered CI/CD migration engine
+that automates per-team pipeline cutover at scale - directly relevant to tooling that accelerates
+researcher iteration cycles. At Skytree, I built AWS dynamic cluster provisioning (EC2, S3, EMR) and
+a PaaS for on-demand ML compute environments. At Turn/Amobee, I scaled Jenkins/Nexus HA infrastructure
+for a 500-person org deploying to thousands of servers globally.
+
+I bring strong Python, Kubernetes, Terraform, and cloud platform skills (AWS, Azure), with hands-on
+experience in job orchestration, CI for experimentation, and production support for mission-critical
+systems. I am pursuing an MS in Artificial Intelligence at Purdue, where I led an OpenClaw agent
+runtime project with AgentOps and Langfuse telemetry - giving me direct exposure to ML workflow
+observability and multi-model operations. I am eager to apply this platform depth to Figure's
+training clusters and distributed experimentation infrastructure.
+
+I live in Fremont and am available five days/week in San Jose.
+
+Sincerely,
+Ming Jia

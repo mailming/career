@@ -1,0 +1,31 @@
+Ming Jia
+34500 Bentley Ct., Fremont, CA 94555
+mailming@gmail.com | (626) 354-7866
+
+Re: Helix AI Engineer, Data Infrastructure
+
+Dear Figure Helix Team,
+
+Figure's data infrastructure challenge - offloading, storing, manipulating, and providing access to
+robot data at massive scale across on-prem and cloud - is structurally similar to the platform I
+currently own at GEICO, where I am Staff-IC tech lead for the Artifact Management Platform serving
+the entire engineering organization.
+
+I manage enterprise-scale data storage, transmission, and access pipelines with a four-nines
+availability SLO - driven down from roughly one major incident per month through infrastructure
+hardening and production support discipline. As technical lead for our JFrog SaaS POC, I designed
+and executed load tests at 5,000 repositories with 5,000 parallel artifacts and built GitHub Actions
+workflows covering all 11 supported package types - stress-testing data pipeline stages from
+ingestion through distribution. I have deep prior experience with Hadoop/MapReduce and MongoDB ops
+(Macrovision/Rovi, 20+ projects), AWS EMR and dynamic cluster provisioning (Skytree ML), and global
+artifact data distribution via Nexus HA (Turn/Amobee, thousands of servers).
+
+I bring strong Python and Go backend skills, production experience with AWS and Azure (Kubernetes,
+Terraform, Helm), and a track record of partnering with engineering teams to support new data
+workflows under reliability constraints. I am pursuing an MS in Artificial Intelligence at Purdue
+and am motivated to apply this data platform expertise to Helix's robot data pipeline.
+
+I am based in Fremont and available five days/week in San Jose.
+
+Sincerely,
+Ming Jia

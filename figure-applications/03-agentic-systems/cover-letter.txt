@@ -1,0 +1,33 @@
+Ming Jia
+34500 Bentley Ct., Fremont, CA 94555
+mailming@gmail.com | (626) 354-7866
+
+Re: Helix AI Engineer, Agentic Systems
+
+Dear Figure Helix Team,
+
+Helix needs agents that perceive, plan, and act reliably over long horizons in the real world.
+That is exactly the problem I have been building toward - from production agent infrastructure
+at GEICO to my OpenClaw browser-agent runtime at Purdue.
+
+I led Team 17's OpenClaw cost-aware runtime plugin (Purdue ECE 50874/59500 final project), where I
+originated and implemented a governance layer around browser agents: token/cost/step budgets,
+post-action policy enforcement, and evaluation telemetry through AgentOps and Langfuse - without
+rewriting core agent logic. I also founded SmartTuna (smarttuna.ai), a LangGraph multi-agent
+platform with orchestrated reasoning and tool use. At GEICO, I am delivering a portfolio of four
+agentic AI initiatives for the org-wide DE AI Showcase 2026: a Claude Agent SDK triage prototype,
+an AI-powered CI/CD migration engine, a Claude Code plugin for platform operations, and
+AI-consumable runbooks - plus production MCP servers (JFrog, Slack, ADO, GitHub) and agent skills
+for support, RCA, and knowledge-base workflows.
+
+My strength is building the agent architectures and infrastructure that make autonomous systems
+reliable: evaluation harnesses, tool-use integration, observability, failure recovery, and the
+platform backbone (Python, K8s, AWS/Azure) that keeps agents running in production. I am pursuing
+an MS in Artificial Intelligence at Purdue and am deeply motivated by Figure's mission to deploy
+embodied agents that operate in real homes and workplaces.
+
+I am based in Fremont, available five days/week in San Jose, and would be honored to contribute
+to Helix's agentic systems team.
+
+Sincerely,
+Ming Jia

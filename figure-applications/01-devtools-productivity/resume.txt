@@ -1,0 +1,60 @@
+MING JIA
+34500 Bentley Ct., Fremont, CA 94555
+(626) 354-7866  |  mailming@gmail.com  |  github.com/mailming
+
+SUMMARY
+Staff-scope developer productivity and platform engineer with 20+ years building CI/CD systems,
+build/release automation, and developer tooling at scale. Led Jenkins HA migration ($500K+/yr savings,
+UI 12s -> 0.5s/page) for a 500-person org; owned SCM and continuous delivery at Navan (IPO readiness);
+Staff-IC tech lead on GEICO's Artifact Management Platform. Built an AI-powered CI/CD pipeline
+migration engine (opens per-team PRs for JFrog SaaS cutover), GitHub Actions workflows validating
+all 11 JFrog package types, and Claude Code plugins for plain-English platform operations.
+Pursuing MS in AI at Purdue. U.S. Citizen.
+
+EXPERIENCE
+
+Senior Engineer - GEICO, Artifact Management Platform (Developer Engineering)
+Insurance  |  06/2025 - Present  |  Staff-IC tech lead, cross-org initiatives
+
+Developer tooling & CI/CD
+- Built AI-powered CI/CD migration engine targeting 100% of inventoried pipelines for JFrog SaaS cutover
+- Technical lead, JFrog SaaS POC: three GitHub Actions workflows validating all 11 package types end-to-end;
+  load test at 5,000 repos / 5,000 parallel artifacts
+- Shipped MCP servers (JFrog, Slack, ADO, GitHub) and Claude/Cursor agent skills into production workflows
+- Deployed amp-control-plane to ACS prod; architected Entra ID auth (Go JWT middleware + APIM)
+
+Platform reliability
+- Artifactory reliability: ~1 major incident/month -> four-nines (99.99%) availability SLO
+- Production incident leadership; packet-level Azure Firewall TLS DPI RCA; AMP on-call lead
+
+Staff Release Engineer / DevOps - Navan (formerly TripActions)
+E-Commerce  |  01/2022 - 04/2025
+- Owned SCM and release engineering for the engineering org; continuous delivery on AWS
+- Led SOC 2 Type II remediation; deployed HashiCorp Vault and SonarCloud across CI/CD (IPO readiness)
+- Built mobile CI/CD with Bitrise for App Store and Google Play
+
+Lead Release Engineer - Turn / Amobee
+Ad Technology  |  12/2015 - 11/2021
+- Led 2 release engineers + 5 offshore NOC; release ops for ~500-person org, thousands of prod servers
+- Jenkins HA migration: hours/week outages -> <5 min planned downtime/month; saved $500K+/yr vs CloudBees
+- Nexus HA migration: eliminated unplanned outages; saved $100K+/yr vs Sonatype enterprise licensing
+- Built deployment automation; enforced release process across global engineering teams
+
+Earlier: Sr. Software Engineer, Skytree (ML CI/CD, AWS EMR clusters) | Walmart Labs | Macrovision/Rovi
+(20+ projects, Maven/Ant/TeamCity/Jenkins, Git adoption) | SCM Manager, Helio/Virgin Mobile/Sprint
+
+SELECTED PROJECTS
+OpenClaw Cost-Aware Runtime Plugin (Purdue ECE 50874/59500, 2026) - project lead; browser agent
+governance layer with cost/step budgets, AgentOps + Langfuse telemetry
+SmartTuna (smarttuna.ai) - founder; LangGraph multi-agent platform, Python + TypeScript/Astro UI
+
+TECHNICAL SKILLS
+CI/CD & Build: Jenkins, GitHub Actions, Azure DevOps, ArgoCD, Bitrise, Maven, Gradle, Groovy
+Cloud & Platform: AWS, Azure (AKS, Entra ID), Kubernetes, Helm, Terraform, Docker, Linux
+Languages: Python, Go, Java, Shell, TypeScript, C/C++
+Artifacts & Security: JFrog Artifactory/X-Ray/SaaS, Nexus, SOC 2, Vault, SonarCloud, OIDC
+AI Tooling (bonus): Claude Code plugins, MCP servers, AI-augmented CI/CD migration agents
+
+EDUCATION
+Purdue University - MS, Artificial Intelligence (In Progress)
+UCLA - BS, Computer Science (Minor: Mathematics & Economics)

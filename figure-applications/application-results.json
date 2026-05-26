@@ -1,0 +1,36 @@
+[
+  {
+    "job_id": "4662042006",
+    "title": "Senior/Staff Software Engineer, Developer Tools and Productivity",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4662042006",
+    "success": true,
+    "final_url": "https://job-boards.greenhouse.io/figureai/jobs/4662042006/confirmation",
+    "validation_errors": null
+  },
+  {
+    "job_id": "4614747006",
+    "title": "Staff Site Reliability Engineer",
+    "url": "https://job-boards.greenhouse.io/figureai/jobs/4614747006",
+    "success": true,
+    "final_url": "https://job-boards.greenhouse.io/figureai/jobs/4614747006/confirmation",
+    "validation_errors": null
+  },
+  {
+    "job_id": "4659175006",
+    "title": "Helix AI Engineer, Agentic Systems",
+    "success": false,
+    "error": "Locator.count: Target page, context or browser has been closed"
+  },
+  {
+    "job_id": "4431092006",
+    "title": "Helix AI Engineer, Training Infrastructure",
+    "success": false,
+    "error": "Page.goto: Target page, context or browser has been closed"
+  },
+  {
+    "job_id": "4345915006",
+    "title": "Helix AI Engineer, Data Infrastructure",
+    "success": false,
+    "error": "Page.goto: Target page, context or browser has been closed"
+  }
+]

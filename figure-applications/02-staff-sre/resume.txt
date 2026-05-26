@@ -1,0 +1,59 @@
+MING JIA
+34500 Bentley Ct., Fremont, CA 94555
+(626) 354-7866  |  mailming@gmail.com  |  github.com/mailming
+
+SUMMARY
+Staff-scope Site Reliability Engineer with 20+ years operating mission-critical infrastructure at
+scale. Drove GEICO Artifactory from ~1 major incident/month to four-nines (99.99%) availability SLO;
+technical lead for JFrog SaaS-to-cloud migration POC; AMP on-call lead and CoE author for major
+outages. Expert in Azure/AWS, Kubernetes, Terraform, CI/CD, SCM, incident response, runbooks, and
+SLO definition. Previously led SOC 2 Type II remediation at Navan (IPO); $600K+/yr savings through
+HA Jenkins/Nexus migrations at Turn/Amobee. Pursuing MS in AI at Purdue. U.S. Citizen.
+
+EXPERIENCE
+
+Senior Engineer - GEICO, Artifact Management Platform (Developer Engineering)
+Insurance  |  06/2025 - Present  |  Staff-IC tech lead; on-call lead
+
+Reliability & SRE
+- Artifactory reliability turnaround: ~1 major incident/month -> four-nines (99.99%) availability SLO
+- Defined and operationalized SLOs; data-driven service robustness tracking and optimization
+- Production incident leadership: packet-level Azure Firewall TLS DPI RCA on S3-backed repos;
+  JFrog Go-module cache RCAs; CoE author for NOCIM-11695 (April 2026 Entra-ID outage)
+- AI-augmented runbooks and ADRs; MCP/agent skills for solve-case, close-case, build-kb workflows
+
+Infrastructure & migration
+- Technical lead, JFrog SaaS POC: validate SaaS cutover path; load test 5,000 repos / 5,000 artifacts
+- Architected Entra ID auth for amp-control-plane (Go JWT + APIM defense-in-depth); ACS prod deployment
+- Cross-org coordination: Identity, SRE, Network, Database Platform, Developer Engineering
+
+Staff Release Engineer / DevOps - Navan (formerly TripActions)
+E-Commerce  |  01/2022 - 04/2025
+- Led SOC 2 Type II audit remediation; deployed HashiCorp Vault and SonarCloud across CI/CD
+- Owned SCM and release engineering; continuous delivery for core web and data systems on AWS
+- Rapid RCA on pipeline and production incidents; IPO readiness support
+
+Lead Release Engineer - Turn / Amobee
+Ad Technology  |  12/2015 - 11/2021
+- Led 2 release engineers + 5 offshore NOC engineers; thousands of production servers worldwide
+- Jenkins HA migration: hours/week outages -> <5 min planned downtime/month; $500K+/yr saved
+- Nexus HA migration: zero unplanned outages post-migration; $100K+/yr saved vs Sonatype licensing
+- Built monitoring-driven release ops; hands-on Technical Operations in production
+
+Earlier: Skytree (AWS EMR/dynamic clusters) | Walmart Labs | Macrovision/Rovi (Hadoop/MongoDB ops,
+20+ projects, global CM) | Helio/Virgin Mobile/Sprint (CI/CD, VM automation, JBoss deployments)
+
+SELECTED PROJECTS
+OpenClaw Cost-Aware Runtime Plugin (Purdue, 2026) - agent governance with budget enforcement,
+AgentOps + Langfuse observability for multi-model operations
+
+TECHNICAL SKILLS
+SRE & Ops: SLO/SLI design, incident response, post-mortems, on-call, runbooks, HA/fault tolerance
+Cloud: AWS, Azure (AKS, Entra ID, Azure Firewall, ACS), Kubernetes, Helm, Terraform, Docker
+CI/CD & SCM: Jenkins, GitHub Actions, Azure DevOps, ArgoCD, JFrog Artifactory/Nexus
+Monitoring & Security: SOC 2 Type II, Vault, Azure Key Vault, SonarCloud, OIDC/RBAC, networking (TCP/IP, TLS, firewalls)
+Languages: Python, Go, Java, Shell, Groovy
+
+EDUCATION
+Purdue University - MS, Artificial Intelligence (In Progress)
+UCLA - BS, Computer Science (Minor: Mathematics & Economics)

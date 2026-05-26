@@ -6,6 +6,19 @@
 
 This file is the **single weekly schedule**. Every concrete asset already lives in this folder — links inline. The 5-month version (vs the original 3-month) gives more foundation breathing room, an explicit portfolio month, mid-flight resume iteration, and a realistic onsite ramp.
 
+## Study materials (live in `study-materials/`)
+
+The content you actually study from. Use alongside the weekly schedule below.
+
+| File | Use when |
+|------|----------|
+| [study-materials/coding-patterns.md](study-materials/coding-patterns.md) | Daily — Python templates + idioms for every LC pattern. Read the relevant section before each problem. |
+| [study-materials/behavioral-question-bank.md](study-materials/behavioral-question-bank.md) | Before every phone screen + onsite — 60+ questions mapped to your STAR stories. |
+| [study-materials/system-design-cheatsheet.md](study-materials/system-design-cheatsheet.md) | Night-before onsite — 1-page numbers, headlines, traps, follow-ups per design topic. |
+| [study-materials/reading-list.md](study-materials/reading-list.md) | Weekly — papers + blog posts aligned to each week's design topic. |
+| [study-materials/company-briefs.md](study-materials/company-briefs.md) | Night-before screen + onsite — thesis, format, values, your hook, traps per company. |
+| [study-materials/outreach-templates.md](study-materials/outreach-templates.md) | Every message — cold-outreach, referral ask, thank-you, negotiation, resignation. |
+
 ---
 
 ## Why 5 months > 3
@@ -37,14 +50,14 @@ This file is the **single weekly schedule**. Every concrete asset already lives 
 ### Week 1 (2026-05-26 → 2026-06-01) — Setup & Arrays/Hash
 
 **Coding (5 problems):** Group Anagrams · Top K Frequent · Product Except Self · Longest Consecutive · 3Sum.
-Source: [coding-log.md § Week 1](coding-log.md). Use the daily template at the bottom of that file.
+Source: [coding-log.md § Week 1](coding-log.md). Patterns reference: [study-materials/coding-patterns.md § 1-2](study-materials/coding-patterns.md). Use the daily template at the bottom of that file.
 
-**System design (1 doc):** Read and outline [01-llm-inference-serving.md](system-design/01-llm-inference-serving.md). Goal: speak the architecture in 8-10 min from memory by Sunday. Sketch on whiteboard / iPad.
+**System design (1 doc):** Read and outline [01-llm-inference-serving.md](system-design/01-llm-inference-serving.md). Goal: speak the architecture in 8-10 min from memory by Sunday. Sketch on whiteboard / iPad. Reading: [reading-list.md § Month 1 Week 1](study-materials/reading-list.md) — pick 1 of vLLM paper or vLLM docs.
 
 **Behavioral:** Draft Stories #1 (Artifactory 99.99%) and #2 (NOCIM-11695) in [star-stories.md](star-stories.md). Each: 90 sec spoken time; record on phone; listen back; cut filler.
 
 **Pipeline:**
-- Send Tier-S applications #1-4 from [../hot-jobs-may-2026.md](../hot-jobs-may-2026.md) (Anthropic Dev Productivity, Cursor Agent Harness, Cursor Agent Eval, Anthropic AI Reliability).
+- Send Tier-S applications #1-4 from [../hot-jobs-may-2026.md](../hot-jobs-may-2026.md) (Anthropic Dev Productivity, Cursor Agent Harness, Cursor Agent Eval, Anthropic AI Reliability). Pre-read [company-briefs.md](study-materials/company-briefs.md) for Anthropic + Cursor before drafting cover notes. Use [outreach-templates.md § 1](study-materials/outreach-templates.md) if cold-messaging a hiring manager.
 - Update LinkedIn headline + About from [../linkedin-rewrite.md](../linkedin-rewrite.md). Flip "Open to Work" privately.
 
 ### Week 2 (2026-06-02 → 2026-06-08) — Sliding Window / Stack / Binary Search
@@ -69,7 +82,7 @@ Source: [coding-log.md § Week 1](coding-log.md). Use the daily template at the 
 
 **Pipeline:**
 - Send Tier-1 applications #11-14 (Browserbase, Sierra, Perplexity, LangChain).
-- 1st phone screen this week if any came back. Use [phone-screen-playbook.md](phone-screen-playbook.md) **the day before** the screen, not the day-of.
+- 1st phone screen this week if any came back. Day-before: read [phone-screen-playbook.md](phone-screen-playbook.md) + the [company-briefs.md](study-materials/company-briefs.md) section for that company + the relevant section of [behavioral-question-bank.md](study-materials/behavioral-question-bank.md). Send a post-screen thank-you using [outreach-templates.md § 5](study-materials/outreach-templates.md).
 
 ### Week 4 (2026-06-16 → 2026-06-22) — Graphs / Trie / Heap
 
@@ -199,7 +212,9 @@ Source: [coding-log.md § Week 1](coding-log.md). Use the daily template at the 
 **System design:** Deliver doc 03 (agent orchestration) cold.
 
 **Onsite #1 likely lands this week.** Day-before checklist:
-- Re-read JD; pull 3 specific phrases into your "why this team" answer.
+- Re-read [company-briefs.md](study-materials/company-briefs.md) for the company + the JD; pull 3 specific phrases into your "why this team" answer.
+- Re-read [system-design-cheatsheet.md](study-materials/system-design-cheatsheet.md) sections for the surfaces most likely to come up at that company (per the brief).
+- Re-read [behavioral-question-bank.md](study-materials/behavioral-question-bank.md) sections likely to come up (A & B for HM screens; G for Anthropic; F for Cursor).
 - Re-read the deep dive matching the project they cited in your recruiter call.
 - 20-min sprint of the company's interview style (Cursor = live IDE; Anthropic = practical code; Modal = systems depth).
 - Sleep ≥ 7 hrs.
@@ -270,7 +285,7 @@ Source: [coding-log.md § Week 1](coding-log.md). Use the daily template at the 
 
 **Coding (2 medium):** Re-do queue only.
 
-**Negotiation rehearsal:** Read [negotiation-and-offers.md](negotiation-and-offers.md) end-to-end. Rehearse the "ask" script **aloud** with a partner playing the recruiter. Cover:
+**Negotiation rehearsal:** Read [negotiation-and-offers.md](negotiation-and-offers.md) + [outreach-templates.md § 9-12](study-materials/outreach-templates.md) end-to-end. Rehearse the "ask" script **aloud** with a partner playing the recruiter. Cover:
 - Initial response to a verbal offer ("I'm excited; when can I see the written offer?")
 - The competing-offer leverage script
 - Walking back from an aggressive ask without losing face

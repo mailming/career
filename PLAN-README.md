@@ -37,6 +37,17 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 | [interview-prep/onsite-deep-dives.md](interview-prep/onsite-deep-dives.md) | 3 staff-level deep-dive narratives + rehearsal schedule |
 | [interview-prep/negotiation-and-offers.md](interview-prep/negotiation-and-offers.md) | Comp data sources, ask script, decision matrix |
 
+## Study materials (the actual content you study from)
+
+| File | Purpose |
+|------|---------|
+| [interview-prep/study-materials/coding-patterns.md](interview-prep/study-materials/coding-patterns.md) | Python templates + idioms for 13 LC patterns; daily reference during coding practice |
+| [interview-prep/study-materials/behavioral-question-bank.md](interview-prep/study-materials/behavioral-question-bank.md) | 60+ questions mapped to your 10 STAR stories, with traps to avoid; read before screens |
+| [interview-prep/study-materials/system-design-cheatsheet.md](interview-prep/study-materials/system-design-cheatsheet.md) | 1-page back-of-envelope numbers, headlines, traps, follow-ups per design topic; night-before onsite read |
+| [interview-prep/study-materials/reading-list.md](interview-prep/study-materials/reading-list.md) | Week-aligned papers + blog posts (vLLM, HNSW, ReAct, FSDP, AlpaServe, MCP spec, etc.) |
+| [interview-prep/study-materials/company-briefs.md](interview-prep/study-materials/company-briefs.md) | 1-page brief per Tier-S/1 target: thesis, format, values, your hook, traps |
+| [interview-prep/study-materials/outreach-templates.md](interview-prep/study-materials/outreach-templates.md) | 15 copy-paste templates: cold message, referral ask, recruiter reply, thank-you, negotiation, resignation, re-activation |
+
 ## Figure applications (in-flight)
 
 - [figure-applications/FINISH-REMAINING.md](figure-applications/FINISH-REMAINING.md) — runbook for the remaining 4 submissions.

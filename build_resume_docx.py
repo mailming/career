@@ -7,6 +7,7 @@ Mingresume.docx template (Title, Heading 1/2, Resume Bullets, Normal).
 
 from __future__ import annotations
 
+import argparse
 import re
 from pathlib import Path
 
@@ -18,6 +19,17 @@ ROOT = Path(__file__).parent
 SRC_MD = ROOT / "resume.md"
 TEMPLATE = ROOT / "Mingresume.docx"
 OUT = ROOT / "Mingresume.docx"
+
+
+def _parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="Render a resume markdown file to docx.")
+    p.add_argument("--input", "-i", type=Path, default=None,
+                   help="Source markdown file (default: resume.md)")
+    p.add_argument("--output", "-o", type=Path, default=None,
+                   help="Output docx file (default: Mingresume.docx)")
+    p.add_argument("--template", "-t", type=Path, default=None,
+                   help="Template docx file to reuse styles from (default: Mingresume.docx)")
+    return p.parse_args()
 
 
 def md_inline_runs(paragraph, text: str) -> None:
@@ -252,4 +264,11 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    args = _parse_args()
+    if args.input:
+        SRC_MD = args.input  # type: ignore[assignment]
+    if args.output:
+        OUT = args.output  # type: ignore[assignment]
+    if args.template:
+        TEMPLATE = args.template  # type: ignore[assignment]
     main()

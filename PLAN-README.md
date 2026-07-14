@@ -16,7 +16,7 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 | [resume-ai-infra.md](resume-ai-infra.md) | AI-infra variant of the resume; lead with Claude/MCP/OpenClaw | Every AI-infra application |
 | [resume.md](resume.md) | Original (platform-engineer) resume — keep for traditional platform roles | Non-AI-native platform/SRE roles |
 | [linkedin-rewrite.md](linkedin-rewrite.md) | Copy-paste-ready LinkedIn headline + About + Featured | Update LinkedIn this week |
-| [target-companies.md](target-companies.md) | 60-company target list (Tier 1-4) + application logging table | Weekly review; log every send |
+| [target-companies.md](target-companies.md) | **66-company Outcome A apply list** (Tier S → startups → big tech) + 16-week sequence + application logging | Weekly review; apply 2/week |
 | [applications-tier1.md](applications-tier1.md) | 15 ready-to-send Tier-1 applications with tailored 3-sentence notes | Send 2/week, weeks 2-4 |
 | [hot-jobs-may-2026.md](hot-jobs-may-2026.md) | Live-scraped ranked shortlist of 14 best-fit openings as of 2026-05-26 | This week's apply queue |
 | [referrals.md](referrals.md) | 3 warm referral paths + ask templates + tracking | Weeks 2-4 outreach |

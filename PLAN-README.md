@@ -2,6 +2,13 @@
 
 Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a48b049.plan.md`. Everything below is ready-to-use; nothing requires me to be in the loop to execute.
 
+## 5-year direction (start here)
+
+| File | Purpose | When to use |
+|------|---------|-------------|
+| [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) | **North Star:** Physical AI Platform Principal (Outcome A) — reasoning, timeline, Purdue courses, bridge strategy | Quarterly review; before big career decisions |
+| [WEEKLY-OPERATING-SYSTEM.md](WEEKLY-OPERATING-SYSTEM.md) | Sustainable weekly cadence (12–14 hrs, kids, exercise, Purdue) | Every Monday; companion to study plan |
+
 ## Top-level docs
 
 | File | Purpose | When to use |

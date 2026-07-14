@@ -214,8 +214,9 @@ Stories referenced (full text in [../star-stories.md](../star-stories.md)):
 - **Opener:** "Two reasons. The frontier of useful AI shipped to enterprises moved from 'demos' to 'tools production engineers depend on daily' over the last 12 months — the work my team at GEICO does today wouldn't have been possible 18 months ago. And second, I've now done enough at GEICO to know my next step is purely AI-native work, not a hybrid role..."
 
 ### H5. "Where do you see yourself in 5 years?"
-- **Opener:** "Doing AI-platform IC work that's two or three steps ahead of what's shipping today — building the governance, cost, and eval primitives that make agents safe to deploy at production scale. I'm not chasing a manager track..."
-- **Trap:** Don't be vague. Name the specific kind of problem.
+- **Opener:** "Principal-scope IC work on physical AI platform — simulation, agent eval, and fleet reliability for embodied systems like humanoids. Short term I'm shipping agent governance and eval harnesses; five years out I want to own the platform layer where sim-trained policies meet production robot fleets — the same reliability discipline I brought to Artifactory four-nines, applied to machines that can't afford downtime. Staying on the IC track, not management."
+- **Full arc:** See [CAREER-GOAL-5-YEARS.md](../../CAREER-GOAL-5-YEARS.md).
+- **Trap:** Don't be vague. Name sim/agents/fleet — not "working in AI."
 
 ---
 

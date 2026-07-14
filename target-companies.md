@@ -1,6 +1,8 @@
 # Target Companies — AI Infrastructure / Platform / DevTools
 
-Last updated: 2026-05-25
+Last updated: 2026-07-14
+
+**5-year goal:** [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) — Physical AI Platform Principal. Tier 1 prioritizes **bridge roles** (agent platform) and **physical AI platform** (Figure, NVIDIA Isaac).
 
 ## How to use this sheet
 
@@ -28,7 +30,8 @@ Targets by tier follow. Numbers are starting role counts as of 2026-05-25; refre
 | 9 | **Perplexity** | Agent-style retrieval product | Staff Software Engineer, Infra / Platform | Apply; warm intro via Anthropic-adjacent network | todo | ai-infra | |
 | 10 | **Mistral AI** | Frontier model lab | Software Engineer, Inference / Platform | Apply | todo | ai-infra | EU HQ; check US remote postings |
 | 11 | **xAI** | Frontier model lab | Staff Infrastructure / SRE | Apply + LinkedIn | todo | ai-infra | |
-| 12 | **Figure** | Robotics humanoid; staff roles | DevTools & Productivity / Staff SRE / Helix AI Engineer (4 variants) | Already in flight via apply_figure.py | applied (1/5) | ai-infra (txt) | SRE submitted; 4 remaining (8-char Gmail code blocker) |
+| 12 | **Figure** | **Outcome A target** — humanoid; agentic + platform lanes | Helix Agentic Systems (priority) / DevTools / Training Infra / Data Infra / Staff SRE | Already in flight via apply_figure.py | applied (1/5) | ai-infra (txt) | Agentic first; SRE submitted; 4 remaining (Gmail code blocker) |
+| 12b | **NVIDIA** | **Outcome A target** — Isaac Lab / Cosmos sim stack for all humanoids | Senior SWE Robotics Isaac Lab / Robot Learning Platform / Physical AI Infra | jobs.nvidia.com; GTC blog + Isaac OSS PR as warm intro | todo | ai-infra | Santa Clara; pair with Isaac Lab capstone project |
 | 13 | **1X Technologies** | Humanoid robotics | Software / SRE / Platform | Greenhouse + LinkedIn | todo | ai-infra | Same Bazel/C++ caveat as Figure |
 | 14 | **Apptronik** | Humanoid robotics (Austin/remote) | Software / Platform | Greenhouse | todo | ai-infra | |
 | 15 | **Skild AI** | Robotics foundation models | Software / Platform | Greenhouse | todo | ai-infra | |
@@ -78,7 +81,7 @@ Targets by tier follow. Numbers are starting role counts as of 2026-05-25; refre
 | 45 | **Microsoft** | Azure AI / OpenAI partnership / GitHub Copilot | todo | |
 | 46 | **AWS** | Bedrock / Trainium / SageMaker | todo | |
 | 47 | **Apple** | AIML Foundation Models | todo | |
-| 48 | **NVIDIA** | Inference Microservices / NIM / NeMo / DGX Cloud | todo | |
+| 48 | **NVIDIA** | See Tier 1 #12b — Isaac Lab / Cosmos for Outcome A; also NIM / NeMo | todo | Promoted to Tier 1 for physical AI path |
 | 49 | **Tesla** | AI Infrastructure | todo | |
 | 50 | **Stripe** | AI Platform | todo | Strong infra culture |
 | 51 | **Shopify** | AI Platform | todo | |

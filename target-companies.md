@@ -1,106 +1,207 @@
-# Target Companies — AI Infrastructure / Platform / DevTools
+# Target Companies — Outcome A Apply List
 
 Last updated: 2026-07-14
 
-**5-year goal:** [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) — Physical AI Platform Principal. Tier 1 prioritizes **bridge roles** (agent platform) and **physical AI platform** (Figure, NVIDIA Isaac).
+**5-year goal:** [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) — Physical AI Platform Principal.
+
+**Weekly cadence:** [WEEKLY-OPERATING-SYSTEM.md](WEEKLY-OPERATING-SYSTEM.md) — apply **2 companies/week**; 12–14 hrs/week total.
 
 ## How to use this sheet
 
 - **Status:** `todo` → `applied` → `screen` → `tech` → `onsite` → `offer` / `rejected` / `withdrew`
-- **Channel:** `cold` (just submitted), `referral`, `recruiter`, `community` (Slack/Discord/Twitter)
-- **Resume:** which variant did I send — `ai-infra` (default) or `platform` (legacy `resume.md`)
-- **Update weekly.** Re-poke `applied` rows after 7 days, `screen` after 5 days, `tech` after 3 days.
+- **Channel:** `cold` · `referral` · `recruiter` · `community`
+- **Resume:** `ai-infra` (default) or `platform` (legacy `resume.md`)
+- **Lane:** which Outcome A path the company serves (see legend below)
+- **Update weekly.** Re-poke `applied` after 7 days, `screen` after 5 days, `tech` after 3 days.
 
-Targets by tier follow. Numbers are starting role counts as of 2026-05-25; refresh weekly.
+### Lane legend
 
----
+| Lane | Meaning | Your fit today |
+|------|---------|----------------|
+| **A1** | Agent / eval / devtools platform (bridge) | ★★★★★ |
+| **A2** | Physical AI / humanoid / sim / embodied systems | ★★★☆☆ |
+| **A3** | Training / GPU / fleet infrastructure | ★★★★☆ |
+| **WM** | World models (video ↔ robotics bridge) | ★★★☆☆ |
 
-## Tier 1 — Frontier labs and AI-native scale-ups (apply first)
-
-| # | Company | Why | Likely roles | Channel idea | Status | Resume | Notes |
-|---|---------|-----|--------------|--------------|--------|--------|-------|
-| 1 | **Anthropic** | Direct match: Claude Code + MCP pilot at GEICO | Member of Technical Staff — Infrastructure / Developer Platform / Inference / Trust & Safety Engineering | GEICO Claude pilot teammates; #sig-ai-assisted-development connections; cold via jobs.anthropic.com | todo | ai-infra | Lead with the Cursor × Claude Code MCP bridge BRD |
-| 2 | **OpenAI** | LLM infra at scale | Software Engineer, Infrastructure / Platform / Applied | Purdue ECE 50874 alumni; LinkedIn warm intros | todo | ai-infra | Their Applied team uses LangGraph-adjacent ideas |
-| 3 | **Cursor (Anysphere)** | Direct fit: I am a power user authoring Cursor agent skills | Software Engineer, Agent / Platform / DevTools | Apply + tweet at the team; Cursor community Discord | todo | ai-infra | Mention authored Cursor agent skills + MCP bridge |
-| 4 | **Databricks** | ML platform at scale + AWS/Azure infra | Staff Software Engineer, ML Platform / Lakehouse / Mosaic AI Infra | ex-Navan / ex-Skytree alumni | todo | ai-infra | Skytree story is on-thesis (early ML platform) |
-| 5 | **Scale AI** | Eval/data infra for foundation models | Staff Infra / SRE / DevTools | LinkedIn cold + Greenhouse | todo | ai-infra | Eval-pipeline design fits SmartTuna+OpenClaw |
-| 6 | **Modal** | Serverless GPU; developer-platform DNA | Software Engineer, Platform / Infra | Apply + founder reach-out on X | todo | ai-infra | Heavy Python; emphasize Claude Agent SDK + LangGraph |
-| 7 | **Together AI** | Inference / fine-tune platform | Platform / Infra / SRE | Apply | todo | ai-infra | |
-| 8 | **Hugging Face** | OSS-friendly; agentic + serving | Software Engineer, Infrastructure / Platform | Apply; OSS PR could be the warm intro | todo | ai-infra | Pair with `transformers` or `accelerate` OSS PR if possible |
-| 9 | **Perplexity** | Agent-style retrieval product | Staff Software Engineer, Infra / Platform | Apply; warm intro via Anthropic-adjacent network | todo | ai-infra | |
-| 10 | **Mistral AI** | Frontier model lab | Software Engineer, Inference / Platform | Apply | todo | ai-infra | EU HQ; check US remote postings |
-| 11 | **xAI** | Frontier model lab | Staff Infrastructure / SRE | Apply + LinkedIn | todo | ai-infra | |
-| 12 | **Figure** | **Outcome A target** — humanoid; agentic + platform lanes | Helix Agentic Systems (priority) / DevTools / Training Infra / Data Infra / Staff SRE | Already in flight via apply_figure.py | applied (1/5) | ai-infra (txt) | Agentic first; SRE submitted; 4 remaining (Gmail code blocker) |
-| 12b | **NVIDIA** | **Outcome A target** — Isaac Lab / Cosmos sim stack for all humanoids | Senior SWE Robotics Isaac Lab / Robot Learning Platform / Physical AI Infra | jobs.nvidia.com; GTC blog + Isaac OSS PR as warm intro | todo | ai-infra | Santa Clara; pair with Isaac Lab capstone project |
-| 13 | **1X Technologies** | Humanoid robotics | Software / SRE / Platform | Greenhouse + LinkedIn | todo | ai-infra | Same Bazel/C++ caveat as Figure |
-| 14 | **Apptronik** | Humanoid robotics (Austin/remote) | Software / Platform | Greenhouse | todo | ai-infra | |
-| 15 | **Skild AI** | Robotics foundation models | Software / Platform | Greenhouse | todo | ai-infra | |
-| 16 | **Physical Intelligence (π)** | Robot foundation models | Infra / Platform | Greenhouse | todo | ai-infra | |
+**Roles to avoid:** Robot Learning (RL PhD track), Robotics Integration Engineer (hardware/oscilloscopes), AI film creative director.
 
 ---
 
-## Tier 2 — AI-adjacent dev-tooling / inference / data infra
+## Tier S — Apply this month (highest probability × Outcome A)
 
-| # | Company | Why | Likely roles | Status | Notes |
-|---|---------|-----|--------------|--------|-------|
-| 17 | **Vercel** | Edge + AI SDK | Staff Software Engineer, Infra / Platform / AI | todo | Strong TS shop; their AI SDK is on-thesis |
-| 18 | **Linear** | DevTools excellence | Software Engineer, Platform | todo | Slack-MCP work resonates |
-| 19 | **Pinecone** | Vector DB infra | Staff SRE / Platform | todo | |
-| 20 | **Weaviate** | Vector DB OSS | Software Engineer, Infra | todo | |
-| 21 | **LangChain** | LangGraph maker; SmartTuna user | Software Engineer, OSS / Platform / DevRel-eng | todo | Hot warm intro via SmartTuna |
-| 22 | **LlamaIndex** | Agent framework | Software Engineer | todo | |
-| 23 | **Replicate** | Model hosting / dev API | Platform / Infra | todo | |
-| 24 | **Fireworks AI** | Fast inference | Platform / SRE | todo | |
-| 25 | **Baseten** | Model serving | Platform / SRE | todo | |
-| 26 | **Lambda Labs** | GPU cloud | SRE / Platform | todo | |
-| 27 | **CoreWeave** | GPU cloud at scale | Staff SRE / Platform | todo | Big platform shop |
-| 28 | **RunPod** | GPU cloud | Platform | todo | |
-| 29 | **Lightning AI** | ML platform | Platform | todo | |
-| 30 | **Cohere** | Frontier model lab | Infra / Platform | todo | |
-| 31 | **AI21 Labs** | Frontier model lab | Infra | todo | |
-| 32 | **Adept** (if still hiring) | Agent product | Platform | todo | Check status |
-| 33 | **Inflection** (Microsoft) | Agent products | Platform | todo | |
-| 34 | **Sierra** (Bret Taylor) | Conversational AI agents | Platform / Infra | todo | Hot company |
-| 35 | **Decagon** | Customer-service agents | Platform | todo | |
-| 36 | **Harvey** | Legal AI agents | Platform / Infra | todo | |
-| 37 | **Glean** | Enterprise AI search | Platform / Infra | todo | |
-| 38 | **Cresta** | Agentic call center | Platform | todo | |
-| 39 | **Tavus / Lindy** | AI agent platforms | Platform | todo | |
-| 40 | **Browserbase** | Headless browser for agents | Software Engineer | todo | OpenClaw is on-thesis |
-| 41 | **Stagehand / Browserbase tools** | Agent browser tooling | Software Engineer | todo | |
-| 42 | **Crew AI / AutoGen ecosystem** | Multi-agent OSS | Software Engineer | todo | |
+| # | Company | Lane | Why | Target roles | Jobs | Status | Notes |
+|---|---------|------|-----|--------------|------|--------|-------|
+| S1 | **Anthropic** | A1 | Claude Code pilot; MCP bridge; agent skills in prod | Staff+ Developer Productivity; AI Reliability; K8s Platform | [anthropic.com/careers](https://www.anthropic.com/careers) | todo | Lead with Cursor × Claude Code MCP BRD |
+| S2 | **Cursor (Anysphere)** | A1 | Power user; OpenClaw = cost-aware agent harness | Agent Harness; Agent Evaluation & Quality | [cursor.com/careers](https://cursor.com/careers) | todo | See [hot-jobs-may-2026.md](hot-jobs-may-2026.md) |
+| S3 | **Figure AI** | A1+A2 | Helix Agentic = OpenClaw thesis; platform lanes strong | **Helix Agentic Systems** (priority); DevTools; Training Infra; Data Infra | [greenhouse.io/figureai](https://job-boards.greenhouse.io/figureai) | applied (1/5) | Finish 4 remaining apps |
+| S4 | **Waymo** | A1+A2 | DevAI = agent tools for AV engineers; massive sim stack | **Senior Staff Engineer, DevAI** ($298–368K); Staff DevAI | [careers.withwaymo.com](https://careers.withwaymo.com) | todo | See [waymo-devai-surge.md](interview-prep/waymo-devai-surge.md) |
+| S5 | **NVIDIA** | A2+A3 | Isaac Lab / Cosmos = industry sim stack for all humanoids | Senior SWE Robotics Isaac Lab; Robot Learning Platform | [nvidia.com/careers](https://www.nvidia.com/en-us/about-nvidia/careers/) | todo | Pair with Isaac Lab capstone |
+| S6 | **Databricks** | A1 | Agent Framework, AI Gateway, Agent Quality | Staff Backend AI Platform; Staff Agent Quality | [databricks.com/careers](https://www.databricks.com/company/careers) | todo | SmartTuna + OpenClaw hook |
+| S7 | **Sierra** | A1 | $15B+ agent platform; Bret Taylor; heavy platform hiring | SWE Agent; Agent Architecture; Platform | [sierra.ai/careers](https://sierra.ai/careers) | todo | Enterprise agents at scale |
+| S8 | **Browserbase** | A1 | OpenClaw browser agents — direct thesis | SWE Agent Platform; Core Infrastructure | [browserbase.com/careers](https://www.browserbase.com/careers) | todo | SF; small team |
+| S9 | **Scale AI** | A1 | Eval/data infra for foundation models | Staff Infra / SRE / DevTools | Greenhouse | todo | Eval-pipeline design fit |
 
 ---
 
-## Tier 3 — Big-tech AI infrastructure orgs
+## Tier 1A — Agent platform & devtools startups (weeks 2–8)
 
-| # | Company | Org | Status | Notes |
-|---|---------|-----|--------|-------|
-| 43 | **Meta** | GenAI Infra / PyTorch / FAIR Engineering | todo | |
-| 44 | **Google** | DeepMind / Cloud AI / Vertex / Gemini Apps | todo | |
-| 45 | **Microsoft** | Azure AI / OpenAI partnership / GitHub Copilot | todo | |
-| 46 | **AWS** | Bedrock / Trainium / SageMaker | todo | |
-| 47 | **Apple** | AIML Foundation Models | todo | |
-| 48 | **NVIDIA** | See Tier 1 #12b — Isaac Lab / Cosmos for Outcome A; also NIM / NeMo | todo | Promoted to Tier 1 for physical AI path |
-| 49 | **Tesla** | AI Infrastructure | todo | |
-| 50 | **Stripe** | AI Platform | todo | Strong infra culture |
-| 51 | **Shopify** | AI Platform | todo | |
-| 52 | **Snowflake** | Cortex AI / ML Platform | todo | |
+| # | Company | Lane | Funding / signal | Target roles | Jobs | Status | Notes |
+|---|---------|------|------------------|--------------|------|--------|-------|
+| 1 | **OpenAI** | A1 | Frontier lab | Infrastructure; Platform; Applied | [openai.com/careers](https://openai.com/careers) | todo | Applied uses LangGraph-adjacent patterns |
+| 2 | **Modal** | A1+A3 | Serverless GPU; $2B ARR trajectory | Platform MTS; Reliability MTS | [jobs.ashbyhq.com/modal](https://jobs.ashbyhq.com/modal) | todo | Python; first reliability MTS |
+| 3 | **LangChain** | A1 | LangGraph maker | OSS / Platform / LangGraph team | [langchain.com/careers](https://www.langchain.com/careers) | todo | Warm intro via SmartTuna |
+| 4 | **Harvey** | A1 | ~$11B legal AI agents | Platform / Infra | Ashby / careers page | todo | Enterprise agent scale |
+| 5 | **Decagon** | A1 | Hot CX agent startup | Platform / Infra | careers page | todo | Eval + production agents |
+| 6 | **Glean** | A1 | Enterprise AI search + agents | Platform / Infra | [glean.com/careers](https://www.glean.com/careers) | todo | Integration-heavy |
+| 7 | **Cresta** | A1 | Agentic contact center | Platform | careers page | todo | Real-time reliability |
+| 8 | **Braintrust** | A1 | Eval/observability platform | Platform / Eng | [braintrust.dev](https://www.braintrust.dev) | todo | OpenClaw eval story |
+| 9 | **Patronus AI** | A1 | LLM evals | Eng / Platform | careers page | todo | Eval-native |
+| 10 | **Robust Intelligence** | A1 | LLM eval / red-team | Platform | careers page | todo | Verify independence |
+| 11 | **Replit** | A1 | Agent + dev environment | Platform / Infra | [replit.com/careers](https://replit.com/careers) | todo | Coding agents |
+| 12 | **Continue.dev** | A1 | OSS code agents | Software Engineer | GitHub / careers | todo | OSS PR as intro |
+| 13 | **LlamaIndex** | A1 | Agent framework | Software Engineer | careers page | todo | |
+| 14 | **Tavus** | A1 | AI agent platform | Platform | careers page | todo | |
+| 15 | **Lindy** | A1 | AI agent automation | Platform | careers page | todo | |
 
 ---
 
-## Tier 4 — Speculative / opportunistic
+## Tier 1B — Physical AI & humanoid (Outcome A destinations)
 
-| # | Company | Why | Status |
-|---|---------|-----|--------|
-| 53 | **GitHub** | Copilot / Codespaces infra | todo |
-| 54 | **JetBrains** | AI Assistant | todo |
-| 55 | **Replit** | Agent + dev infra | todo |
-| 56 | **Sourcegraph** | Cody / code intel | todo |
-| 57 | **Tabnine** | Code assistant | todo |
-| 58 | **Continue.dev** | Open-source code agents | todo |
-| 59 | **Robust Intelligence** | LLM eval / red-team | todo |
-| 60 | **Patronus AI** | LLM evals | todo |
+| # | Company | Lane | Funding / signal | Target roles (platform only) | Jobs | Status | Notes |
+|---|---------|------|------------------|------------------------------|------|--------|-------|
+| 16 | **Physical Intelligence (π)** | A2 | Robot foundation models; top backers | Infra / Platform | Greenhouse | todo | SF Bay Area |
+| 17 | **Skild AI** | A2 | $1.4B (Jan 2026); ~$14B val; omni-body robot brain | Software / Platform | Greenhouse | todo | Foundation model for any robot |
+| 18 | **Apptronik** | A2 | $935M; Apollo humanoid; CNBC Disruptor 50 | Software / Platform / Sim | [apptronik.com/careers](https://apptronik.com/careers) | todo | Austin; some remote |
+| 19 | **1X Technologies** | A2 | Neo home robot; OpenAI-backed | Software / SRE / Platform | Greenhouse | todo | Bazel/C++ caveat |
+| 20 | **Agility Robotics** | A2 | Digit deployed commercially in warehouses | Data Platform; Autonomy Platform; Skills infra | [agilityrobotics.com](https://www.agilityrobotics.com) | todo | Not hardware integration |
+| 21 | **FieldAI** | A2 | Field-deployed humanoids; ex-DeepMind/NVIDIA | System Integration (platform); DevOps; SWE | [jobs.lever.co/field-ai](https://jobs.lever.co/field-ai) | todo | Irvine / Boston |
+| 22 | **Tesla** | A2+A3 | Optimus Fremont production 2026; you're local | AI Infrastructure; Optimus software platform | [tesla.com/careers](https://www.tesla.com/careers) | todo | Fremont — geographic edge |
+
+---
+
+## Tier 1C — Physical AI & world-model startups (well-funded, Q1–Q2 2026)
+
+| # | Company | Lane | Funding / signal | Target roles | Jobs | Status | Notes |
+|---|---------|------|------------------|--------------|------|--------|-------|
+| 23 | **World Labs** | WM+A2 | Fei-Fei Li; 3D world models; Marble product | Research Platform Engineer; serving infra | [worldlabs.ai](https://worldlabs.ai) | todo | Video ↔ robotics bridge |
+| 24 | **Lightwheel** | A2 | AV / robot simulation platform | Sim platform / infra | careers page | todo | Sim infra — direct Outcome A |
+| 25 | **Rhoda AI** | WM+A2 | ~$450M; video-trained robot intelligence | Platform / ML systems | careers page | todo | Verify open roles |
+| 26 | **Generalist AI** | A2 | General-purpose robot AI | Platform | careers page | todo | Early stage |
+| 27 | **NEURA Robotics** | A2 | European humanoid | Platform (if US) | careers page | todo | Germany-centric |
+| 28 | **Mentee Robotics** | A2 | Humanoid startup | Platform / software | careers page | todo | Verify funding |
+| 29 | **RoboForce** | A2 | ~$52M; industrial physical AI | Platform / infra | careers page | todo | Industrial, not humanoid |
+| 30 | **Bedrock Robotics** | A2 | ~$270M; autonomous construction | ML platform / infra | careers page | todo | Physical AI adjacent |
+
+**Job aggregator for robotics:** [physicalai.jobs](https://www.physicalai.jobs)
+
+---
+
+## Tier 2 — Inference, GPU cloud & ML platform
+
+| # | Company | Lane | Target roles | Status | Notes |
+|---|---------|------|--------------|--------|-------|
+| 31 | **Together AI** | A3 | Platform / Infra / SRE | todo | |
+| 32 | **Fireworks AI** | A3 | Platform / SRE | todo | Fast inference |
+| 33 | **Baseten** | A3 | Platform / SRE | todo | Model serving |
+| 34 | **Replicate** | A3 | Platform / Infra | todo | Dev API |
+| 35 | **Hugging Face** | A1+A2 | Infra / Platform | todo | **LeRobot** OSS — physical AI angle |
+| 36 | **CoreWeave** | A3 | Staff SRE / Platform | todo | GPU cloud at scale |
+| 37 | **Lambda Labs** | A3 | SRE / Platform | todo | GPU cloud |
+| 38 | **RunPod** | A3 | Platform | todo | |
+| 39 | **Lightning AI** | A3 | Platform | todo | ML platform |
+| 40 | **Cohere** | A1 | Infra / Platform | todo | Enterprise LLM |
+| 41 | **Mistral AI** | A1 | Inference / Platform | todo | Check US postings |
+| 42 | **xAI** | A1+A3 | Staff Infra / SRE | todo | |
+| 43 | **Perplexity** | A1 | Staff Infra / Platform | todo | |
+| 44 | **AI21 Labs** | A1 | Infra | todo | |
+
+---
+
+## Tier 3 — Big tech (apply after Tier S pipelines warm)
+
+| # | Company | Lane | Team to target | Status | Notes |
+|---|---------|------|----------------|--------|-------|
+| 45 | **Google** | A1+A2+WM | DeepMind robotics; Vertex AI; Genie world models | todo | Sim + agents at scale |
+| 46 | **Meta** | A1+A2 | GenAI Infra; FAIR robotics; PyTorch | todo | |
+| 47 | **Microsoft** | A1 | Azure AI; GitHub Copilot / Copilot agents | todo | DevTools + agents |
+| 48 | **Amazon** | A2+A3 | AGI SF lab; Robotics; Bedrock | todo | |
+| 49 | **Apple** | A1 | AIML Foundation Models | todo | |
+| 50 | **AWS** | A1+A3 | Bedrock / Trainium / SageMaker | todo | |
+| 51 | **Stripe** | A1 | AI Platform | todo | Strong infra culture |
+| 52 | **Shopify** | A1 | AI Platform | todo | |
+| 53 | **Snowflake** | A1 | Cortex AI / ML Platform | todo | Enterprise agent deployment |
+
+---
+
+## Tier 4 — DevTools, vector DB & opportunistic
+
+| # | Company | Lane | Why | Status | Notes |
+|---|---------|------|-----|--------|-------|
+| 54 | **Vercel** | A1 | AI SDK; edge agents | todo | |
+| 55 | **Linear** | A1 | DevTools excellence | todo | MCP work resonates |
+| 56 | **GitHub** | A1 | Copilot / agent harness | todo | |
+| 57 | **Sourcegraph** | A1 | Cody agents | todo | |
+| 58 | **Pinecone** | A1 | Vector DB infra | todo | RAG layer |
+| 59 | **Weaviate** | A1 | Vector DB OSS | todo | |
+| 60 | **Runway** | WM | World models pivot; inference/platform only | todo | **Not** creative roles |
+| 61 | **Luma AI** | WM | Video → world models; Palo Alto | todo | Small eng team |
+| 62 | **Adept** | A1 | Agent product | todo | Verify still hiring |
+| 63 | **Inflection** | A1 | Microsoft-acquired | todo | Check PI team status |
+| 64 | **JetBrains** | A1 | AI Assistant | todo | |
+| 65 | **Tabnine** | A1 | Code assistant | todo | |
+| 66 | **CrewAI / AutoGen** | A1 | Multi-agent OSS ecosystem | todo | |
+
+---
+
+## Deprioritize (for Outcome A)
+
+| Category | Why skip |
+|----------|----------|
+| AI film creative (Runway Technical Artist, AI Video Director) | Wrong lane; freelance-heavy |
+| Figure Robot Learning / Integration Engineer | RL PhD or hardware hands-on required |
+| Pure ML research (train diffusion models) | No publication track record |
+| Junior-only startups with no Staff scope | Comp + scope mismatch |
+| Crypto / Web3 AI | Off-thesis |
+
+---
+
+## 16-week apply sequence
+
+| Week | Apply to | Lane |
+|------|----------|------|
+| 1 | Anthropic DevProd + Cursor Agent Harness | A1 |
+| 2 | Figure Agentic + Waymo Senior Staff DevAI | A1+A2 |
+| 3 | NVIDIA Isaac Lab + Databricks AI Platform | A2+A1 |
+| 4 | Sierra Agent Platform + Browserbase Agent Platform | A1 |
+| 5 | Scale AI + OpenAI Infra | A1 |
+| 6 | Physical Intelligence π + Skild AI | A2 |
+| 7 | Apptronik + Agility Robotics (Data Platform) | A2 |
+| 8 | World Labs + LangChain | A2+WM / A1 |
+| 9 | Modal + Harvey | A1+A3 |
+| 10 | Tesla AI Infra + FieldAI (platform roles) | A2 |
+| 11 | Together AI + CoreWeave | A3 |
+| 12 | 1X + Hugging Face (LeRobot angle) | A2 |
+| 13–16 | Gap-fill from recruiter feedback; Tier 3 big tech | Mixed |
+
+**Parallel:** Finish 4 remaining Figure applications; activate referrals per [referrals.md](referrals.md).
+
+---
+
+## Top 25 by Outcome A payoff
+
+1. Anthropic · 2. Cursor · 3. Figure (Agentic) · 4. Waymo (Senior Staff DevAI) · 5. NVIDIA (Isaac Lab) · 6. Databricks · 7. Sierra · 8. Browserbase · 9. Physical Intelligence π · 10. Skild AI · 11. World Labs · 12. Scale AI · 13. OpenAI · 14. Apptronik · 15. Agility Robotics · 16. Tesla · 17. LangChain · 18. Modal · 19. Harvey · 20. FieldAI · 21. 1X · 22. Hugging Face · 23. Braintrust · 24. Lightwheel · 25. Google DeepMind robotics infra
+
+---
+
+## Job board quick links
+
+| Source | URL | Best for |
+|--------|-----|----------|
+| Physical AI aggregator | [physicalai.jobs](https://www.physicalai.jobs) | Humanoid / robotics |
+| Ashby boards | [jobs.ashbyhq.com](https://jobs.ashbyhq.com) | Sierra, Modal, many startups |
+| Greenhouse | [boards.greenhouse.io](https://boards.greenhouse.io) | Figure, Scale, many startups |
+| Lever | [jobs.lever.co](https://jobs.lever.co) | FieldAI, others |
+| Pre-researched Tier S | [hot-jobs-may-2026.md](hot-jobs-may-2026.md) | Anthropic, Cursor URLs |
 
 ---
 

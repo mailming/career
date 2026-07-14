@@ -1,37 +1,45 @@
-# Ming Jia — AI Infrastructure / Platform Engineer
+# Ming Jia — Platform & AI Engineer
 
 **Fremont, CA** · mailming@gmail.com · (626) 354-7866 · [linkedin.com/in/mailming](https://www.linkedin.com/in/mailming) · [github.com/mailming](https://github.com/mailming)
 
-Staff-scope platform engineer building production agentic systems and the reliability platforms they run on. Currently shipping Claude Agent SDK + MCP + Cursor work into GEICO's 2026 DE AI Showcase, and led the OpenClaw cost-aware runtime plugin at Purdue (ECE 50874).
+Staff-scope platform engineer building production agentic systems and the reliability platforms they run on. **29 merged PRs** across GEICO's Artifact Management Platform (Jun 2025 – Jul 2026). Pursuing MS in AI at Purdue.
 
 ---
 
-## 1. OpenClaw cost-aware runtime — *primary implementer, project lead*
+## 1. Artifactory 99.99% turnaround — *Staff-IC tech lead, AMP on-call*
 
-[github.com/mailming/openclaw](https://github.com/mailming/openclaw/tree/feature/llm-insights-manual-pricing)
+- Drove Artifactory from **~1 major incident/month → four-nines (99.99%) availability SLO** — backbone for every container image, model artifact, and pipeline binary GEICO's 3000+ engineers consume.
+- **PD Phase 1 stability** (Jul 2026): cluster forensics on PD1/PD2 AKS; fixed broken Xray HPA, undersized resource requests, system-pool scheduling — PR #88, AB#12711221.
+- **Production TLS cert renewal** (Jul 13): coordinated F5 + dual-region ingress; **<1 min outage**; customer comms to `#help-pkg-mgmt`.
+- **CoE author**: NOCIM-11695 (Apr 2026 Entra-ID outage), NOCIM-12455 (npm EINTEGRITY / Chainguard).
+- **10+ runbooks**: ZTNA CLI troubleshooting, TLS renewal, SP rotation, onboarding guide, AKS PDB, Grafana dashboards.
 
-A governance layer around [OpenClaw](https://github.com/openclaw-ai/openclaw) browser agents.
+## 2. JFrog SaaS POC — *technical lead*
 
-- Per-task budgets on tokens, cost, wallclock, and steps; policy decisions at step boundaries (allow / throttle / halt / escalate-to-human) — no changes to agent core.
-- LLM Insights gateway plugin with rolling cost/latency aggregates and manual pricing overrides for non-standard model SKUs.
-- Integrated AgentOps (routing + budget state) and Langfuse (trace telemetry); deployed with Playwright automation and a Telegram control surface.
-- Cost-aware compresses the cost tail dramatically (p95 cost ↓) without dropping task success rate. Benchmarks + IEEE-style report in repo.
+- Three **GitHub Actions** workflows validating **all 11 JFrog package types** end-to-end on `geicoeast.jfrog.io`; OIDC smoke-test composite action; repo-settings-driven provisioning via `amp-control-plane`.
+- ADO pipeline for 4-language POC (OIDC). SaaS load test: **5,000 repos / 5,000 parallel artifacts**.
+- AB#12143170 (Closed) · 6+ merged PRs in `pkg-mgmt`.
 
-## 2. Cursor × Claude Code MCP bridge at GEICO — *BRD author + primary implementer*
+## 3. amp-control-plane — *architect & deployer*
 
-GEICO Developer Engineering, 2026 DE AI Showcase (282-associate org-wide program).
+- **Deployed to ACS production** (May 2026). Go service on Azure Container Service.
+- **Entra ID auth boundary**: Go JWT middleware + APISIX custom-jwt + APIM; cross-team with Identity + API Management. AB#12178284.
+- Club MCP server config shipped into control plane.
 
-- Invited to GEICO's Claude Code pilot. Authored the *"Cursor MCP × Slack"* BRD.
-- Built the Cursor-cached-token bridge that lets Claude Code reuse Cursor's encrypted Slack MCP credentials — first time the two products shared an enterprise auth state.
-- Shipped Club MCP server config into `amp-control-plane`; introduced JFrog / Slack / ADO / GitHub MCP servers and Claude / Cursor agent skills (`solve-case`, `close-case`, `build-kb`) across the AMP team's support, RCA, and runbook workflows.
+## 4. Cursor × Claude Code MCP bridge — *inventor*
 
-## 3. Artifactory 99.99% turnaround at GEICO — *Staff-IC tech lead*
+- GEICO Claude Code pilot: built **Cursor-cached-token bridge** that lets Claude Code reuse Cursor's encrypted Slack MCP credentials.
+- MCP servers + agent skills in production: JFrog, Slack, ADO, GitHub; `solve-case`, `close-case`, `build-kb`.
+- **DE AI Showcase 2026**: four initiatives (Claude Agent triage, AI CI/CD migration engine, Claude Code plugin, AI-consumable ADR).
 
-- Drove Artifactory from ~1 major incident/month to a **four-nines (99.99%) availability SLO** — the backbone for every model artifact, container image, and ML pipeline binary the org consumes.
-- Technical lead on the JFrog SaaS POC: three GitHub Actions workflows validating all 11 supported package types end-to-end; SaaS load test at 5,000 repos / 5,000 parallel artifacts.
-- Architected Entra ID auth for `amp-control-plane` (Go JWT middleware + APIM defense-in-depth). Deployed to ACS production.
-- CoE author for NOCIM-11695 (April 2026 Entra-ID-driven outage). Packet-level Azure Firewall TLS DPI RCAs on S3-backed repos.
+## 5. OpenClaw cost-aware runtime — *project lead, Purdue ECE 50874*
+
+[github.com/mailming/openclaw](https://github.com/mailming/openclaw)
+
+- Governance layer: per-task token/cost/step budgets; AgentOps + Langfuse; IEEE-style report. p95 cost ↓ without dropping success rate.
 
 ---
 
-**Other:** Founder of [SmartTuna](https://smarttuna.ai) (LangGraph multi-agent stock-analysis platform). Staff Release Engineer at Navan through IPO readiness (SOC 2 Type II, Vault, SonarCloud). HA Jenkins + Nexus migrations at Turn/Amobee ($600K+/yr savings). Pursuing MS in Artificial Intelligence at Purdue. U.S. Citizen.
+**Other:** Founder of [SmartTuna](https://smarttuna.ai) (LangGraph multi-agent). Staff Release Engineer at Navan (SOC 2 Type II, IPO). HA Jenkins + Nexus at Turn/Amobee (**$600K+/yr** savings). U.S. Citizen.
+
+*Full evidence catalog: `portfolio/work-evidence.md`*

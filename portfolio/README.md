@@ -44,6 +44,7 @@ Investment depends on how quickly the maintainers respond — risky for a hard t
 
 ## Files in this directory
 
-- `blog-openclaw-cost-aware-runtime.md` — Option A draft.
+- `work-evidence.md` — **master catalog** of all work (Slack + GitHub + ADO sourced). Start here for resume tailoring.
 - `one-pager.md` — 1-page summary you attach to referrals + interview follow-ups.
+- `blog-openclaw-cost-aware-runtime.md` — Option A draft.
 - (Add `mcp-server/` if you pick Option B; add `oss-pr-notes.md` if you pick Option C.)

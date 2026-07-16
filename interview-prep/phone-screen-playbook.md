@@ -19,7 +19,8 @@ Phone screens = the first two. The recruiter screen filters for fit and basic cr
 - "Tell me about yourself" → use the **60-second elevator pitch** below.
 - "Why this company / why now?" → 2-sentence company-specific answer.
 - "Compensation expectations" → defer politely; "I'd want to learn more about the level and team scope first, but my current comp band is roughly $X-$Y" only when pushed.
-- "Location and work setup" → answer plainly (Fremont CA; hybrid Bay Area or remote-US).
+- "Location and work setup" → **"I'm in Fremont. I can do on-site in San Jose, South Bay, or East Bay, or fully remote US. I can't do a regular San Francisco office commute — if the role is MV-only or remote, that's a fit."**
+- **Scheduling / availability** → If asked before **2026-08-05:** *"I'm traveling 07/22–08/05 but can do async recruiter steps now; for live screens I'm best week of August 6 onward."* Don't decline a hot loop — offer earliest slot after vacation.
 - "Visa / work authorization" → U.S. Citizen.
 
 ### 60-second elevator pitch

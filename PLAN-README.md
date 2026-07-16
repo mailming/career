@@ -40,7 +40,9 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 | [interview-prep/system-design/08-prompt-eval-registry.md](interview-prep/system-design/08-prompt-eval-registry.md) | Prompt + eval registry control plane |
 | [interview-prep/star-stories.md](interview-prep/star-stories.md) | 10 STAR stories + cheat sheet of question→story |
 | [interview-prep/mock-interviews.md](interview-prep/mock-interviews.md) | Month 2 mock cadence + protocol + log template |
-| [interview-prep/phone-screen-playbook.md](interview-prep/phone-screen-playbook.md) | Recruiter + HM screen flow, elevator pitch, conversion dashboard |
+| [interview-prep/waymo-devai-12-week-plan.md](interview-prep/waymo-devai-12-week-plan.md) | **Active:** 12-week Waymo DevAI (Req 4857) prep — Jul 14 – Oct 5 |
+| [interview-prep/waymo-devai-referral-plan.md](interview-prep/waymo-devai-referral-plan.md) | Gate 1 checklist + referral packet timing |
+| [interview-prep/waymo-devai-surge.md](interview-prep/waymo-devai-surge.md) | 2-week intensive when screens are booked |
 | [interview-prep/onsite-deep-dives.md](interview-prep/onsite-deep-dives.md) | 3 staff-level deep-dive narratives + rehearsal schedule |
 | [interview-prep/negotiation-and-offers.md](interview-prep/negotiation-and-offers.md) | Comp data sources, ask script, decision matrix |
 

@@ -31,6 +31,7 @@ Last updated: 2026-07-14
 | OpenClaw cost-aware runtime + eval telemetry | Differentiator for sim-trained agent eval platforms |
 | MS AI at Purdue (in progress) | Credential + robotics/RL course vocabulary |
 | Bay Area / Fremont; US citizen | Figure, NVIDIA, Waymo, Tesla Optimus geographically viable |
+| **Hard geo filter** | On-site: SJ / South Bay / East Bay / Peninsula only. **Remote US** OK. **No daily SF commute.** No relocation outside Bay Area. |
 | Interests: robotics integration + AI video | Converge at **world models + simulation**, not filmmaking |
 
 ### What we explicitly rejected
@@ -68,9 +69,9 @@ LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
 
 | By | Milestone |
 |----|-----------|
-| Q3 2026 | Apply Tier S (Anthropic DevProd, Cursor Agent Harness, Figure Agentic/DevTools); publish OpenClaw artifact; Isaac Lab tutorial complete |
+| Q3 2026 | Apply Tier S-Bay first (Figure, Waymo MV, NVIDIA, Tesla) **by 07/21**; vacation 07/22–08/05 = LC prep only; resume applications 08/06; remote-only for Anthropic/Cursor; OpenClaw publish; Isaac Lab tutorial |
 | Q4 2026 | 2+ interview pipelines active; Isaac Lab v0.1 (sim + basic eval harness) |
-| Q1 2027 | **Signed offer** at Figure / Anthropic / Cursor / NVIDIA (agent or platform scope) |
+| Q1 2027 | **Signed offer** at Figure / Waymo / NVIDIA / Tesla (Bay) or remote at Anthropic / Databricks (agent or platform scope) |
 | Q2 2027 | ECE 59500 RL + MSAI capstone defined: sim agent eval platform |
 
 **Comp floor:** ~$220K TC Bay Area Staff-scope. Some cut from GEICO OK; not below floor.

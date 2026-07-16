@@ -35,7 +35,7 @@ I'm pursuing an MS in Artificial Intelligence at Purdue and looking for Senior /
 
 Stacks I work in daily: Claude Agent SDK · Claude Code & plugins · Cursor agents · Model Context Protocol (MCP) servers (JFrog, Slack, ADO, GitHub, Club, Gemini, browser) · LangGraph · AgentOps · Langfuse · OpenClaw · Playwright agents · Python · Go · TypeScript · Kubernetes / AKS · Helm · Terraform · GitHub Actions · Azure DevOps · JFrog Artifactory.
 
-US citizen, based in the SF Bay Area (Fremont).
+US citizen, based in Fremont (East Bay). Open to on-site in San Jose, South Bay, or East Bay, or fully remote US — not a regular San Francisco office commute.
 
 ---
 
@@ -75,7 +75,8 @@ Claude Agent SDK · Claude Code · Cursor · AgentOps · Langfuse · LLM Cost Go
 
 - **Open to:** Senior, Staff, Senior Staff
 - **Titles:** AI Infrastructure Engineer · AI Platform Engineer · Staff Software Engineer (Developer Tools and Productivity) · Site Reliability Engineer · ML Platform Engineer · Agent Platform Engineer
-- **Locations:** San Francisco Bay Area · Remote (US) · Hybrid Sunnyvale / San Jose / Palo Alto / SF
+- **Locations:** Remote (US) · San Jose · South Bay · East Bay · Peninsula (Menlo Park / Palo Alto / Mountain View)
+- **Exclude from Open-to-work:** San Francisco (cannot commute daily)
 - **Workplace:** Hybrid + Remote (toggle "On-site" too if you want Figure-tier robotics roles)
 - **Start date:** Immediately
 - **Show recruiters only** (toggle this if you don't want GEICO to see it)

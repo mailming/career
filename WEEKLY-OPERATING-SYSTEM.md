@@ -1,14 +1,14 @@
 # Weekly Operating System — Outcome A Execution
 
-Last updated: 2026-07-14
+Last updated: 2026-08-08
 
 Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable cadence for a full-time parent targeting Physical AI Platform Principal.
 
-**Budget:** 12–14 hrs/week career (+6–8 hrs when Purdue semester active). Ceiling 18–20 hrs/week total extracurricular.
+**Budget:** 12–14 hrs/week career (+2–4 hrs Purdue while ECE 56900 is active). Ceiling 18–20 hrs/week total extracurricular.
 
-**Upcoming:** Vacation **2026-07-22 → 2026-08-05** — prep-only mode (see below).
+**Fall 2026 Purdue:** **ECE 56900Q only** (robotics, CRN 21452-EPE). Dropped RL + NLP this term — see [CAREER-GOAL-5-YEARS.md § Fall 2026 enrollment](CAREER-GOAL-5-YEARS.md).
 
-**#1 priority:** [Waymo DevAI 12-week prep](interview-prep/waymo-devai-12-week-plan.md) · [referral plan](interview-prep/waymo-devai-referral-plan.md) — referral after Gate 1 (Jul 20).
+**#1 priority:** End-of-year applications (Waymo DevAI / Figure / NVIDIA / Tesla) + weekly agent/eval prep. Referral/apps: [waymo-devai-referral-plan.md](interview-prep/waymo-devai-referral-plan.md).
 
 ---
 
@@ -80,16 +80,16 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 ---
 
-## Purdue semester additions
+## Purdue semester additions (Fall 2026 — ECE 56900 only)
 
 | Day | Add |
 |-----|-----|
-| Tue evening | Purdue lecture/video (1 hr) |
-| Thu evening | Purdue homework (1 hr) |
-| Sat | Split deep work: 1 hr Purdue + 1 hr Isaac Lab |
-| Sun review | +15 min: assignment deadlines |
+| Tue evening | ECE 56900 lecture/video (1 hr) |
+| Thu evening | ECE 56900 homework (1 hr) |
+| Sat | Prefer career deep work; Purdue catch-up only if deadline that week |
+| Sun review | +15 min: 56900 deadlines |
 
-**Cut order if overwhelmed:** (1) LC below 3/week, (2) Wed reading, (3) never cut applications or exercise.
+**Cut order if overwhelmed:** (1) LC below 3/week, (2) Wed reading, (3) never cut applications or exercise. Do **not** add a second Purdue course this fall.
 
 ---
 
@@ -97,10 +97,10 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 | Quarter | Primary focus |
 |---------|---------------|
-| **Q3 2026** | **Pre-vacation:** Figure + Waymo apps (by 07/21). **Vacation 07/22–08/05:** LC only. **Post-vacation:** NVIDIA, Tesla, Google; OpenClaw publish; Isaac Lab tutorial |
-| **Q4 2026** | Interview conversion; Isaac Lab v0.1 eval harness |
-| **Q1 2027** | Offer or onsite wave; enroll ECE 59500 RL |
-| **Q2 2027** | Start bridge role OR capstone; complete MS requirements |
+| **Q3 2026** | Back from vacation; **ECE 56900 only**; Waymo/Figure/NVIDIA/Tesla prep + apps; OpenClaw publish; Isaac Lab tutorial |
+| **Q4 2026** | Interview conversion; finish 56900; Isaac Lab v0.1 eval harness |
+| **Q1 2027** | Offer or onsite wave; **enroll ECE 59500 RL** |
+| **Q2 2027** | RL + capstone (Isaac Lab eval); complete MS requirements |
 
 ---
 

@@ -1,6 +1,6 @@
 # 5-Year Career Goal — Physical AI Platform Principal
 
-Last updated: 2026-07-14
+Last updated: 2026-08-08
 
 **North Star (2031):** Principal / Staff+ engineer who owns **simulation + agent + fleet reliability** for embodied AI — humanoid robots and autonomous systems that cannot afford downtime.
 
@@ -69,9 +69,9 @@ LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
 
 | By | Milestone |
 |----|-----------|
-| Q3 2026 | Apply Tier S-Bay first (Figure, Waymo MV, NVIDIA, Tesla) **by 07/21**; vacation 07/22–08/05 = LC prep only; resume applications 08/06; remote-only for Anthropic/Cursor; OpenClaw publish; Isaac Lab tutorial |
-| Q4 2026 | 2+ interview pipelines active; Isaac Lab v0.1 (sim + basic eval harness) |
-| Q1 2027 | **Signed offer** at Figure / Waymo / NVIDIA / Tesla (Bay) or remote at Anthropic / Databricks (agent or platform scope) |
+| Q3 2026 | Apply Tier S-Bay first (Figure, Waymo MV, NVIDIA, Tesla); vacation 07/22–08/05 done; resume apps + prep; **Fall Purdue: ECE 56900 only** (robotics); OpenClaw publish; Isaac Lab tutorial |
+| Q4 2026 | 2+ interview pipelines active; Isaac Lab v0.1 (sim + basic eval harness); finish ECE 56900 |
+| Q1 2027 | **Signed offer** at Figure / Waymo / NVIDIA / Tesla (Bay) or remote at Anthropic / Databricks (agent or platform scope); **enroll ECE 59500 RL** |
 | Q2 2027 | ECE 59500 RL + MSAI capstone defined: sim agent eval platform |
 
 **Comp floor:** ~$220K TC Bay Area Staff-scope. Some cut from GEICO OK; not below floor.
@@ -123,14 +123,26 @@ AI agent platform job  →  Physical AI platform role →  Principal scope
 
 ## Purdue MS AI — courses for Outcome A
 
+### Fall 2026 enrollment (locked 2026-08-08)
+
+| Status | Course | CRN | Credits | Notes |
+|--------|--------|-----|---------|-------|
+| **Enrolled — taking** | **ECE 56900Q** Introduction to Robotic Systems | 21452-EPE | 3 | Full term async; **only** Purdue course this semester |
+| Dropped / not taking | ECE 59500QRL Reinforcement Learning | 22677-EP6 | 3 | Defer to **Spring 2027** (Q1) — protect job-search bandwidth |
+| Dropped / not taking | ILS 65100Q Intro to NLP | 28643-001 | 3 | Low ROI vs robotics; production LLM/agent work already covers NLP use |
+
+**Rule:** 1 Purdue course max while GEICO + end-of-year applications are active.
+
+### Course roadmap
+
 | Priority | Course | Why |
 |----------|--------|-----|
-| **Done** | ECE 50874/59500 Advanced Software Engineering | OpenClaw capstone — agent eval + reliability |
-| **Tier 1** | ECE 56900 Introduction to Robotic Systems | Kinematics, dynamics, control vocabulary for interviews |
-| **Tier 1** | ECE 59500 Reinforcement Learning | Policy training, sim-to-real language for Figure/NVIDIA |
+| **Done** | ECE 50874/59500 Advanced Software Engineering | OpenClaw — agent eval + reliability |
+| **In progress (Fall 2026)** | ECE 56900 Introduction to Robotic Systems | Kinematics, dynamics, control vocabulary for Waymo/Figure/NVIDIA interviews |
+| **Next (Spring 2027)** | ECE 59500 Reinforcement Learning | Policy training, sim-to-real language for Figure/NVIDIA |
 | **Tier 2** | ECE 59500 Intro to Deep Learning or CV | VLA / perception fluency for Helix Agentic |
 | **Capstone** | GRAD 58900 | Topic: eval platform for sim-trained agents (Isaac Lab) |
-| **Skip** | Data mining, heavy controls theory, extra math | Low ROI for platform path |
+| **Skip** | Data mining, NLP survey (ILS 65100), heavy controls theory, extra math | Low ROI for platform path |
 
 ---
 

@@ -56,6 +56,8 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 | [interview-prep/study-materials/reading-list.md](interview-prep/study-materials/reading-list.md) | Week-aligned papers + blog posts (vLLM, HNSW, ReAct, FSDP, AlpaServe, MCP spec, etc.) |
 | [interview-prep/study-materials/company-briefs.md](interview-prep/study-materials/company-briefs.md) | 1-page brief per Tier-S/1 target: thesis, format, values, your hook, traps |
 | [interview-prep/study-materials/outreach-templates.md](interview-prep/study-materials/outreach-templates.md) | 15 copy-paste templates: cold message, referral ask, recruiter reply, thank-you, negotiation, resignation, re-activation |
+| [interview-prep/study-materials/agentic-workflows-how-agents-communicate.md](interview-prep/study-materials/agentic-workflows-how-agents-communicate.md) | How agents communicate (supervisor / handoff / pipeline) + 2-week mastery path |
+| [interview-prep/study-materials/TODAY-2026-07-16-waymo-gate1-drill.md](interview-prep/study-materials/TODAY-2026-07-16-waymo-gate1-drill.md) | Hands-on Waymo Gate 1 speak/code drill (perception glossary + STAR scripts) |
 
 ## Figure applications (in-flight)
 

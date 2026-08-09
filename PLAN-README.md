@@ -58,6 +58,7 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 | [interview-prep/study-materials/outreach-templates.md](interview-prep/study-materials/outreach-templates.md) | 15 copy-paste templates: cold message, referral ask, recruiter reply, thank-you, negotiation, resignation, re-activation |
 | [interview-prep/study-materials/agentic-workflows-how-agents-communicate.md](interview-prep/study-materials/agentic-workflows-how-agents-communicate.md) | How agents communicate (supervisor / handoff / pipeline) + 2-week mastery path |
 | [interview-prep/study-materials/TODAY-2026-07-16-waymo-gate1-drill.md](interview-prep/study-materials/TODAY-2026-07-16-waymo-gate1-drill.md) | Hands-on Waymo Gate 1 speak/code drill (perception glossary + STAR scripts) |
+| [interview-prep/study-materials/TODAY-2026-08-09-waymo-inner-loop.md](interview-prep/study-materials/TODAY-2026-08-09-waymo-inner-loop.md) | **Today:** Week B Day 1 Inner Loop read + outline + Sunday review |
 
 ## Figure applications (in-flight)
 

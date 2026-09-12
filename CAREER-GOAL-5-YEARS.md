@@ -1,6 +1,6 @@
 # 5-Year Career Goal — Physical AI Platform Principal
 
-Last updated: 2026-08-08
+Last updated: 2026-09-12
 
 **North Star (2031):** Principal / Staff+ engineer who owns **simulation + agent + fleet reliability** for embodied AI — humanoid robots and autonomous systems that cannot afford downtime.
 
@@ -29,7 +29,7 @@ Last updated: 2026-08-08
 | 20 yrs production platform (99.99% Artifactory) | Fleet/sim reliability is the same discipline — SLOs, RCAs, on-call |
 | Claude Code + MCP + agent skills in production | Figure Helix Agentic Systems thesis match |
 | OpenClaw cost-aware runtime + eval telemetry | Differentiator for sim-trained agent eval platforms |
-| MS AI at Purdue (in progress) | Credential + robotics/RL course vocabulary |
+| MS AI at Purdue (in progress) | Credential; math foundation first, then robotics vocabulary |
 | Bay Area / Fremont; US citizen | Figure, NVIDIA, Waymo, Tesla Optimus geographically viable |
 | **Hard geo filter** | On-site: SJ / South Bay / East Bay / Peninsula only. **Remote US** OK. **No daily SF commute.** No relocation outside Bay Area. |
 | Interests: robotics integration + AI video | Converge at **world models + simulation**, not filmmaking |
@@ -52,7 +52,7 @@ LANE A1 — Embodied Agent Platform          Fit today: ★★★★★
 
 LANE A2 — Simulation / World-Model Platform Fit today: ★★★☆☆
   NVIDIA Isaac Lab, Apptronik Sim Platform, Cosmos synthetic data
-  Bridge: Isaac Lab side project + ECE 56900 + ECE 59500 RL
+  Bridge: Isaac Lab side project + MA 59800 linear algebra → ECE 56900 / RL later
 
 LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
   Figure Training Infra, Data Infra, distributed GPU clusters
@@ -69,10 +69,10 @@ LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
 
 | By | Milestone |
 |----|-----------|
-| Q3 2026 | Apply Tier S-Bay first (Figure, Waymo MV, NVIDIA, Tesla); vacation 07/22–08/05 done; resume apps + prep; **Fall Purdue: ECE 56900 only** (robotics); OpenClaw publish; Isaac Lab tutorial |
-| Q4 2026 | 2+ interview pipelines active; Isaac Lab v0.1 (sim + basic eval harness); finish ECE 56900 |
-| Q1 2027 | **Signed offer** at Figure / Waymo / NVIDIA / Tesla (Bay) or remote at Anthropic / Databricks (agent or platform scope); **enroll ECE 59500 RL** |
-| Q2 2027 | ECE 59500 RL + MSAI capstone defined: sim agent eval platform |
+| Q3 2026 | Apply Tier S-Bay first (Figure, Waymo MV, NVIDIA, Tesla); **drop ECE 56900** (missing LA + physics); **MIS 58600 Python** Oct–Dec (2 cr, easy elective); OpenClaw publish; Isaac Lab tutorial |
+| Q4 2026 | 2+ interview pipelines active; Isaac Lab v0.1 (sim + basic eval harness); finish MIS 58600; LC + applications stay #1 |
+| Q1 2027 | **Signed offer** at Figure / Waymo / NVIDIA / Tesla (Bay) or remote at Anthropic / Databricks (agent or platform scope); Spring: **MA 59800** linear algebra + SCLA 52100 or CNIT elective |
+| Q2 2027 | Capstone scoped (Isaac Lab eval platform); defer ECE 56900 / RL until MA 59800 done |
 
 **Comp floor:** ~$220K TC Bay Area Staff-scope. Some cut from GEICO OK; not below floor.
 
@@ -80,7 +80,7 @@ LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
 
 - 18–24 months at first company; ship 2–3 production systems (agent infra, eval, or platform)
 - Internal brand: "reliability + agent eval person"
-- MS AI completed; ECE 56900 Robotics + ECE 59500 RL on transcript
+- MS AI completed (target Spring 2028); MA 59800 + capstone on transcript; ECE 56900 / RL optional if math foundation solid
 - Public Isaac Lab eval project (capstone) on GitHub
 - 5 hrs/month: physical AI reading; optional OSS PR to Isaac Lab or LeRobot
 
@@ -123,26 +123,37 @@ AI agent platform job  →  Physical AI platform role →  Principal scope
 
 ## Purdue MS AI — courses for Outcome A
 
-### Fall 2026 enrollment (locked 2026-08-08)
+**Catalog:** [purdue/AI-All-Course-Catalog.xlsx](purdue/AI-All-Course-Catalog.xlsx)
+
+**Completed (4 cr):** GRAD 50200 (1) · ECE 50874/59500 Advanced Software Engineering (3)
+
+**Still required:** SCLA 52100 · SCLA 52200 · GRAD 50300D (2) · GRAD 58900 capstone · 6 cr selective (2 topics) · ~6 cr technical electives
+
+### Fall 2026 enrollment (revised 2026-09-12)
 
 | Status | Course | CRN | Credits | Notes |
 |--------|--------|-----|---------|-------|
-| **Enrolled — taking** | **ECE 56900Q** Introduction to Robotic Systems | 21452-EPE | 3 | Full term async; **only** Purdue course this semester |
-| Dropped / not taking | ECE 59500QRL Reinforcement Learning | 22677-EP6 | 3 | Defer to **Spring 2027** (Q1) — protect job-search bandwidth |
-| Dropped / not taking | ILS 65100Q Intro to NLP | 28643-001 | 3 | Low ROI vs robotics; production LLM/agent work already covers NLP use |
+| **Drop** | ECE 56900Q Introduction to Robotic Systems | 21452-EPE | 3 | Too hard without linear algebra + physics; protect GPA and bandwidth |
+| **Add (Oct–Dec)** | **MIS 58600** Python Programming | 25758 | 2 | Oct 21 – Dec 19; easy Topic 2 elective; **not** interview prep — degree progress only |
+| Dropped / not taking | ECE 59500QRL Reinforcement Learning | 22677-EP6 | 3 | Defer until **after MA 59800** |
+| Dropped / not taking | ILS 65100Q Intro to NLP | 28643-001 | 3 | Low ROI; production LLM/agent work already covers NLP |
 
-**Rule:** 1 Purdue course max while GEICO + end-of-year applications are active.
+**Rule:** 1 lightweight Purdue course max while GEICO + end-of-year applications are active.
 
-### Course roadmap
+**Math gap:** No physics course in catalog — self-study mechanics (Khan / MIT 8.01) alongside MA 59800 when offered.
 
-| Priority | Course | Why |
-|----------|--------|-----|
-| **Done** | ECE 50874/59500 Advanced Software Engineering | OpenClaw — agent eval + reliability |
-| **In progress (Fall 2026)** | ECE 56900 Introduction to Robotic Systems | Kinematics, dynamics, control vocabulary for Waymo/Figure/NVIDIA interviews |
-| **Next (Spring 2027)** | ECE 59500 Reinforcement Learning | Policy training, sim-to-real language for Figure/NVIDIA |
-| **Tier 2** | ECE 59500 Intro to Deep Learning or CV | VLA / perception fluency for Helix Agentic |
-| **Capstone** | GRAD 58900 | Topic: eval platform for sim-trained agents (Isaac Lab) |
-| **Skip** | Data mining, NLP survey (ILS 65100), heavy controls theory, extra math | Low ROI for platform path |
+### Course roadmap (revised)
+
+| When | Course | Why |
+|------|--------|-----|
+| **Done** | GRAD 50200 · ECE 50874 | AI fundamentals + OpenClaw |
+| **Fall 2026 (Oct–Dec)** | MIS 58600 Python (2 cr) | Easy credits; recover from 56900 |
+| **Spring 2027** | MA 59800 Linear Algebra for Data Science (1 cr) | **Foundation** — prereq for robotics/RL; not MA 51100 |
+| **Spring 2027** | SCLA 52100 + CNIT 57000BDA or MGMT 68300D | Required core + selective; defer SCLA 52200 if preferred |
+| **Fall 2027** | SCLA 52200 · GRAD 50300D | Finish remaining required cores |
+| **2028** | GRAD 58900 Capstone | Isaac Lab sim agent eval platform (after ~21 cr) |
+| **Optional (after MA 59800)** | ECE 56900 Robotics · ECE 59500 RL | Only if math + mechanics solid |
+| **Skip** | MA 51100 full grad LA · ILS 65100 NLP · heavy controls | Wrong sequencing or low ROI |
 
 ---
 

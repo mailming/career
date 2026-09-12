@@ -8,6 +8,7 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 |------|---------|-------------|
 | [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) | **North Star:** Physical AI Platform Principal (Outcome A) — reasoning, timeline, Purdue courses, bridge strategy | Quarterly review; before big career decisions |
 | [WEEKLY-OPERATING-SYSTEM.md](WEEKLY-OPERATING-SYSTEM.md) | Sustainable weekly cadence (12–14 hrs, kids, exercise, Purdue) | Every Monday; companion to study plan |
+| [purdue/AI-All-Course-Catalog.xlsx](purdue/AI-All-Course-Catalog.xlsx) | Purdue Online MSAI course catalog (offerings, credits, descriptions) | Course registration; degree planning |
 
 ## Top-level docs
 

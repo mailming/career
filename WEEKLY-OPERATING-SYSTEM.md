@@ -1,12 +1,12 @@
 # Weekly Operating System — Outcome A Execution
 
-Last updated: 2026-08-08
+Last updated: 2026-09-12
 
 Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable cadence for a full-time parent targeting Physical AI Platform Principal.
 
-**Budget:** 12–14 hrs/week career (+2–4 hrs Purdue while ECE 56900 is active). Ceiling 18–20 hrs/week total extracurricular.
+**Budget:** 12–14 hrs/week career (+2–3 hrs Purdue while MIS 58600 is active). Ceiling 18–20 hrs/week total extracurricular.
 
-**Fall 2026 Purdue:** **ECE 56900Q only** (robotics, CRN 21452-EPE). Dropped RL + NLP this term — see [CAREER-GOAL-5-YEARS.md § Fall 2026 enrollment](CAREER-GOAL-5-YEARS.md).
+**Fall 2026 Purdue:** **Drop ECE 56900** · **Add MIS 58600** Python (Oct 21 – Dec 19, CRN 25758, 2 cr) — see [CAREER-GOAL-5-YEARS.md § Fall 2026 enrollment](CAREER-GOAL-5-YEARS.md).
 
 **#1 priority:** End-of-year applications (Waymo DevAI / Figure / NVIDIA / Tesla) + weekly agent/eval prep. Referral/apps: [waymo-devai-referral-plan.md](interview-prep/waymo-devai-referral-plan.md).
 
@@ -80,14 +80,16 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 ---
 
-## Purdue semester additions (Fall 2026 — ECE 56900 only)
+## Purdue semester additions (Fall 2026 — MIS 58600 only)
 
 | Day | Add |
 |-----|-----|
-| Tue evening | ECE 56900 lecture/video (1 hr) |
-| Thu evening | ECE 56900 homework (1 hr) |
+| Tue evening | MIS 58600 lecture/video (~30 min) |
+| Thu evening | MIS 58600 assignment (~30 min) |
 | Sat | Prefer career deep work; Purdue catch-up only if deadline that week |
-| Sun review | +15 min: 56900 deadlines |
+| Sun review | +10 min: MIS 58600 deadlines |
+
+**Interview prep replaces Purdue time** — LC + mocks beat course assignments when screens are booked.
 
 **Cut order if overwhelmed:** (1) LC below 3/week, (2) Wed reading, (3) never cut applications or exercise. Do **not** add a second Purdue course this fall.
 
@@ -97,10 +99,10 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 | Quarter | Primary focus |
 |---------|---------------|
-| **Q3 2026** | Back from vacation; **ECE 56900 only**; Waymo/Figure/NVIDIA/Tesla prep + apps; OpenClaw publish; Isaac Lab tutorial |
-| **Q4 2026** | Interview conversion; finish 56900; Isaac Lab v0.1 eval harness |
-| **Q1 2027** | Offer or onsite wave; **enroll ECE 59500 RL** |
-| **Q2 2027** | RL + capstone (Isaac Lab eval); complete MS requirements |
+| **Q3 2026** | Drop 56900; **MIS 58600** Oct–Dec; Waymo/Figure/NVIDIA/Tesla prep + apps; OpenClaw publish; Isaac Lab tutorial |
+| **Q4 2026** | Interview conversion; finish MIS 58600; Isaac Lab v0.1 eval harness; LC stays #1 |
+| **Q1 2027** | Offer or onsite wave; **MA 59800** linear algebra + SCLA 52100 or CNIT elective |
+| **Q2 2027** | Capstone scoped; defer ECE 56900 / RL until math foundation done |
 
 ---
 
@@ -108,9 +110,9 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 | Week | Material |
 |------|----------|
-| 1 | Spong *Robot Modeling and Control* Ch 1–2 (with ECE 56900) |
-| 2 | NVIDIA Isaac Lab docs — install + first env |
-| 3 | Spinning Up in Deep RL — policy gradients |
+| 1 | Isaac Lab docs — install + first env |
+| 2 | 3Blue1Brown / Khan linear algebra basics (prep for MA 59800) |
+| 3 | Spinning Up in Deep RL — policy gradients (conceptual only until MA 59800) |
 | 4 | Figure / NVIDIA physical AI blog posts |
 | 5 | Hugging Face LeRobot quickstart |
 | 6 | Isaac Lab repo — one commit |

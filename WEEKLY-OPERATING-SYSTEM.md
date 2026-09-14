@@ -4,11 +4,13 @@ Last updated: 2026-09-12
 
 Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable cadence for a full-time parent targeting Physical AI Platform Principal.
 
-**Budget:** 12–14 hrs/week career (+2–3 hrs Purdue while MIS 58600 is active). Ceiling 18–20 hrs/week total extracurricular.
+**Budget:** 12–14 hrs/week career (+6–8 hrs Purdue while CNIT 57500 is active). Ceiling 18–20 hrs/week total extracurricular.
 
-**Fall 2026 Purdue:** **Drop ECE 56900** · **Add MIS 58600** Python (Oct 21 – Dec 19, CRN 25758, 2 cr) — see [CAREER-GOAL-5-YEARS.md § Fall 2026 enrollment](CAREER-GOAL-5-YEARS.md).
+**Fall 2026 Purdue:** **Drop ECE 56900** · **Add CNIT 57500** Data Analysis (Oct 21 – Dec 19, CRN 32913, 3 cr) — see [CAREER-GOAL-5-YEARS.md § Fall 2026 enrollment](CAREER-GOAL-5-YEARS.md). Math side study: [purdue/MATH-FOUNDATION-STUDY.md](purdue/MATH-FOUNDATION-STUDY.md).
 
 **#1 priority:** End-of-year applications (Waymo DevAI / Figure / NVIDIA / Tesla) + weekly agent/eval prep. Referral/apps: [waymo-devai-referral-plan.md](interview-prep/waymo-devai-referral-plan.md).
+
+**Current sprint (Sep 12 – Oct 21):** [purdue/STUDY-SPRINT-2026-09.md](purdue/STUDY-SPRINT-2026-09.md) — today / this week / this month until CNIT 57500.
 
 ---
 
@@ -80,18 +82,20 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 ---
 
-## Purdue semester additions (Fall 2026 — MIS 58600 only)
+## Purdue semester additions (Fall 2026 — CNIT 57500 only)
 
 | Day | Add |
 |-----|-----|
-| Tue evening | MIS 58600 lecture/video (~30 min) |
-| Thu evening | MIS 58600 assignment (~30 min) |
+| Before Oct 21 | Khan AP Stats 20 min/day (probability crash) |
+| Tue evening | CNIT 57500 lecture/video (~1–1.5 hr) |
+| Thu evening | CNIT 57500 homework (~1–1.5 hr) |
+| 4 mornings | *(skip this fall)* Linear algebra — **not your gap**; do not add |
 | Sat | Prefer career deep work; Purdue catch-up only if deadline that week |
-| Sun review | +10 min: MIS 58600 deadlines |
+| Sun review | +15 min: CNIT 57500 deadlines |
 
-**Interview prep replaces Purdue time** — LC + mocks beat course assignments when screens are booked.
+**Interview screens replace Purdue time** — a B in CNIT 57500 beats a missed onsite.
 
-**Cut order if overwhelmed:** (1) LC below 3/week, (2) Wed reading, (3) never cut applications or exercise. Do **not** add a second Purdue course this fall.
+**Cut order if overwhelmed:** (1) any leftover LA idea, (2) LC below 3/week, (3) Wed Isaac Lab, (4) never cut applications or exercise. Do **not** add a second Purdue course this fall.
 
 ---
 
@@ -99,9 +103,9 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 | Quarter | Primary focus |
 |---------|---------------|
-| **Q3 2026** | Drop 56900; **MIS 58600** Oct–Dec; Waymo/Figure/NVIDIA/Tesla prep + apps; OpenClaw publish; Isaac Lab tutorial |
-| **Q4 2026** | Interview conversion; finish MIS 58600; Isaac Lab v0.1 eval harness; LC stays #1 |
-| **Q1 2027** | Offer or onsite wave; **MA 59800** linear algebra + SCLA 52100 or CNIT elective |
+| **Q3 2026** | Drop 56900; Khan probability crash; enroll **CNIT 57500**; Waymo/Figure/NVIDIA/Tesla apps; OpenClaw publish; Isaac Lab tutorial |
+| **Q4 2026** | Interview conversion; finish CNIT 57500; 20 min/day LA; Isaac Lab v0.1; LC stays #1 |
+| **Q1 2027** | Offer or onsite wave; **MA 59800** linear algebra + SCLA 52100 if bandwidth |
 | **Q2 2027** | Capstone scoped; defer ECE 56900 / RL until math foundation done |
 
 ---
@@ -110,9 +114,9 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 | Week | Material |
 |------|----------|
-| 1 | Isaac Lab docs — install + first env |
-| 2 | 3Blue1Brown / Khan linear algebra basics (prep for MA 59800) |
-| 3 | Spinning Up in Deep RL — policy gradients (conceptual only until MA 59800) |
+| 1 | Khan AP Stats practice (until CNIT 57500 starts) |
+| 2 | Isaac Lab docs — install + first env |
+| 3 | *(skip until 2027 / MA 59800)* Linear algebra — you can follow proofs; don’t study this now |
 | 4 | Figure / NVIDIA physical AI blog posts |
 | 5 | Hugging Face LeRobot quickstart |
 | 6 | Isaac Lab repo — one commit |

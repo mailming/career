@@ -8,7 +8,9 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 |------|---------|-------------|
 | [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) | **North Star:** Physical AI Platform Principal (Outcome A) — reasoning, timeline, Purdue courses, bridge strategy | Quarterly review; before big career decisions |
 | [WEEKLY-OPERATING-SYSTEM.md](WEEKLY-OPERATING-SYSTEM.md) | Sustainable weekly cadence (12–14 hrs, kids, exercise, Purdue) | Every Monday; companion to study plan |
-| [purdue/AI-All-Course-Catalog.xlsx](purdue/AI-All-Course-Catalog.xlsx) | Purdue Online MSAI course catalog (offerings, credits, descriptions) | Course registration; degree planning |
+| [purdue/AI-All-Course-Catalog.xlsx](purdue/AI-All-Course-Catalog.xlsx) | Purdue Online MSAI course catalog (use **Fall 2026 Course Availability** tab) | Course registration; degree planning |
+| [purdue/MATH-FOUNDATION-STUDY.md](purdue/MATH-FOUNDATION-STUDY.md) | Probability (Khan) + linear algebra (3Blue1Brown/Khan) prep for CNIT 57500 and MA 59800 | 20 min/day; before and during Fall 2026 |
+| [purdue/STUDY-SPRINT-2026-09.md](purdue/STUDY-SPRINT-2026-09.md) | **Dated plan:** today / this week / this month until CNIT 57500 (Oct 21) | Open every morning until Oct 21 |
 
 ## Top-level docs
 

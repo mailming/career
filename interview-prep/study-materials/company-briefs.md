@@ -348,6 +348,59 @@ For each: read it the **night before the screen**, then re-read the night before
 
 ---
 
+## Waymo (DevAI)
+
+**Thesis.** Autonomous driving technology company (ex-Google SDSCP). The DevAI team's mission: build next-gen AI-powered developer tools and agentic systems that accelerate the Waymo Driver's own engineering SDLC — inner loop (code/test faster), outer loop (automate complex eng tasks), and perception debugging. The *customer* is Waymo's 1,000+ engineers, not the rider.
+
+**Role level.** **Primary target:** Staff IC (Req 4857, ~L6 Google equivalent) — $251K–$310K base. **Stretch:** Senior Staff (Req 4858, ~L7) — $298K–$368K. Both report to Director of Engineering, DevAI. Hybrid MV or SF.
+
+**Interview format (inferred — confirm with recruiter).**
+- Recruiter screen (30 min) → HM screen (45–60 min) → 2–3 technical screens → virtual or in-person onsite (5–6 rounds):
+  - **Coding:** Python or Go; practical, not LC-hard. Expect a real dev-tooling or agent-related scenario.
+  - **System design x2:** Multi-agent orchestration for SDLC AND LLM/agent eval pipeline. These two are almost certain surfaces.
+  - **Behavioral/leadership:** Staff+ bar — cross-team influence, ambiguity, disagreement with senior stakeholders.
+  - **Domain design:** Likely a "design a debugging agent for perception" round — unique to Waymo.
+  - **HM values fit:** Why DevAI, vision for AI-assisted SDLC, how you drive adoption of novel tools.
+
+**What they value (distilled from JD):**
+1. **Multi-agent systems in production** — not prototypes; deployed frameworks that engineers actually use daily.
+2. **SDLC transformation at scale** — you must understand how AV software is developed (simulation-heavy, regression-heavy, perception-heavy).
+3. **Spec-driven development** — their JD uses this term explicitly; they want someone who thinks in specs as the contract between AI and code.
+4. **LLM productionization** — data pipelines + eval strategies for deploying state-of-the-art LLMs *into production*; they don't want researchers.
+5. **Cross-functional adoption** — "partner with engineering teams and drive adoption." You will be measured on how much DevAI tooling gets used, not just built.
+
+**Research before onsite.**
+- Read [Waymo Research blog](https://waymo.com/research/) — especially any posts on simulation, AV software development, or ML pipelines.
+- Read [Waymo's Wikipedia / public AV context] — understand what the Driver is: perception → prediction → planning → control pipeline. You don't need depth; you need enough vocabulary to design a debugging agent.
+- Read the [Google DeepMind SDLC + AI tools research](https://research.google/blog/) — Waymo's engineering culture is deeply Google-influenced.
+- Study "spec-driven development" — read at least 2 sources: (a) TLA+ / formal specs (background), (b) modern LLM spec-to-code papers or the Copilot Workspace spec approach. Be able to explain what it means in 60 seconds.
+- Read [OpenAI Evals](https://github.com/openai/evals) and [Braintrust evals docs](https://www.braintrust.dev/docs) — understand the eval harness pattern. Your existing doc 04 covers the system design; this gives you vocabulary.
+
+**Your specific hook.**
+- "At GEICO I built the exact inner loop Waymo DevAI is targeting — an AI-powered CI/CD migration engine that opens per-team PRs automatically, a Claude Agent SDK triage bot for the `#help-pkg-mgmt` Slack channel, and a plain-English Claude Code plugin for AMP/JFrog" — this maps directly to their Inner Loop + Outer Loop missions.
+- "I shipped MCP servers, agent skills (`solve-case`, `close-case`, `build-kb`), and the Cursor × Claude Code credential bridge into GEICO production — not prototypes, production" — addresses their "multi-agent in production" bar.
+- "My OpenClaw cost-aware runtime plugin is a production governance layer for browser agents with token/cost/step budgets and post-action policy enforcement" — maps to their outer-loop automation + eval strategy requirement.
+- "Artifactory four-nines turnaround" — demonstrates reliability ownership at scale, which matters when your internal tooling is blocking thousands of engineers.
+
+**The spec-driven development answer (prepare this explicitly).**
+Waymo's JD says "proven track record of utilizing spec-driven development methodologies." Frame your answer around: ADRs as machine-readable specs (your AI-consumable ADR work at GEICO), the JFrog SaaS POC workflows as spec → automated validation → green/red decision, and the Claude Code plugin BRD as the spec that drove implementation. Practice a 90-second version.
+
+**Gaps to plug before onsite (prioritized):**
+1. **RAG with a concrete example** — if you can add a simple RAG component to SmartTuna or the Claude Code plugin (e.g., codebase search for relevant Artifactory config), you'll have a real story. Even a 2-hr hack counts.
+2. **LLM eval strategy vocabulary** — study: LLM-as-judge, golden datasets, regression-on-PR, canary evals. Your doc 04 is the system design; also read Braintrust or Promptfoo docs for the practitioner angle.
+3. **Perception debugging context** — spend 30 min reading what a Waymo perception pipeline produces: bounding boxes, semantic segmentation, trajectory predictions. Enough to say "an agent could query the simulation replay, extract the perception output at timestamp T, and compare to ground truth to root-cause a miss."
+
+**Watch out for.**
+- Don't make this about autonomous driving engineering — you're building *for* their engineers, not building the Driver. Keep the frame on "I accelerate the humans building the Driver."
+- Don't overstate AV domain knowledge you don't have. Waymo has hundreds of perception researchers; you're not one. What you bring is *developer tooling + AI agents at production scale*.
+- Spec-driven development is a core requirement — if you dodge it, it signals you didn't read the JD. Prepare a crisp 90-second answer.
+- The role is Senior Staff. Every behavioral answer should reflect scope: "across multiple interdependent teams," not "my team and I."
+- Safety language matters at Waymo. In any system design, proactively add the reliability and failure-mode section — they will notice if you don't.
+
+**Open role:** Staff Software Engineer, DevAI — **Req 4857** (primary). Senior Staff — Req 4858 (stretch). MV or SF — request **MV**. Apply at [careers.withwaymo.com](https://careers.withwaymo.com/jobs/staff-software-engineer-devai-mountain-view-california-united-states-san-francisco).
+
+---
+
 ## Universal pre-onsite prep (always)
 
 For *any* company, the day-before-onsite ritual is:

@@ -6,11 +6,12 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 
 | File | Purpose | When to use |
 |------|---------|-------------|
-| [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) | **North Star:** Physical AI Platform Principal (Outcome A) — reasoning, timeline, Purdue courses, bridge strategy | Quarterly review; before big career decisions |
-| [WEEKLY-OPERATING-SYSTEM.md](WEEKLY-OPERATING-SYSTEM.md) | Sustainable weekly cadence (12–14 hrs, kids, exercise, Purdue) | Every Monday; companion to study plan |
+| [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) | **North Star:** Physical AI Platform Principal (Outcome A) — reasoning, timeline, Purdue courses, bridge strategy; **Jiadroid** as active Physical AI build | Quarterly review; before big career decisions |
+| [WEEKLY-OPERATING-SYSTEM.md](WEEKLY-OPERATING-SYSTEM.md) | Sustainable weekly cadence (12–14 hrs, kids, exercise, Purdue); Wed/Sat = **Jiadroid** | Every Monday; companion to study plan |
+| [portfolio/jiadroid.md](portfolio/jiadroid.md) | Jiadroid → Outcome A mapping, pitch, resume bullets, milestones | When working on jiadroid or prep for Figure/Waymo |
 | [purdue/AI-All-Course-Catalog.xlsx](purdue/AI-All-Course-Catalog.xlsx) | Purdue Online MSAI course catalog (use **Fall 2026 Course Availability** tab) | Course registration; degree planning |
 | [purdue/MATH-FOUNDATION-STUDY.md](purdue/MATH-FOUNDATION-STUDY.md) | Probability (Khan) + linear algebra (3Blue1Brown/Khan) prep for CNIT 57500 and MA 59800 | 20 min/day; before and during Fall 2026 |
-| [purdue/STUDY-SPRINT-2026-09.md](purdue/STUDY-SPRINT-2026-09.md) | **Dated plan:** today / this week / this month until CNIT 57500 (Oct 21) | Open every morning until Oct 21 |
+| [purdue/STUDY-SPRINT-2026-09.md](purdue/STUDY-SPRINT-2026-09.md) | **Active:** finish remaining ~50% of stats by mid-Oct (10/12 target), then CNIT 57500 | Open every morning until Oct 15 |
 
 ## Top-level docs
 

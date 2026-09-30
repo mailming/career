@@ -27,7 +27,7 @@ I build production agentic systems and the platforms that run them.
 
 At GEICO Developer Engineering I lead the Artifact Management Platform and drove Artifactory from roughly one major incident per month to a four-nines (99.99%) availability SLO. In parallel I'm shipping a portfolio of four AI initiatives into GEICO's 2026 DE AI Showcase (an org-wide AI-augmented-work program, 282 associates): a Claude Agent SDK Slack triage prototype, an AI-powered CI/CD migration engine for our JFrog SaaS cutover, a plain-English Claude Code plugin for Artifactory, and AI-consumable runbooks / ADRs. I was invited to GEICO's Claude Code pilot, authored the "Cursor MCP × Slack" BRD, and built the Cursor-cached-token bridge that lets Claude Code reuse Cursor's encrypted Slack MCP credentials.
 
-Outside of GEICO I led the OpenClaw cost-aware runtime plugin at Purdue (ECE 50874/59500) — a governance layer that gives browser agents token / cost / step budgets, AgentOps routing, and Langfuse telemetry without rewriting agent core. I founded SmartTuna (smarttuna.ai), a LangGraph multi-agent stock-analysis platform.
+Outside of GEICO I led the OpenClaw cost-aware runtime plugin at Purdue (ECE 50874/59500) — a governance layer that gives browser agents token / cost / step budgets, AgentOps routing, and Langfuse telemetry without rewriting agent core. I founded SmartTuna (smarttuna.ai), a LangGraph multi-agent stock-analysis platform. I'm also building Jiadroid (github.com/mailming/jiadroid) — an open phone-to-robot protocol so a phone can act as brain, eyes, and ears for robot bodies (Follow Me on Open Duck Mini first).
 
 Before GEICO I led release engineering for SOC 2 Type II / IPO readiness at Navan and HA Jenkins + HA Nexus migrations at Turn/Amobee that eliminated unplanned outages and saved $600K+ per year in enterprise licensing.
 
@@ -43,19 +43,19 @@ US citizen, based in Fremont (East Bay). Open to on-site in San Jose, South Bay,
 
 Pin three to "Featured" — these become the visible proof when recruiters click through.
 
-1. **OpenClaw cost-aware runtime — GitHub**  
+1. **Jiadroid — GitHub** *(Physical AI primary)*  
+   https://github.com/mailming/jiadroid  
+   Title: *Phone-as-robot-brain · Follow Me + open body protocol (Open Duck Mini)*
+
+2. **OpenClaw cost-aware runtime — GitHub**  
    https://github.com/mailming/openclaw/tree/feature/llm-insights-manual-pricing  
    Title: *Cost-aware runtime for browser agents (Purdue ECE 50874 final project, Team 17)*
 
-2. **SmartTuna — live site**  
+3. **SmartTuna — live site**  
    https://smarttuna.ai  
    Title: *LangGraph multi-agent stock analysis · founder*
 
-3. **GitHub profile**  
-   https://github.com/mailming  
-   Title: *SmartTuna, OpenClaw fork, agent skills, and MCP work*
-
-When the Month-2 portfolio artifact ships (blog post / MCP registry server / OSS PR), replace one of the above with that artifact — that's the freshest signal.
+When a Jiadroid demo video ships, pin that as Featured #1 (freshest Physical AI signal).
 
 ---
 
@@ -74,7 +74,7 @@ Claude Agent SDK · Claude Code · Cursor · AgentOps · Langfuse · LLM Cost Go
 ## 5. Open-to-work configuration
 
 - **Open to:** Senior, Staff, Senior Staff
-- **Titles:** AI Infrastructure Engineer · AI Platform Engineer · Staff Software Engineer (Developer Tools and Productivity) · Site Reliability Engineer · ML Platform Engineer · Agent Platform Engineer
+- **Titles:** AI Infrastructure Engineer · AI Platform Engineer · Staff Software Engineer (Developer Tools and Productivity) · Site Reliability Engineer · ML Platform Engineer · Agent Platform Engineer · Embodied / Robotics Platform (infra, not controls)
 - **Locations:** Remote (US) · San Jose · South Bay · East Bay · Peninsula (Menlo Park / Palo Alto / Mountain View)
 - **Exclude from Open-to-work:** San Francisco (cannot commute daily)
 - **Workplace:** Hybrid + Remote (toggle "On-site" too if you want Figure-tier robotics roles)
@@ -85,6 +85,6 @@ Claude Agent SDK · Claude Code · Cursor · AgentOps · Langfuse · LLM Cost Go
 
 ## 6. Update cadence
 
-- After publishing the Month-2 artifact: write a 4-6 sentence LinkedIn post linking to it. Tag #AIInfrastructure #MCP #LangGraph #AgentOps.
+- After a Jiadroid demo or OpenClaw publish: write a 4-6 sentence LinkedIn post. Tags: #PhysicalAI #Robotics #OpenDuckMini (Jiadroid) or #AIInfrastructure #MCP #LangGraph #AgentOps (OpenClaw).
 - After each onsite (no NDA-breaking content): write a generic "lessons from interviewing for AI infra" post once you have 2-3 loops done.
 - One post per week is enough; algorithmic boost from regular posting is real for senior IC searches.

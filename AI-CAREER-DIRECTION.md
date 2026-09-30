@@ -79,7 +79,7 @@ Your 5-month plan is excellent but stalled (coding log empty, Tier-1 apps unsent
    - *Robotics infra:* Waymo (DevAI), 1X (Cloud & Infra), Figure (infra/solutions), Nuro, Apptronik, Physical Intelligence
    - *Applied/FDE anchor:* Anthropic, OpenAI, Palantir, Scale, Sierra, Decagon, Cognition
    - *Video (opportunistic):* Luma (FDE), Runway (backend/product), ElevenLabs
-3. **Ship ONE public artifact** that proves the bridge — you already have the raw material: publish the **OpenClaw cost-aware runtime** (browser-agent infra — reads as both agent-platform AND robotics-adjacent "physical AI" governance) or the **SmartTuna** multi-agent system. Public + linkable beats "in-flight."
+3. **Ship ONE public artifact** that proves the bridge — prefer **[Jiadroid](https://github.com/mailming/jiadroid)** (phone-as-robot-brain: Follow Me + open body protocol — reads as embodied agent platform for Figure/Waymo/1X) **or** publish **OpenClaw** (cost-aware agent runtime). Public + linkable beats "in-flight." Isaac Lab is optional later, not the default Saturday project while Jiadroid is hot.
 4. **Positioning for 48:** lead every resume/pitch with *"Staff platform engineer + AI-native production experience."* Prefer **referrals over cold applies** (AI startups skew pedigree/network — your SF location + in-progress MS AI help). Favor age-friendlier segments (**enterprise AI, big-tech AI orgs, robotics infra, Waymo**) over junior-heavy seed-stage startups.
 5. **Feed the passion without betting on it:** make 2–3 AI short films this quarter. If one lands, it's a portfolio piece for a Luma/Runway FDE conversation. If not, you enjoyed it. Either way you win.
 
@@ -88,3 +88,5 @@ Your 5-month plan is excellent but stalled (coding log empty, Tier-1 apps unsent
 ## The sincere part
 
 At 48, needing steady income, wanting work you love — the mistake would be a romantic leap into video research or a robotics controls role you'd have to reboot your skills for. You don't need to leap. The market is handing experienced infra people a rare moment, and the robotics-infra + DevAI lane lets you do work you'll actually enjoy *using the skills you already have*, at comparable pay, with age working *for* you. Point the anchor at robotics/autonomy, keep filmmaking as the thing that feeds your soul, and run the plan you already built.
+
+**2026-09-30 addendum:** You are already building the passion into a product — **Jiadroid**. Treat finishing Follow Me → real body (and a public demo) as the Physical AI credential that applications alone cannot give you. Career map: [portfolio/jiadroid.md](portfolio/jiadroid.md).

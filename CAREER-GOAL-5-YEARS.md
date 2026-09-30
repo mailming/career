@@ -1,10 +1,12 @@
 # 5-Year Career Goal — Physical AI Platform Principal
 
-Last updated: 2026-09-12
+Last updated: 2026-09-30
 
 **North Star (2031):** Principal / Staff+ engineer who owns **simulation + agent + fleet reliability** for embodied AI — humanoid robots and autonomous systems that cannot afford downtime.
 
 **Chosen outcome:** **Outcome A** — Physical AI Platform Principal at Figure, NVIDIA (Isaac/Cosmos), Waymo, or Tesla Optimus — entered through agent/platform engineering, not robotics research or creative AI film.
+
+**Active build (now):** **[Jiadroid](https://github.com/mailming/jiadroid)** (`~/Workspace/jiadroid`) — phone-as-robot-brain platform. Open protocol between phone (perception, AI, apps) and robot body (motors via ESP32). First demo: Follow Me on Open Duck Mini + Android/iOS. This is the **primary Physical AI portfolio artifact** for 2026–2027; Isaac Lab remains a later/capstone option, not the Saturday default. Talking points: [portfolio/jiadroid.md](portfolio/jiadroid.md).
 
 ---
 
@@ -33,6 +35,7 @@ Last updated: 2026-09-12
 | Bay Area / Fremont; US citizen | Figure, NVIDIA, Waymo, Tesla Optimus geographically viable |
 | **Hard geo filter** | On-site: SJ / South Bay / East Bay / Peninsula only. **Remote US** OK. **No daily SF commute.** No relocation outside Bay Area. |
 | Interests: robotics integration + AI video | Converge at **world models + simulation**, not filmmaking |
+| **Jiadroid** (phone ↔ robot protocol + Follow Me) | Embodied agent platform in public: discovery, safety/estop, multi-body contract — Lane A1 proof without waiting for a humanoid employer |
 
 ### What we explicitly rejected
 
@@ -49,10 +52,11 @@ Last updated: 2026-09-12
 LANE A1 — Embodied Agent Platform          Fit today: ★★★★★
   Figure Helix Agentic, eval harnesses, agent memory, tool-use
   Bridge: Anthropic, Cursor, Databricks
+  **Active proof: Jiadroid** (phone brain ↔ body protocol, Follow Me, safety)
 
 LANE A2 — Simulation / World-Model Platform Fit today: ★★★☆☆
   NVIDIA Isaac Lab, Apptronik Sim Platform, Cosmos synthetic data
-  Bridge: Isaac Lab side project + MA 59800 linear algebra → ECE 56900 / RL later
+  Bridge: after Jiadroid Follow Me ships to real duck; MA 59800 → optional Isaac/RL
 
 LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
   Figure Training Infra, Data Infra, distributed GPU clusters
@@ -60,6 +64,8 @@ LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
 ```
 
 **5-year convergence:** Own the platform layer where sim policies, agent stacks, and fleet eval/reliability meet — the person who makes humanoid deployments survivable in production.
+
+**How Jiadroid feeds the lanes:** same split as production robotics — *brain* (phone/AI/apps) vs *body* (controllers, servos) vs *contract* (discoverable devices, walk commands, estop). That is agent-platform + fleet-safety thinking, not "I built a toy robot." Interview framing: USB for robots — one brain, many bodies.
 
 ---
 
@@ -69,10 +75,10 @@ LANE A3 — Training / Fleet Infrastructure    Fit today: ★★★★☆
 
 | By | Milestone |
 |----|-----------|
-| Q3 2026 | Apply Tier S-Bay first (Figure, Waymo MV, NVIDIA, Tesla); **drop ECE 56900**; **CNIT 57500 Data Analysis** Oct–Dec (3 cr); Khan probability crash before Oct 21; OpenClaw publish; Isaac Lab tutorial |
-| Q4 2026 | 2+ interview pipelines active; Isaac Lab v0.1 (sim + basic eval harness); finish CNIT 57500; 20 min/day LA prep for MA 59800; LC + applications stay #1 |
-| Q1 2027 | **Signed offer** at Figure / Waymo / NVIDIA / Tesla (Bay) or remote at Anthropic / Databricks (agent or platform scope); Spring: **MA 59800** linear algebra + SCLA 52100 if bandwidth |
-| Q2 2027 | Capstone scoped (Isaac Lab eval platform); defer ECE 56900 / RL until MA 59800 done |
+| Q3 2026 | Apply Tier S-Bay first (Figure, Waymo MV, NVIDIA, Tesla); **drop ECE 56900**; **CNIT 57500** Oct–Dec; **finish remaining ~50% of stats prep by mid-Oct (10/12–10/15)**; OpenClaw publish; **Jiadroid:** Follow Me demo solid (sim + phone apps) |
+| Q4 2026 | 2+ interview pipelines active; **Jiadroid:** ESP32 firmware + real Open Duck Mini link (or documented hardware blocker + next body); finish CNIT 57500; 20 min/day LA prep for MA 59800; LC + applications stay #1 |
+| Q1 2027 | **Signed offer** at Figure / Waymo / NVIDIA / Tesla (Bay) or remote at Anthropic / Databricks (agent or platform scope); Spring: **MA 59800** linear algebra + SCLA 52100 if bandwidth; Jiadroid public README + short demo video pinned |
+| Q2 2027 | Capstone scoped (Jiadroid multi-body / eval harness **or** Isaac Lab if needed for GRAD 58900); defer ECE 56900 / RL until MA 59800 done |
 
 **Comp floor:** ~$220K TC Bay Area Staff-scope. Some cut from GEICO OK; not below floor.
 
@@ -143,7 +149,7 @@ AI agent platform job  →  Physical AI platform role →  Principal scope
 
 **Rule:** 1 Purdue course max while GEICO + end-of-year applications are active. 8-week 3-cr course ≈ 6–8 hrs/week — do **not** stack.
 
-**Math gap:** Probability via CNIT 57500 + Khan (now). Linear algebra via 20 min/day side study → **MA 59800** next. Physics (Khan / MIT 8.01) after MA 59800. Never MA 51100 first.
+**Math gap:** Probability — **~50% of prep done**; finish remaining half by mid-Oct, then CNIT 57500 owns practice. Linear algebra via 20 min/day only **after** stats finish → **MA 59800** next. Physics after MA 59800. Never MA 51100 first.
 
 ### Course roadmap (revised)
 
@@ -164,10 +170,11 @@ AI agent platform job  →  Physical AI platform role →  Principal scope
 
 | Artifact | Status | Purpose |
 |----------|--------|---------|
+| **Jiadroid** — phone↔robot protocol, Follow Me, Android/iOS | **Active build** | **Primary Physical AI proof** — embodied agent platform, safety contract, multi-body thesis; Figure/Waymo/1X interview deep-dive |
 | OpenClaw cost-aware runtime + blog/one-pager | In progress | Agent eval + cost governance — bridge to any AI-native role |
 | SmartTuna (LangGraph) | Live | Multi-agent orchestration |
 | GEICO MCP + Claude Code portfolio | In production | 2026 hiring signal (Cursor/Claude named in JDs) |
-| Isaac Lab sim + eval harness | Planned Q3–Q4 2026 | Physical AI platform portfolio + MSAI capstone |
+| Isaac Lab sim + eval harness | Deferred behind Jiadroid | Optional MSAI capstone / Lane A2 — only after Follow Me → real body or clear hardware pause |
 
 ---
 
@@ -188,11 +195,11 @@ Company targets: **[target-companies.md](target-companies.md)** — Figure, NVID
 | End Q3 2026 | 8+ targeted applications sent? | Apply Anthropic + Cursor + finish Figure |
 | End Q4 2026 | 1+ recruiter/HM screen? | Iterate resume; increase referrals |
 | End Q1 2027 | Offer or 2+ onsites? | Expand Tier 2; contract/FDE path |
-| End Year 2 | At AI-native company? | Revisit bridge strategy; publish 3 artifacts |
+| End Year 2 | At AI-native company? | Revisit bridge strategy; Jiadroid + OpenClaw public + one more artifact |
 | End Year 3 | Touching physical AI daily? | Internal transfer or external move to Figure/NVIDIA |
 
 ---
 
 ## One-sentence pitch (interviews, LinkedIn, referrals)
 
-> I build the platforms that make AI agents reliable in production — eval harnesses, cost governance, MCP integration — and I'm extending that to embodied systems: simulation, fleet eval, and the infrastructure humanoid robots need to ship safely.
+> I build the platforms that make AI agents reliable in production — eval harnesses, cost governance, MCP integration — and I'm extending that to embodied systems. Jiadroid is my open phone-as-robot-brain layer: a discoverable, safety-aware contract between perception/AI on the phone and any robot body, starting with Follow Me on Open Duck Mini.

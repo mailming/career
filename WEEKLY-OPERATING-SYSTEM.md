@@ -1,22 +1,24 @@
 # Weekly Operating System — Outcome A Execution
 
-Last updated: 2026-09-12
+Last updated: 2026-09-30
 
 Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable cadence for a full-time parent targeting Physical AI Platform Principal.
 
 **Budget:** 12–14 hrs/week career (+6–8 hrs Purdue while CNIT 57500 is active). Ceiling 18–20 hrs/week total extracurricular.
 
-**Fall 2026 Purdue:** **Drop ECE 56900** · **Add CNIT 57500** Data Analysis (Oct 21 – Dec 19, CRN 32913, 3 cr) — see [CAREER-GOAL-5-YEARS.md § Fall 2026 enrollment](CAREER-GOAL-5-YEARS.md). Math side study: [purdue/MATH-FOUNDATION-STUDY.md](purdue/MATH-FOUNDATION-STUDY.md).
+**Fall 2026 Purdue:** **CNIT 57500** Data Analysis (Oct 21 – Dec 19, CRN 32913, 3 cr). **Stats prep ~50% done** — finish remaining half by **mid-October (target 10/12, hard stop 10/15)** per [purdue/STUDY-SPRINT-2026-09.md](purdue/STUDY-SPRINT-2026-09.md). Math notes: [purdue/MATH-FOUNDATION-STUDY.md](purdue/MATH-FOUNDATION-STUDY.md).
 
-**#1 priority:** End-of-year applications (Waymo DevAI / Figure / NVIDIA / Tesla) + weekly agent/eval prep. Referral/apps: [waymo-devai-referral-plan.md](interview-prep/waymo-devai-referral-plan.md).
+**#1 priority (career):** End-of-year applications (Waymo DevAI / Figure / NVIDIA / Tesla) + weekly agent/eval prep. Referral/apps: [waymo-devai-referral-plan.md](interview-prep/waymo-devai-referral-plan.md).
 
-**Current sprint (Sep 12 – Oct 21):** [purdue/STUDY-SPRINT-2026-09.md](purdue/STUDY-SPRINT-2026-09.md) — today / this week / this month until CNIT 57500.
+**#1 priority (build):** **[Jiadroid](https://github.com/mailming/jiadroid)** (`~/Workspace/jiadroid`) — Sat deep work. Through mid-Oct, **stats finish beats Wed Jiadroid** if the checklist is slipping. Career map: [portfolio/jiadroid.md](portfolio/jiadroid.md).
+
+**Current sprint (through mid-Oct):** Finish remaining stats (CI + significance tests + pass test) → then CNIT 57500.
 
 ---
 
 ## Rules
 
-1. **One primary career block per weekday** (45–60 min) — never stack LC + Isaac Lab + Purdue same night.
+1. **One primary career block per weekday** (45–60 min) — never stack LC + Jiadroid + Purdue same night.
 2. **Interviews replace study** — do not double-book.
 3. **Saturday = only deep work day** (2 hrs uninterrupted).
 4. **Hard stop 10 PM** — sleep is non-negotiable at 48.
@@ -55,7 +57,7 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 **Not during vacation:**
 
 - New job applications or cover letters
-- Isaac Lab / portfolio deep work (Sat blocks)
+- Isaac Lab / portfolio deep work (Sat blocks) — **exception:** if you are mid-Jiadroid milestone and want 1 short commit, OK; no new Isaac Lab starts on vacation
 - Referral outreach
 - Live phone screens / HM calls — **defer to week of 08/06+**
 - Purdue homework (unless a hard deadline falls in window)
@@ -72,10 +74,10 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 |-----|------------------------|----------------------|
 | **Mon** | Apply 2 roles; update [target-companies.md](target-companies.md) | Walk |
 | **Tue** | 1 LC problem → [coding-log.md](interview-prep/coding-log.md) | Gym / strength |
-| **Wed** | Physical AI: Isaac Lab or robotics reading | Walk |
+| **Wed** | **Jiadroid** (protocol, sim, phone app, or hardware notes) | Walk |
 | **Thu** | 1 LC problem | Gym / strength |
 | **Fri** | Referrals, recruiter replies, STAR rehearsal (out loud) | Walk |
-| **Sat** | **Deep work 2 hrs:** Isaac Lab project or portfolio publish | Family AM — optional early walk |
+| **Sat** | **Deep work 2 hrs:** Jiadroid milestone (ESP32 / duck link / demo video) or OpenClaw publish | Family AM — optional early walk |
 | **Sun** | **Review 45 min:** retrospective + next week's ONE priority | Family day |
 
 **Optional morning (30 min before kids):** exercise OR plan the day — not both required.
@@ -86,16 +88,15 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 | Day | Add |
 |-----|-----|
-| Before Oct 21 | Khan AP Stats 20 min/day (probability crash) |
-| Tue evening | CNIT 57500 lecture/video (~1–1.5 hr) |
-| Thu evening | CNIT 57500 homework (~1–1.5 hr) |
-| 4 mornings | *(skip this fall)* Linear algebra — **not your gap**; do not add |
-| Sat | Prefer career deep work; Purdue catch-up only if deadline that week |
-| Sun review | +15 min: CNIT 57500 deadlines |
+| **Through mid-Oct (now)** | Finish remaining Khan half: Tue + Thu **~30–40 min** stats; Sat **45–60 min** if needed — [STUDY-SPRINT-2026-09.md](purdue/STUDY-SPRINT-2026-09.md) |
+| **Oct 13–20** | Syllabus skim only; pass-test fixes if any |
+| **From Oct 21** | Tue evening CNIT lecture/video (~1–1.5 hr); Thu evening CNIT homework (~1–1.5 hr) |
+| Sat | Prefer Jiadroid deep work; Purdue catch-up only if deadline that week |
+| Sun review | +15 min: stats checklist (now) → CNIT deadlines (after Oct 21) |
 
 **Interview screens replace Purdue time** — a B in CNIT 57500 beats a missed onsite.
 
-**Cut order if overwhelmed:** (1) any leftover LA idea, (2) LC below 3/week, (3) Wed Isaac Lab, (4) never cut applications or exercise. Do **not** add a second Purdue course this fall.
+**Cut order if overwhelmed:** (1) any leftover LA idea, (2) LC below 2/week until stats done, (3) Wed Jiadroid, (4) never cut remaining stats blocks or exercise through 10/15. Do **not** add a second Purdue course this fall.
 
 ---
 
@@ -103,10 +104,10 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 
 | Quarter | Primary focus |
 |---------|---------------|
-| **Q3 2026** | Drop 56900; Khan probability crash; enroll **CNIT 57500**; Waymo/Figure/NVIDIA/Tesla apps; OpenClaw publish; Isaac Lab tutorial |
-| **Q4 2026** | Interview conversion; finish CNIT 57500; 20 min/day LA; Isaac Lab v0.1; LC stays #1 |
-| **Q1 2027** | Offer or onsite wave; **MA 59800** linear algebra + SCLA 52100 if bandwidth |
-| **Q2 2027** | Capstone scoped; defer ECE 56900 / RL until math foundation done |
+| **Q3 2026** | Drop 56900; **finish remaining stats half by mid-Oct**; enroll **CNIT 57500**; Waymo/Figure/NVIDIA/Tesla apps; OpenClaw publish; **Jiadroid Follow Me solid** |
+| **Q4 2026** | Interview conversion; finish CNIT 57500; 20 min/day LA; **Jiadroid → ESP32 / real duck**; LC stays #1 |
+| **Q1 2027** | Offer or onsite wave; **MA 59800** linear algebra + SCLA 52100 if bandwidth; Jiadroid demo video public |
+| **Q2 2027** | Capstone scoped (Jiadroid multi-body or Isaac); defer ECE 56900 / RL until math foundation done |
 
 ---
 
@@ -115,11 +116,11 @@ Companion to [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md). Sustainable caden
 | Week | Material |
 |------|----------|
 | 1 | Khan AP Stats practice (until CNIT 57500 starts) |
-| 2 | Isaac Lab docs — install + first env |
+| 2 | **Jiadroid** — protocol.md + one failing test or app polish |
 | 3 | *(skip until 2027 / MA 59800)* Linear algebra — you can follow proofs; don’t study this now |
-| 4 | Figure / NVIDIA physical AI blog posts |
-| 5 | Hugging Face LeRobot quickstart |
-| 6 | Isaac Lab repo — one commit |
+| 4 | Figure / NVIDIA / Open Duck Mini physical AI posts |
+| 5 | ESP32 serial / BLE UART notes (for next transport) |
+| 6 | Jiadroid — one commit toward real-body milestone |
 
 ---
 
@@ -146,7 +147,7 @@ Copy into a new section at the bottom of this file or a separate `weekly-log.md`
 Exercise: [ ] [ ] [ ] [ ]  (target 4)
 
 Applications / screens: 
-Isaac Lab / Purdue: 
+Jiadroid / Purdue: 
 Next week ONE priority: 
 ```
 

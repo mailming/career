@@ -1,10 +1,22 @@
 # Portfolio Artifact — Month 2
 
-Pick ONE of these and finish it in Month 2 (weeks 5-8). Finished beats fancy.
+Pick ONE primary ship target. Finished beats fancy.
 
-## Recommendation
+## Active primary (Physical AI) — Jiadroid
 
-**Option A: OpenClaw cost-aware runtime blog post + benchmark report.** Highest ROI:
+**[Jiadroid](https://github.com/mailming/jiadroid)** is the Outcome A build: phone-as-robot-brain + open body protocol + Follow Me (Android/iOS + Open Duck Mini sim). Career framing, pitch, and milestones: **[jiadroid.md](jiadroid.md)**.
+
+Ship order for 2026 H2:
+
+1. Demo video (phone → sim) + LinkedIn Featured pin  
+2. ESP32 / real duck (or clear next-body plan)  
+3. Keep OpenClaw blog as the *agent-infra* companion artifact (below)
+
+Isaac Lab is **deferred** until Jiadroid hits a hardware milestone or you need it for GRAD 58900.
+
+## Recommendation (AI-native / agent-infra companion)
+
+**Option A: OpenClaw cost-aware runtime blog post + benchmark report.** Highest ROI for Anthropic/Cursor/Databricks:
 
 - You already built the work; you're not starting from scratch.
 - Three audiences read it: hiring managers (proof of senior-IC thinking), interviewers (deep-dive material), and the agent-tooling community (Hacker News, r/LocalLLaMA).
@@ -39,12 +51,13 @@ Investment depends on how quickly the maintainers respond — risky for a hard t
 
 - Replace one item in your LinkedIn "Featured" section with the artifact (see `linkedin-rewrite.md`).
 - Add a single sentence to the "Selected AI Work" section of `resume-ai-infra.md`.
-- Drop a 4-6 sentence LinkedIn post linking to it (tags: #AIInfrastructure #MCP #LangGraph #AgentOps).
+- Drop a 4-6 sentence LinkedIn post linking to it (tags: #AIInfrastructure #MCP #LangGraph #AgentOps — or #Robotics #PhysicalAI for Jiadroid).
 - Forward to all open recruiter conversations and referral contacts as a "fresh proof point" before onsites.
 
 ## Files in this directory
 
 - `work-evidence.md` — **master catalog** of all work (Slack + GitHub + ADO sourced). Start here for resume tailoring.
 - `one-pager.md` — 1-page summary you attach to referrals + interview follow-ups.
+- `jiadroid.md` — Physical AI primary artifact mapping.
 - `blog-openclaw-cost-aware-runtime.md` — Option A draft.
 - (Add `mcp-server/` if you pick Option B; add `oss-pr-notes.md` if you pick Option C.)

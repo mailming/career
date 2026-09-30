@@ -38,6 +38,14 @@ Staff-scope platform engineer building production agentic systems and the reliab
 
 - Governance layer: per-task token/cost/step budgets; AgentOps + Langfuse; IEEE-style report. p95 cost ↓ without dropping success rate.
 
+## 6. Jiadroid — *founder · phone-as-robot-brain*
+
+[github.com/mailming/jiadroid](https://github.com/mailming/jiadroid)
+
+- Open **phone↔robot protocol** (device discovery, walk commands, latched estop) so a phone supplies brain/eyes/ears for any compatible body.
+- **Follow Me** on Android + iOS (person / marker / QR) driving Open Duck Mini simulator over Wi-Fi; voice listen/reply in-app.
+- Thesis: one brain, many bodies — embodied agent platform without waiting for a humanoid employer.
+
 ---
 
 **Other:** Founder of [SmartTuna](https://smarttuna.ai) (LangGraph multi-agent). Staff Release Engineer at Navan (SOC 2 Type II, IPO). HA Jenkins + Nexus at Turn/Amobee (**$600K+/yr** savings). U.S. Citizen.

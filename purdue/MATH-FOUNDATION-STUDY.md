@@ -1,10 +1,12 @@
 # Math foundation — probability + linear algebra
 
-Last updated: 2026-09-12 (revised: probability is the real gap, not LA)
+Last updated: 2026-09-30 (stats prep ~50% done; finish remaining half by mid-October)
 
 Companion to [CAREER-GOAL-5-YEARS.md](../CAREER-GOAL-5-YEARS.md). For CNIT 57500 (now) and MA 59800 (next term). **Not** MA 51100.
 
 **Diagnosis (from ECE 59500 HW1/HW2):** Linear algebra proofs are followable. **Probability is the blocker** (tower rule, probability spaces, Markov, Hoeffding). Put all math minutes into probability until that is no longer true.
+
+**Progress (2026-09-30):** ~**half** of the AP Stats / probability prep is done (probability, gathering data, sampling-distribution intro). **Finish the rest before mid-October** (CI + significance tests + pass test) — dated plan: [STUDY-SPRINT-2026-09.md](STUDY-SPRINT-2026-09.md). Then CNIT 57500 (Oct 21) owns practice time.
 
 **Budget:** 20–30 min/day, 5 days/week. Never steal application or LC time. Screens replace this block.
 
@@ -35,9 +37,11 @@ CNIT 57500 covers **sampling and averages**, not the tower rule. It still helps.
 
 ---
 
-## Phase A — now until Oct 21 (probability crash)
+## Phase A — now until mid-October (finish remaining half)
 
-**Goal:** walk into CNIT 57500 already knowing mean/variance, sampling, and hypothesis tests at a Khan AP-Stats level.
+**Goal:** complete the second half of AP Stats prep (**confidence intervals + significance tests**) and pass the paper test by **2026-10-12** (hard stop **2026-10-15**), then walk into CNIT 57500 on Oct 21 ready for homework.
+
+**Status:** First half done (probability, sampling methods, sampling distributions intro). Remaining checklist lives in [STUDY-SPRINT-2026-09.md](STUDY-SPRINT-2026-09.md).
 
 ### Where to study (use in this order)
 

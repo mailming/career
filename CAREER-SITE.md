@@ -6,8 +6,9 @@ Public-facing career materials. **Last refreshed: 2026-10-19** (covers GEICO + p
 
 | Asset | File | Use |
 |-------|------|-----|
-| **Default resume (AI infra)** | [resume-ai-Infra](resume-ai-infra.md) → `Mingresume-ai-infra.docx` | Anthropic, Cursor, Modal, Databricks, Figure agent/platform |
-| **Platform / SRE resume** | [resume.md](resume.md) → `Mingresume.docx` | Broad Staff platform / AMP narrative |
+| **Default resume (AI infra)** | [resume-ai-infra.md](resume-ai-infra.md) → `Mingresume-ai-infra.docx` | Anthropic, Cursor, Modal, Databricks, Figure agent/platform |
+| **Applied Intuition AI Eng** | [resume-applied-intuition.md](resume-applied-intuition.md) → `Mingresume-applied-intuition.docx` | [AI Engineering @ Applied](https://jobs.ashbyhq.com/applied/981054d6-d6d9-4553-9db8-38e56939d3b8) — agents + AI SRE + physical AI |
+| **Platform / SRE resume** | [resume.md](resume.md) → `Mingresume.docx` | Broad Staff platform narrative |
 | **Release platform resume** | [resume-release-platform.md](resume-release-platform.md) → `Mingresume-release-platform.docx` | Classic DevOps / release platform roles |
 | **One-pager** | [portfolio/one-pager.md](portfolio/one-pager.md) | Attach to referrals + thank-yous |
 | **LinkedIn copy** | [linkedin-rewrite.md](linkedin-rewrite.md) | Headline / About / Featured — paste to profile |

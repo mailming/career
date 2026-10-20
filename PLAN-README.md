@@ -6,6 +6,7 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 
 | File | Purpose | When to use |
 |------|---------|-------------|
+| [CAREER-SITE.md](CAREER-SITE.md) | **Public career site index** — resumes, one-pager, LinkedIn, evidence (refreshed 2026-10-19) | Before applying or updating LinkedIn |
 | [CAREER-GOAL-5-YEARS.md](CAREER-GOAL-5-YEARS.md) | **North Star:** Physical AI Platform Principal (Outcome A) — reasoning, timeline, Purdue courses, bridge strategy; **Jiadroid** as active Physical AI build | Quarterly review; before big career decisions |
 | [WEEKLY-OPERATING-SYSTEM.md](WEEKLY-OPERATING-SYSTEM.md) | Sustainable weekly cadence (12–14 hrs, kids, exercise, Purdue); Wed/Sat = **Jiadroid** | Every Monday; companion to study plan |
 | [portfolio/jiadroid.md](portfolio/jiadroid.md) | Jiadroid → Outcome A mapping, pitch, resume bullets, milestones | When working on jiadroid or prep for Figure/Waymo |
@@ -21,9 +22,8 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 | [resume.md](resume.md) | Original (platform-engineer) resume — keep for traditional platform roles | Non-AI-native platform/SRE roles |
 | [linkedin-rewrite.md](linkedin-rewrite.md) | Copy-paste-ready LinkedIn headline + About + Featured | Update LinkedIn this week |
 | [target-companies.md](target-companies.md) | **66-company Outcome A apply list** (Tier S → startups → big tech) + 16-week sequence + application logging | Weekly review; apply 2/week |
-| [applications-tier1.md](applications-tier1.md) | 15 ready-to-send Tier-1 applications with tailored 3-sentence notes | Send 2/week, weeks 2-4 |
-| [hot-jobs-may-2026.md](hot-jobs-may-2026.md) | Live-scraped ranked shortlist of 14 best-fit openings as of 2026-05-26 | This week's apply queue |
-| [referrals.md](referrals.md) | 3 warm referral paths + ask templates + tracking | Weeks 2-4 outreach |
+| [applications-tier1.md](applications-tier1.md) | 15 ready-to-send Tier-1 applications with tailored 3-sentence notes | Send 2/week when applying |
+| [referrals.md](referrals.md) | 3 warm referral paths + ask templates + tracking | Outreach |
 | [portfolio/README.md](portfolio/README.md) | Pick 1 of 3 Month-2 artifacts | Pick in week 1; finish in weeks 5-8 |
 | [portfolio/blog-openclaw-cost-aware-runtime.md](portfolio/blog-openclaw-cost-aware-runtime.md) | Draft blog post + publish checklist | If you pick Option A |
 | [portfolio/one-pager.md](portfolio/one-pager.md) | 3-artifact 1-page summary; attach to referrals + thank-yous | Reuse heavily |
@@ -64,11 +64,10 @@ Implementation of the plan at `c:\Users\USER\.cursor\plans\ai_infra_job_plan_2a4
 | [interview-prep/study-materials/TODAY-2026-07-16-waymo-gate1-drill.md](interview-prep/study-materials/TODAY-2026-07-16-waymo-gate1-drill.md) | Hands-on Waymo Gate 1 speak/code drill (perception glossary + STAR scripts) |
 | [interview-prep/study-materials/TODAY-2026-08-09-waymo-inner-loop.md](interview-prep/study-materials/TODAY-2026-08-09-waymo-inner-loop.md) | **Today:** Week B Day 1 Inner Loop read + outline + Sunday review |
 
-## Figure applications (in-flight)
+## Figure applications (May 2026 wave)
 
-- [figure-applications/FINISH-REMAINING.md](figure-applications/FINISH-REMAINING.md) — runbook for the remaining 4 submissions.
-- [figure-applications/apply_figure.py](figure-applications/apply_figure.py) — Playwright script with security-code polling.
-- Status: 1/5 confirmed (Staff SRE). 4 remain; blocker is the 8-character Gmail verification code that I cannot read.
+- [figure-applications/README.md](figure-applications/README.md) — status + role packages; 2/5 submitted, Helix roles need re-apply if still open.
+- [figure-applications/apply_figure.py](figure-applications/apply_figure.py) — Playwright helper (optional).
 
 ## Suggested weekly cadence (12 hrs/week)
 

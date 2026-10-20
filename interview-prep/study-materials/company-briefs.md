@@ -1,6 +1,6 @@
 # Company Briefs — Tier-S / Tier-1 Targets
 
-One page per company covering: thesis, interview format, what they value, what to research before onsite, your specific hook, and the "watch out for" trap. Drawn from the live careers-page snapshots in [../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) and 2026 interview reports.
+One page per company covering: thesis, interview format, what they value, what to research before onsite, your specific hook, and the "watch out for" trap. Cross-check open roles in [../../target-companies.md](../../target-companies.md) and current careers pages; 2026 interview reports.
 
 For each: read it the **night before the screen**, then re-read the night before the onsite.
 
@@ -39,7 +39,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - Values rounds: pick a story where you **didn't** know the answer in advance — they're looking for thinking-out-loud, not polished answers.
 - Don't speak as if Anthropic is the obvious right place to be. Show you've weighed alternatives.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #1, 4, 5, 6):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Staff+ Software Engineer, Developer Productivity (your single best match)
 - Staff + Sr. Software Engineer, AI Reliability
 - Staff Software Engineer, Kubernetes Platform
@@ -79,7 +79,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - The 1-day project is real work. Don't pace yourself; treat it like a hackathon you're trying to win.
 - They have a slight bias for raw IC ability over breadth. If asked "what would you do as a manager?" — pivot to IC scope.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #2, 3):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Software Engineer, Agent Harness
 - Software Engineer, Agent Evaluation and Quality
 - Software Engineer, DevEx / Infrastructure / Client Infra
@@ -117,7 +117,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - Hybrid 3 days in SF — confirm you're committed before applying.
 - Don't bash competitors (Anthropic / Cursor / etc.) — they hate that.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #10, 15, 16, 17):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Software Engineer, Enterprise AI Platform (best fit)
 - Software Engineer, Data Infrastructure
 - Capacity Systems Software Engineer
@@ -158,7 +158,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - MTS title structure has no formal ladder — they hire by scope, not band. Don't ask for "what's the next level after MTS" early.
 - NY/SF/Stockholm only; remote is harder to land. Confirm geo before deep prep.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #7):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Member of Technical Staff – Platform Engineering / Reliability Engineering
 - Member of Technical Staff – Systems
 - Infrastructure Security Engineer
@@ -196,7 +196,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - Some open Mosaic AI roles are NYC-only — confirm geo.
 - Be ready for the "tell me about your most production-relevant agent" question — name something specific you've shipped.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #8, 9, 20):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Staff Backend Software Engineer (AI Platform) — best fit
 - Staff Software Engineer, Agent Quality — NYC
 - Staff Software Engineer, AI Research Infrastructure
@@ -234,7 +234,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - The interview spike is AI-specific system design. If you can't deliver doc 02 (vector DB) and a RAG design fluidly, you'll get filtered.
 - Coding is practical — don't over-show LC chops; show clean code.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #13, 25):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - MTS (AI Infrastructure Engineer)
 - MTS (Software Engineer, AI Platform)
 - MTS (Backend Software Engineer, API Platform)
@@ -272,7 +272,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - In-person SF emphasis — confirm geo commitment.
 - Don't talk only about consumer AI; they're enterprise-first.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #12, 21, 22):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Software Engineer, Agent Architecture
 - Software Engineer, Platform / Infrastructure / SRE
 - Software Engineer, Agent Data Platform
@@ -307,7 +307,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - 5 days/week in SF (or Boston). Confirm geo before applying.
 - Storage engine role is Rust-required; skip unless you've committed to Rust.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #14, 23):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Python OSS Engineer
 - Fullstack Applied AI Engineer
 
@@ -341,7 +341,7 @@ For each: read it the **night before the screen**, then re-read the night before
 - 5 days/week SF only — confirm.
 - Their team is small; come ready to discuss specifics, not generalities.
 
-**Top open roles ([../../hot-jobs-may-2026.md](../../hot-jobs-may-2026.md) #11, 24):**
+**Top open roles** (verify on careers page + [target-companies.md](../../target-companies.md)):
 - Software Engineer (Stagehand) — best fit
 - Software Engineer (Agent Platform)
 - Software Engineer (Core Infrastructure / Distributed Systems)

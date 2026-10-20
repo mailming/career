@@ -274,7 +274,7 @@ Last updated: 2026-07-14
 | Ashby boards | [jobs.ashbyhq.com](https://jobs.ashbyhq.com) | Sierra, Modal, many startups |
 | Greenhouse | [boards.greenhouse.io](https://boards.greenhouse.io) | Figure, Scale, many startups |
 | Lever | [jobs.lever.co](https://jobs.lever.co) | FieldAI, others |
-| Pre-researched Tier S | [hot-jobs-may-2026.md](hot-jobs-may-2026.md) | Anthropic, Cursor URLs |
+| Career site / resumes | [CAREER-SITE.md](CAREER-SITE.md) | Current resumes + LinkedIn copy |
 
 ---
 

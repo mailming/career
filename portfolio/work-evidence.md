@@ -1,18 +1,18 @@
 # Work Evidence Catalog — Ming Jia
 
-*Last updated: 2026-07-14. Sourced from Slack (U08V0N1LMU2), GitHub (`jiaming_geico` / `mailming`), and ADO (Developer Engineering). Use this as the source-of-truth when tailoring resumes, one-pagers, and interview STAR stories.*
+*Last updated: 2026-10-19. Sourced from Slack (U08V0N1LMU2), GitHub (`jiaming_geico` / `mailming`), ADO (Developer Engineering), and personal repos. Use this as the source-of-truth when tailoring resumes, one-pagers, and interview STAR stories.*
 
 ---
 
-## Summary stats (GEICO, Jun 2025 – Jul 2026)
+## Summary stats (GEICO, Jun 2025 – Oct 2026)
 
 | Metric | Value |
 |--------|-------|
-| **geico-private PRs authored** | 65 total · 29 merged |
+| **geico-private PRs authored** | 65+ · 29+ merged (Jul snapshot); continued charts/AMP/migration PRs through Oct |
 | **Primary repos** | `artifact-management-platform`, `pkg-mgmt`, `pkg-jfrog-charts`, `repo-manager-worker`, `hut8-workspaces` |
-| **ADO work items (assigned / activity)** | 50+ in Developer Engineering |
-| **CoE documents authored** | NOCIM-11695 (Apr 2026 Entra-ID outage), NOCIM-12455 (npm EINTEGRITY) |
-| **On-call / incident leadership** | AMP on-call lead; packet-level RCAs; ZTNA troubleshooting |
+| **ADO work items (assigned / activity)** | 50+ through Jul; active Martech/CDP/Billing cutover + CoEs through Oct |
+| **CoE documents authored** | NOCIM-11695 (Apr Entra-ID), NOCIM-12455 (npm EINTEGRITY), **NOCIM-13154** (MarTech PD upgrade outage), **NOCIM-13213** (Package Registry router OOM) |
+| **On-call / incident leadership** | AMP on-call lead; Load Healer Reactive rollout; Martech-off Jan 30 program outreach |
 
 ---
 
@@ -262,12 +262,14 @@ Four initiatives entered into GEICO's org-wide DE AI Showcase (282 DE associates
 
 ### Platform / Release Platform (R0064074 style)
 
-- Drove GEICO's enterprise package registry from **~1 major incident/month to 99.99% availability SLO**; AMP on-call lead and CoE author for production incidents (NOCIM-11695, NOCIM-12455).
+- Drove GEICO's enterprise package registry from **~1 major incident/month to 99.99% availability SLO**; AMP on-call lead and CoE author for production incidents (NOCIM-11695, NOCIM-12455, **NOCIM-13154**, **NOCIM-13213**).
 - **Technical lead, JFrog SaaS POC**: three GitHub Actions workflows validating all 11 JFrog package types end-to-end on `geicoeast.jfrog.io`; OIDC smoke-test action; repo-settings-driven provisioning; SaaS load test at 5,000 repos / 5,000 parallel artifacts.
+- **Load Healer Reactive** (PR #109): shipped OUTAGE→HTTP 429 throttle on NP + PD2; data-driven per-account concurrency threshold (~640); loadtest scripts PR #111.
+- **Martech-off cutover program** (hard date Jan 30): stood up migration channels and kicked off MAP / CDP / Billing / Payments / Bolt·Athena; installed `amp-migrate` for OIDC + repo-settings campaigns.
 - **Architected Entra ID auth boundary for `amp-control-plane`** (Go JWT + APISIX + APIM); deployed to ACS production; cross-team with Identity and API Management.
 - **PD Phase 1 stability** (Jul 2026): cluster forensics on dual-region AKS; fixed broken Xray HPA, undersized requests, system-pool scheduling; authored runbook + PR #88.
 - Led **production TLS cert renewal** for `packageregistry.geico.net` with **<1 min outage**; coordinated F5 + ingress + customer comms (CRQ000000930431).
-- Authored **10+ runbooks** (ZTNA CLI, TLS renewal, SP rotation, repo creation skill, onboarding guide, AKS PDB, Grafana dashboards).
+- Authored **10+ runbooks** + Slack maintenance-announcement skill; refreshed JFrog CLI token / npm integrity runbooks.
 
 ### AI / Applied AI style
 
@@ -287,15 +289,69 @@ Four initiatives entered into GEICO's org-wide DE AI Showcase (282 DE associates
 
 ---
 
-## 10. Gaps / in-flight (update as shipped)
+## 10. Jun – Oct 2026 delta (post Jul catalog)
 
-- [ ] Claude Code plugin publication to `developer-agent-hub`
-- [ ] Club MCP server skills + Cursor agent hooks (`club-developer-agent-plugins`)
-- [ ] AI-powered CI/CD migration engine (100% pipeline inventory target)
-- [ ] `pkg-jfrog-charts` PR #88 merge + PD deploy
-- [ ] amp-control-plane PD Entra ID auth (AB#12178284 — NP done, PD in progress per Slack Jun 2026)
-- [ ] OpenClaw cost-aware runtime blog publish (`portfolio/blog-openclaw-cost-aware-runtime.md`)
+### 10.1 Reliability — Load Healer Reactive + Artifactory upgrade
+
+- **Artifactory → 7.161.15** (Helm chart + values + PR) — **ADO AB#13163741** (Closed).
+- **Load Healer Reactive** (`pkg-jfrog-charts` **PR #109**): when a node hits Tomcat OUTAGE (workers exhausted), throttle noisy account/token with **HTTP 429** (`limitUser`) instead of taking the node down.
+  - Validated on **packageregistry NP** (flood one user → REACTIVE + real 429s; maxThreads restored to 800).
+  - Deployed + saturation-tested on **PD2**; scripts in **PR #111**; customized 429 messaging; PD1 soak next.
+  - Data-driven threshold write-up: limitUser ≈ 80% of maxThreads → **~640 concurrent / account** after OUTAGE (not an RPS cap).
+- Firewall / network: **FW 29207** worksheet fixed; Cyber Review chase for related allowances.
+
+### 10.2 Incident CoEs & ops skills (Oct 2026)
+
+| ADO | Title | State |
+|-----|-------|-------|
+| AB#13289634 | CoE for **NOCIM-13154** MarTech Artifactory PD upgrade outage | Closed |
+| AB#13329012 | CoE for **NOCIM-13213** Package Registry router OOM | Closed |
+| AB#13285985 | Maintenance announcement skill for Slack change notices | Closed |
+| AB#12187389 | Refresh runbooks for JFrog CLI access tokens and npm integrity | Closed |
+
+### 10.3 JFrog SaaS / Martech-off cutover program (hard date **2026-01-30**)
+
+Standing up team migration channels and kickoffs (AMP lead with Tim Bagby + Manny Brar):
+
+| Channel / stream | What Ming drove |
+|------------------|-----------------|
+| `#amp-martech-migration` | Stood up channel; MAP kickoff questionnaire; sync with Narmada / MAP contacts; clarify packageregistry vs artifactory-pd |
+| `#amp-cdp-migration` | CDP Self Serve / Chameleon cutover channel; meeting with Alan Wong / Shyam / Shalini (Oct 20) |
+| `#amp-bolt-athena-migration` / Bolt·Athena | Synced with Amit on Martech deps (npm, images, ACS GitOps Helm); repo list → migration plan |
+| `#help-billing-support` / `#help-payments-eng` | Kickoff questionnaires for Billing + Payments Martech dependents (mvp-billing-*, GOPROXY) |
+| PATH / AMP #694 | PATH Martech → SaaS / CDN auth focus (AB#13735807) |
+| `amp-migrate` CLI | Installed via `projects/amp-cli` `install-migrate`; ready for OIDC + repo-settings campaigns |
+
+### 10.4 Help-desk / support leadership (ongoing)
+
+- `#help-pkg-mgmt` primary: Kaniko cache registry disk-full (Err:28) triage for Geico Model Platform; OIDC remap after repo rename; NuGet restore; Network Edge GHA auth cases closed.
+
+### 10.5 Personal — Jiadroid (Sep–Oct 2026)
+
+[github.com/mailming/jiadroid](https://github.com/mailming/jiadroid) — phone-as-robot-brain:
+
+- Protocol generalized to **any body**; sims: kinematic duck, **2WD rover**, MuJoCo duck (+ trainable path).
+- **ESP32-S3 firmware** for DIYables 2WD chassis (L9110S + encoders); Wi-Fi on `main`; **USB-C serial** + phone power on `feature/usb-c-link` (Android OTG); Save Wi-Fi NVS + **OTA flash** from phone.
+- Android + iOS **Follow Me**, voice wake (“Vicky”), emotion-driven eyes, manual drive pad, back-camera vision experiments.
+- Career framing: [portfolio/jiadroid.md](jiadroid.md).
+
+### 10.6 Purdue
+
+- CNIT 57500 Data Analysis (Oct–Dec); stats prep ~50%+ through mid-Oct sprint (`purdue/STUDY-SPRINT-2026-09.md`).
 
 ---
 
-*Refresh this file periodically: `slack_search_public_and_private from:<@U08V0N1LMU2>`, `gh search issues is:pr author:jiaming_geico`, ADO `wit_my_work_items`.*
+## 11. Gaps / in-flight (update as shipped)
+
+- [ ] Claude Code plugin publication to `developer-agent-hub`
+- [ ] Club MCP server skills + Cursor agent hooks (`club-developer-agent-plugins`)
+- [ ] AI-powered CI/CD / `amp-migrate` wave: OIDC + repo-settings for inventoried Martech consumers
+- [ ] Load Healer PD1 soak + customized 429 message finalize
+- [ ] Martech-off Jan 30: Billing / Payments / CDP / Bolt inventory → cutover
+- [ ] amp-control-plane PD Entra ID auth (NP done)
+- [ ] OpenClaw cost-aware runtime blog publish
+- [ ] Jiadroid: real Open Duck Mini dock + ESP32 walk path; public demo video
+
+---
+
+*Refresh this file periodically: Slack `from:<@U08V0N1LMU2>`, ADO assigned/changed since last update, `gh` on `mailming/jiadroid`.*

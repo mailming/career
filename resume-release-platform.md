@@ -7,7 +7,7 @@
 
 ## Summary
 
-Staff-scope Release Platform / DevOps engineer with **20+ years building internal developer platforms** that serve hundreds-to-thousands of engineers. Currently Senior Engineer (Staff-IC scope) on **GEICO's Artifact Management Platform** — the package-registry control plane every one of GEICO's 3000+ engineers depends on — where I drove Artifactory from **~1 major incident/month to four-nines (99.99%) availability SLO**, architected the **Entra ID auth boundary for `amp-control-plane`** (Go JWT middleware + APIM defense-in-depth), and am **technical lead for the JFrog SaaS POC** (GitHub Actions workflows validating all 11 supported package types end-to-end; load test at 5,000 repos / 5,000 parallel artifacts). Previously **Lead Release Engineer at Turn/Amobee**: led HA Jenkins + HA Nexus migrations for a ~500-engineer org deploying to thousands of production servers, **saving $600K+/yr in enterprise license costs**. **Staff Release Engineer at Navan** through SOC 2 Type II remediation and IPO readiness (HashiCorp Vault + SonarCloud across CI/CD). Comfortable across the full DevOps stack: **Go**, Python, TypeScript, Shell; **Kubernetes / AKS / Helm**, ArgoCD, **Azure DevOps Pipelines and GitHub Actions**; deep packet-level network debugging (Azure Firewall TLS DPI RCA, JFrog Go-module cache RCAs). MS in AI at Purdue (in progress) and shipping an **AI-powered CI/CD migration engine** for GEICO's JFrog SaaS cutover so the Release Platform itself benefits from agentic automation. U.S. Citizen.
+Staff-scope Release Platform / DevOps engineer with **20+ years building internal developer platforms** that serve hundreds-to-thousands of engineers. Currently Senior Engineer (Staff-IC scope) on **GEICO's Artifact Management Platform** — the package-registry control plane every one of GEICO's 3000+ engineers depends on — where I drove Artifactory to **four-nines (99.99%) availability**, shipped **Load Healer Reactive** (OUTAGE → HTTP 429 on NP/PD2), upgraded to **Artifactory 7.161.15**, and am driving **Martech → JFrog SaaS cutover** (Jan 30 hard date) across MAP, CDP, Billing, and Payments with **`amp-migrate`** for OIDC/repo-settings. Earlier: **technical lead for the JFrog SaaS POC** (11 package types e2e; 5,000×5,000 load test) and **Entra ID auth for `amp-control-plane`** on ACS. Previously **Lead Release Engineer at Turn/Amobee** (Jenkins+Nexus HA, **$600K+/yr** savings) and **Staff Release Engineer at Navan** (SOC 2 Type II / IPO). Stack: **Go**, Python, TypeScript; **Kubernetes / AKS / Helm**, ArgoCD, ADO + GitHub Actions. MS AI @ Purdue (in progress). U.S. Citizen.
 
 ---
 
@@ -18,12 +18,13 @@ Staff-scope Release Platform / DevOps engineer with **20+ years building interna
 
 *Internal developer platform for 3000+ GEICO engineers — the package-registry / artifact control plane underneath every CI/CD pipeline.*
 
-- **Artifactory reliability turnaround** — drove the package registry from **~1 major incident/month to a four-nines (99.99%) availability SLO**; AMP on-call lead, CoE author for **NOCIM-11695** (April 2026 Entra-ID-driven Artifactory outage)
-- **Technical lead, JFrog SaaS POC** — three **GitHub Actions** workflows validating **all 11 supported JFrog package types** end-to-end on `geicoeast.jfrog.io`; SaaS load test at **5,000 repos / 5,000 parallel artifacts** to characterize the cutover envelope
-- **Architected the Entra ID auth boundary for `amp-control-plane`** — cross-team plan with **Go JWT middleware** at the service edge and **Azure APIM** defense-in-depth; deployed `amp-control-plane` to Azure Container Service production
-- **Self-service developer experience for artifact onboarding** — designed an **AI-consumable artifact-auth ADR** so any team (or AI agent) can onboard external repos without AMP hand-holding; introduced JFrog/Slack/ADO/GitHub **MCP servers** and Claude/Cursor agent skills (`solve-case`, `close-case`, `build-kb`) that automate AMP's support, RCA, and runbook workflows
-- **AI-powered CI/CD migration engine** for the JFrog SaaS cutover that opens per-team PRs across the inventoried pipeline fleet (target: 100% coverage) — Release Platform itself benefiting from agentic automation
-- **Production incident leadership** — packet-level **Azure Firewall TLS DPI** RCA on S3-backed Artifactory repos; multiple JFrog Go-module cache RCAs; lead on cross-org Identity/Network/SRE bridge calls
+- **Artifactory reliability** — **~1 major incident/month → 99.99% SLO**; upgraded to **7.161.15**; AMP on-call lead; CoE author for NOCIM-11695, NOCIM-12455, **NOCIM-13154**, **NOCIM-13213**
+- **Load Healer Reactive** — shipped OUTAGE → HTTP 429 throttle (`pkg-jfrog-charts` PR #109/#111); validated on NP, deployed to **PD2**; data-driven per-account concurrency threshold
+- **Martech-off / JFrog SaaS cutover** (hard date Jan 30) — stood up migration channels; kicked off MAP, CDP, Billing, Payments, Bolt·Athena; **`amp-migrate`** for OIDC + repo-settings campaigns
+- **Technical lead, JFrog SaaS POC** — GitHub Actions validating **all 11 package types** e2e; load test **5,000 repos / 5,000 parallel artifacts**
+- **Entra ID auth for `amp-control-plane`** — Go JWT + Azure APIM; ACS production deploy
+- **Self-service + agentic DX** — AI-consumable artifact-auth ADR; JFrog/Slack/ADO/GitHub MCP servers + Claude/Cursor agent skills; Slack maintenance-announcement skill
+- **Production incident leadership** — Azure Firewall TLS DPI RCA; Go-module cache RCAs; PD Phase 1 stability; TLS renewals with **&lt;1 min** outage
 
 ### Staff Release Engineer / DevOps — Navan (formerly TripActions)
 **01/2022 – 04/2025** · Release engineering and CI/CD for a high-growth fintech/travel platform

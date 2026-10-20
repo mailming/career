@@ -57,7 +57,7 @@ Source: [coding-log.md § Week 1](coding-log.md). Patterns reference: [study-mat
 **Behavioral:** Draft Stories #1 (Artifactory 99.99%) and #2 (NOCIM-11695) in [star-stories.md](star-stories.md). Each: 90 sec spoken time; record on phone; listen back; cut filler.
 
 **Pipeline:**
-- Send Tier-S applications #1-4 from [../hot-jobs-may-2026.md](../hot-jobs-may-2026.md) (Anthropic Dev Productivity, Cursor Agent Harness, Cursor Agent Eval, Anthropic AI Reliability). Pre-read [company-briefs.md](study-materials/company-briefs.md) for Anthropic + Cursor before drafting cover notes. Use [outreach-templates.md § 1](study-materials/outreach-templates.md) if cold-messaging a hiring manager.
+- Send Tier-S applications from [../target-companies.md](../target-companies.md) (Anthropic, Cursor, etc.). Pre-read [company-briefs.md](study-materials/company-briefs.md) for Anthropic + Cursor before drafting cover notes. Use [outreach-templates.md § 1](study-materials/outreach-templates.md) if cold-messaging a hiring manager.
 - Update LinkedIn headline + About from [../linkedin-rewrite.md](../linkedin-rewrite.md). Flip "Open to Work" privately.
 
 ### Week 2 (2026-06-02 → 2026-06-08) — Sliding Window / Stack / Binary Search

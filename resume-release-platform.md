@@ -7,104 +7,52 @@
 
 ## Summary
 
-Staff-scope Release Platform / DevOps engineer with **20+ years building internal developer platforms** that serve hundreds-to-thousands of engineers. Currently Senior Engineer (Staff-IC scope) on **GEICO's Artifact Management Platform** — the package-registry control plane every one of GEICO's 3000+ engineers depends on — where I drove Artifactory to **four-nines (99.99%) availability**, shipped **Load Healer Reactive** (OUTAGE → HTTP 429 on NP/PD2), upgraded to **Artifactory 7.161.15**, and am driving **Martech → JFrog SaaS cutover** (Jan 30 hard date) across MAP, CDP, Billing, and Payments with **`amp-migrate`** for OIDC/repo-settings. Earlier: **technical lead for the JFrog SaaS POC** (11 package types e2e; 5,000×5,000 load test) and **Entra ID auth for `amp-control-plane`** on ACS. Previously **Lead Release Engineer at Turn/Amobee** (Jenkins+Nexus HA, **$600K+/yr** savings) and **Staff Release Engineer at Navan** (SOC 2 Type II / IPO). Stack: **Go**, Python, TypeScript; **Kubernetes / AKS / Helm**, ArgoCD, ADO + GitHub Actions. MS AI @ Purdue (in progress). U.S. Citizen.
+Staff-scope release / developer-platform engineer with **20+ years** building internal platforms for hundreds-to-thousands of engineers. At GEICO, Staff-IC on the enterprise **artifact registry** used by 3000+ engineers: **99.99% availability**, overload protection under saturation, and org-wide **migration to JFrog SaaS**. Previously Staff Release Engineer at Navan (SOC 2 / IPO) and Lead Release Engineer at Turn/Amobee (Jenkins+Nexus HA, **$600K+/yr** savings). Go, Python, TypeScript; Kubernetes / Helm; Azure DevOps and GitHub Actions. MS AI @ Purdue. U.S. Citizen.
 
 ---
 
 ## Work Experience
 
-### Senior Engineer (Staff-IC scope) — GEICO, Artifact Management Platform (Developer Engineering)
-**06/2025 – Present** · Tech lead for cross-org platform initiatives across Identity, SRE, Network, Database Platform, and DE
+### Senior Engineer (Staff-IC) — GEICO, Artifact Management
+**06/2025 – Present** · Tech lead for the package registry serving every CI/CD pipeline
 
-*Internal developer platform for 3000+ GEICO engineers — the package-registry / artifact control plane underneath every CI/CD pipeline.*
+- Drove Artifactory from ~1 major incident/month to **99.99% SLO**; on-call lead and post-incident write-ups
+- Shipped **overload protection** (HTTP 429 under node saturation) and rolled it to production
+- Leading **JFrog SaaS migration** with major consumer orgs; earlier led SaaS POC (11 package types; large-scale load test)
+- Designed **Entra ID auth** for the registry control plane and deployed it to Azure production
+- Improved developer self-service and AI-assisted support (MCP + coding agents) for registry ops
 
-- **Artifactory reliability** — **~1 major incident/month → 99.99% SLO**; upgraded to **7.161.15**; AMP on-call lead; CoE author for NOCIM-11695, NOCIM-12455, **NOCIM-13154**, **NOCIM-13213**
-- **Load Healer Reactive** — shipped OUTAGE → HTTP 429 throttle (`pkg-jfrog-charts` PR #109/#111); validated on NP, deployed to **PD2**; data-driven per-account concurrency threshold
-- **Martech-off / JFrog SaaS cutover** (hard date Jan 30) — stood up migration channels; kicked off MAP, CDP, Billing, Payments, Bolt·Athena; **`amp-migrate`** for OIDC + repo-settings campaigns
-- **Technical lead, JFrog SaaS POC** — GitHub Actions validating **all 11 package types** e2e; load test **5,000 repos / 5,000 parallel artifacts**
-- **Entra ID auth for `amp-control-plane`** — Go JWT + Azure APIM; ACS production deploy
-- **Self-service + agentic DX** — AI-consumable artifact-auth ADR; JFrog/Slack/ADO/GitHub MCP servers + Claude/Cursor agent skills; Slack maintenance-announcement skill
-- **Production incident leadership** — Azure Firewall TLS DPI RCA; Go-module cache RCAs; PD Phase 1 stability; TLS renewals with **&lt;1 min** outage
+### Staff Release Engineer / DevOps — Navan
+**01/2022 – 04/2025**
 
-### Staff Release Engineer / DevOps — Navan (formerly TripActions)
-**01/2022 – 04/2025** · Release engineering and CI/CD for a high-growth fintech/travel platform
-
-- **SOC 2 Type II audit remediation** lead and **IPO-readiness** track — deployed **HashiCorp Vault** for secrets governance and **SonarCloud** quality gates across the CI/CD fleet
-- Owned **SCM strategy and release engineering for the engineering organization**; built and maintained continuous delivery for core web and data systems on AWS
-- Built **mobile CI/CD on Bitrise** for App Store and Google Play; drove rapid RCA on pipeline and production incidents
+- Led **SOC 2 Type II** / **IPO readiness** — Vault and SonarCloud across CI/CD
+- Owned org-wide release engineering and AWS continuous delivery; Bitrise mobile CI/CD
 
 ### Lead Release Engineer — Turn / Amobee
-**12/2015 – 11/2021** · Release platform and global deployment for a ~500-engineer ad-tech org
+**12/2015 – 11/2021**
 
-- Led **2 release engineers + 5 offshore NOC engineers** across time zones; scaled release operations for an engineering org deploying to **thousands of production servers worldwide**
-- **Jenkins HA migration** — cut unplanned outages from hours/week to <5 min planned downtime/month; UI latency 12s → 0.5s/page; **saved $500K+/year** vs. CloudBees enterprise licensing
-- **Nexus HA migration** — eliminated unplanned outages post-migration; **saved $100K+/year** vs. Sonatype enterprise licensing
-- Built deployment automation, enforced release process, and ran hands-on Technical Operations in production; mentored release engineers through Jenkins HA and Nexus HA cutovers
+- Led 2 release engineers + 5 offshore NOC for ~500 engineers on thousands of servers
+- **Jenkins HA** and **Nexus HA** — cut unplanned outages; **$600K+/yr** vs enterprise licensing
 
-### Sr. Software Engineer — Skytree
-**04/2014 – 11/2015** · Build/release for an ML platform startup
-
-- Built end-to-end CI/CD systems, **AWS dynamic cluster provisioning** (EC2, S3, EMR), and a **PaaS tool for on-demand engineering environments**; led agile adoption and initiated Scrum process
-
-### Sr. Software Engineer — Walmart Labs
-**03/2013 – 04/2014**
-
-- Automated build / release across Dev, QA, and production; operated and supported multiple production systems for engineering teams
-
-### Software Engineer — Macrovision / Rovi
-**11/2009 – 02/2013**
-
-- CM / build / release / change management across **20+ projects** and four international teams; **Hadoop / MapReduce / MongoDB** operations
-- Automated builds and CI (**Maven, Ant, TeamCity, Jenkins**); built an internal CM portal with automated release notes; established company-wide Git repositories
-
-### SCM Manager — Helio / Virgin Mobile USA / Sprint
-**02/2007 – 10/2009**
-
-- Server layout, deployment procedures, and CI/CD (**CruiseControl, Hudson/Jenkins**); VM automation, JBoss deployment automation, defect-tracking rollout (Jira / Bugzilla)
-
-### Software Developer — XLDynamics
-**01/2005 – 02/2007**
-
-- Core dev systems on Linux / Unix / Windows; build/release automation, C++ XML/SOAP apps, Shell-based server tooling
+### Earlier roles (2005–2015)
+Skytree · Walmart Labs · Macrovision/Rovi · Helio/Virgin/Sprint · XLDynamics — CI/CD and release platform engineering
 
 ---
 
-## Key Competencies — Release Platform & DevOps Tooling
-
-- **Internal developer platform engineering** — building artifact, CI/CD, and release control planes that scale from hundreds to thousands of engineers; self-service developer experiences; standardized deployment workflows
-- **CI/CD and GitOps** — **Azure DevOps Pipelines, GitHub Actions, Jenkins** (HA migration, scale ops), Bitrise; ArgoCD GitOps; **Helm**-based Kubernetes rollouts
-- **Kubernetes / AKS / ACS** — namespace and workload management, ingress / egress, Helm release lifecycle, container image supply chain (ACR, Artifactory Docker, X-Ray)
-- **Deployment patterns** — zero-downtime HA migrations (Jenkins, Nexus, Artifactory), rolling and blue/green-style cutovers, rollback automation, package-level cutover playbooks for JFrog SaaS POC
-- **Governance, policy, and compliance** — **SOC 2 Type II** audit remediation, **HashiCorp Vault**, OIDC and Entra ID auth boundaries, SonarCloud quality gates, change-gate / CRQ workflows, AI-consumable ADRs for cross-team policy alignment *(policy-as-code adjacent; ready to adopt OPA/Rego)*
-- **Observability** — 99.99% availability SLO instrumentation, AMP on-call lead, packet-level network RCAs, JFrog Go-module cache RCAs, CoE / post-incident review authorship
-- **Cloud & networking** — **Azure** (AKS, ACS, ACR, Entra ID, Azure Firewall, APIM), **AWS** (EC2, S3, EMR, IAM), light GCP; TCP/IP, TLS, DNS, ingress controllers, load balancing, **packet-level debugging** (Azure Firewall TLS DPI on S3-backed repos)
-- **AI-augmented platform engineering** — Claude Code / Cursor / MCP shipped into AMP production; AI-powered CI/CD migration engine for the JFrog SaaS cutover; AI-co-authored RCAs and runbooks
-- **Leadership** — Staff-IC tech lead at GEICO; led 2 release engineers + 5 offshore NOC at Turn/Amobee; mentor through HA migrations and AI-tooling rollout; active in `#sig-ai-assisted-development`
-
----
-
-## Technical Skills
+## Skills
 
 | Category | Technologies |
 |----------|--------------|
-| **Languages** | **Go**, Python, TypeScript, Java, Shell / Bash, Groovy, C / C++ |
-| **CI/CD & Release** | **Azure DevOps Pipelines, GitHub Actions, Jenkins** (HA), ArgoCD (GitOps), Bitrise, Maven, Gradle, TeamCity |
-| **Containers & Orchestration** | **Kubernetes, AKS, ACS**, Helm, Docker, container image supply chain |
-| **Artifact & Registry** | JFrog Artifactory (HA + SaaS), JFrog X-Ray, JFrog Catalog, Nexus, ACR |
-| **Cloud** | **Azure** (AKS, ACS, ACR, Entra ID, Azure Firewall, APIM), AWS (EC2, S3, EMR, IAM), GCP (light), OpenStack |
-| **IaC & Config** | Terraform, Helm, ARM/Bicep (light), Ansible (light) |
-| **Security & Governance** | SOC 2 Type II, **HashiCorp Vault**, Azure Key Vault, SonarCloud, **OIDC, Entra ID JWT auth, APIM**, policy-as-code (OPA/Rego — adopting), audit and change-gate workflows |
-| **Networking & Observability** | TCP/IP, TLS, DNS, ingress controllers, load balancing; Grafana, packet-level Azure Firewall debugging, 99.99% SLO instrumentation |
-| **AI / Agents (value-add)** | Claude Agent SDK, Claude Code & plugins, Cursor agents, **Model Context Protocol (MCP) servers** (JFrog, Slack, ADO, GitHub, Club), LangGraph, AgentOps, Langfuse |
+| **Platform** | Kubernetes, Helm, Terraform, AWS, Azure, Docker |
+| **CI/CD & Artifacts** | Jenkins, GitHub Actions, Azure DevOps, ArgoCD, JFrog Artifactory, Nexus |
+| **Languages** | Go, Python, TypeScript, Java, Shell |
+| **Security** | SOC 2, Vault, OIDC, Entra ID |
 
 ---
 
 ## Education
 
-**Purdue University** — MS, Artificial Intelligence *(In Progress)* · ECE 50874/59500: led OpenClaw cost-aware runtime plugin (final project), LLM-augmented software engineering
-
+**Purdue University** — MS, Artificial Intelligence *(In Progress)*  
 **UCLA** — BS, Computer Science *(Minors: Mathematics & Economics)*
-
----
 
 **Work Authorization:** U.S. Citizen
